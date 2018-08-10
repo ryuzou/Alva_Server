@@ -1,0 +1,23 @@
+version: '2'
+services:
+ db:
+  build: ./Database
+  ports:
+    - '3306:3306'
+  volumes:
+   - ./Database/mysql_data:/var/lib/mysql
+  environment:
+   MYSQL_ROOT_PASSWORD: 'password'
+ web:
+  build: ./Web
+  ports:
+   - '8080:80'
+  volumes:
+   - ./html:/var/www/html
+  depends_on:
+   - db
+     #######################
+     # HWRecognition:
+     #  build: ./HWRecognition
+     #  volumes:
+     #   - ./HWRecognition/data:../Data/lib/HWRecognition
