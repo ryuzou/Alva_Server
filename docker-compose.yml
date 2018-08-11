@@ -16,8 +16,12 @@ services:
    - ./html:/var/www/html
   depends_on:
    - db
-     #######################
-     # HWRecognition:
-     #  build: ./HWRecognition
-     #  volumes:
-     #   - ./HWRecognition/data:../Data/lib/HWRecognition
+
+ hwrecognition:
+  build: ./HWRecognition
+  ports:
+    - 8090:8090
+  volumes:
+     - ./HWRecognition/Program:/usr/local/lib/Alva_
+  depends_on:
+    - db
