@@ -16,7 +16,6 @@ services:
    - ./html:/var/www/html
   depends_on:
    - db
-
  hwrecognition:
   build: ./HWRecognition
   ports:
