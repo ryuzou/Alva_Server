@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Database/BookShelf_scheme.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Database/BookShelf_scheme.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/DBSet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Database/DBSet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/BookData_scheme.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/BookShelf_scheme.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/DBSet.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/my.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/Database/my.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/Alva_DB/D_BookShelf.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/Alva_DB/D_BookShelf.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/Alva_DB/db.opt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
@@ -26,8 +31,8 @@
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="112">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -35,17 +40,17 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HWRecognition/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="287">
               <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartProc.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StartProc.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HWRecognition/StartProc.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -69,19 +74,19 @@
         </entry>
       </file>
       <file leaf-file-name="BookShelf_scheme.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Database/BookShelf_scheme.sql">
+        <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+            <state relative-caret-position="90">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookData_scheme.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Database/BookData_scheme.sql">
+      <file leaf-file-name="BookData_scheme.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Database/config/BookData_scheme.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="210">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -89,17 +94,17 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DBSet.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Database/DBSet.sh">
+        <entry file="file://$PROJECT_DIR$/Database/init/DBSet.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+            <state relative-caret-position="45">
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -142,10 +147,13 @@
         <option value="$PROJECT_DIR$/Database/BookShelf_scheme.sql" />
         <option value="$PROJECT_DIR$/Database/BookData_scheme.sql" />
         <option value="$PROJECT_DIR$/Database/DBSet.sh" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/Database/Dockerfile" />
         <option value="$PROJECT_DIR$/HWRecognition/StartProc.sh" />
         <option value="$PROJECT_DIR$/HWRecognition/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/Database/Dockerfile" />
+        <option value="$PROJECT_DIR$/Database/my.cnf" />
+        <option value="$PROJECT_DIR$/Database/init/DBSet.sh" />
+        <option value="$PROJECT_DIR$/Database/config/BookData_scheme.sql" />
       </list>
     </option>
   </component>
@@ -161,9 +169,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="width" value="804" />
-    <option name="height" value="859" />
+    <option name="width" value="796" />
+    <option name="height" value="855" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -185,6 +192,18 @@
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="Database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
@@ -211,13 +230,15 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Database/config" />
+      <recent name="$PROJECT_DIR$/Database/init" />
+      <recent name="$PROJECT_DIR$/Database/mysql_data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Database" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Database/mysql_data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,30 +289,32 @@
       <workItem from="1534012952723" duration="3042000" />
       <workItem from="1534016183377" duration="1367000" />
       <workItem from="1534035912643" duration="1039000" />
+      <workItem from="1534172757824" duration="6978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20897000" />
+    <option name="totallyTimeSpent" value="27875000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="855" extended-state="6" />
+    <frame x="0" y="0" width="796" height="855" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50125" side_tool="true" visible="true" weight="0.30369356" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.44346735" side_tool="true" visible="true" weight="0.43699732" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22864321" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Job Explorer" order="2" />
-      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49875" visible="true" weight="0.30369356" />
+      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.5565327" visible="true" weight="0.43699732" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -346,7 +369,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database/BookShelf_scheme.sql">
+    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
@@ -398,7 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database/BookShelf_scheme.sql">
+    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
@@ -450,7 +473,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database/BookShelf_scheme.sql">
+    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
@@ -509,24 +532,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HWRecognition/download_build_install_opencv.sh" />
-    <entry file="file://$PROJECT_DIR$/Database/BookData_scheme.sql">
+    <entry file="file://$PROJECT_DIR$/HWRecognition/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="287">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database/BookShelf_scheme.sql">
+    <entry file="file://$PROJECT_DIR$/HWRecognition/StartProc.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/DBSet.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -539,29 +555,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="112">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HWRecognition/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HWRecognition/StartProc.sh">
+    <entry file="file://$PROJECT_DIR$/Database/init/DBSet.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="45">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/config/BookData_scheme.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
