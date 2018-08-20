@@ -17,7 +17,7 @@ while True:
 
     for symbol in image:
         #print('%s' % symbol.data)
-        f = open('/home/yusuke/PycharmProjects/TEPIA/barcode.txt', 'w')
+        f = open('/usr/local/lib/Alva/barcode.txt', 'w')
         f.write('%s' % symbol.data)
         f.close()
         captured = True
