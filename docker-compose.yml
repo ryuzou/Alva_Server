@@ -25,3 +25,9 @@ services:
      - ./HWRecognition/Program:/usr/local/lib/Alva_
   depends_on:
     - db
+ detectbarcode:
+   build: ./BarcodeRecognition
+   ports:
+     - 8091:8091
+   depends_on:
+     - db

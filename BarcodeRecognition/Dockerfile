@@ -1,8 +1,9 @@
 FROM python:2.7
 
 RUN apt-get update
-RUN apt-get install libopencv-dev libzbar-dev
+RUN apt-get -y install libopencv-dev libzbar-dev
 RUN pip install opencv-python && pip install zbar
-COPY ./StartProc.sh ./StartProc.sh
+COPY ./StartProc.sh /usr/local/lib/Alva/StartProc.sh
+COPY ./ReadBarcode.py /usr/local/lib/Alva/ReadBarcode.py
 
-RUN ./StartProc.sh
+CMD sh /usr/local/lib/Alva/StartProc.sh
