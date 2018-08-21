@@ -6,4 +6,4 @@ RUN pip install opencv-python && pip install zbar
 COPY ./StartProc.sh /usr/local/lib/Alva/StartProc.sh
 COPY ./ReadBarcode.py /usr/local/lib/Alva/ReadBarcode.py
 
-CMD sh /usr/local/lib/Alva/StartProc.sh
+#CMD sh /usr/local/lib/Alva/StartProc.sh

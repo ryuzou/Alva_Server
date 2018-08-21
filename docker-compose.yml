@@ -21,8 +21,6 @@ services:
   build: ./HWRecognition
   ports:
     - 8090:8090
-  volumes:
-     - ./HWRecognition/Program:/usr/local/lib/Alva_
   depends_on:
     - db
  detectbarcode:
