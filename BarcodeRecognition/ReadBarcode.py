@@ -1,13 +1,20 @@
 # -*- coding: utf-8 -*-
 import cv2
 import zbar
+import threading
+import MySQLdb
+
+connection = MySQLdb.connect(
+    host='localhost', port='3306', user='root', passwd='password', db='Alva_Server', charset='utf8'
+)
+cursor = connection.cursor()
+
 scanner = zbar.ImageScanner()
 scanner.parse_config('enable')
 cap = cv2.VideoCapture(0)
 captured = False
 
-while True:
-
+def Barcode_read():
     ret, frame = cap.read()
     gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
@@ -16,18 +23,11 @@ while True:
     scanner.scan(image)
 
     for symbol in image:
+        cursor.executemany("INSERT INTO D_Barcode VALUES ")
         #print('%s' % symbol.data)
-        f = open('/usr/local/lib/Alva/barcode.txt', 'w')
-        f.write('%s' % symbol.data)
-        f.close()
-        captured = True
 
-    if captured:
-        break
 
-    if cv2.waitKey(1) == 27:
-        break
+thread = threading.Timer(0.1, Barcode_read)
+thread.start()
 
 cap.release()
-
-cv2.destroyAllWindows()
