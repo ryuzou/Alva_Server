@@ -23,8 +23,9 @@ def Barcode_read():
     scanner.scan(image)
 
     for symbol in image:
-        cursor.executemany("INSERT INTO D_Barcode VALUES ")
-        #print('%s' % symbol.data)
+        cursor.execute('INSERT INTO D_Barcode Barcode VALUES %d', (symbol.data ,))
+    cursor.close()
+
 
 
 thread = threading.Timer(0.1, Barcode_read)
