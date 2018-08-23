@@ -26,8 +26,6 @@ def Barcode_read():
         cursor.execute('INSERT INTO D_Barcode Barcode VALUES %d', (symbol.data ,))
     cursor.close()
 
-
-
 thread = threading.Timer(0.1, Barcode_read)
 thread.start()
 
