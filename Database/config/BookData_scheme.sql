@@ -8,6 +8,6 @@ CREATE TABLE `D_Bookdata` (
   `book_author` varchar(15) DEFAULT 'NOT INPUTED',
   `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  FOREIGN KEY (book_id)
-    REFERENCE D_Bookshelf(id) ON DELETE SET NULL ON UPDATE CASCADE
+  FOREIGN KEY (book_id) REFERENCE D_Bookshelf(id)
+  on update cascade on delete cascade
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

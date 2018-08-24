@@ -4,10 +4,10 @@ import zbar
 import threading
 import MySQLdb
 
-connection = MySQLdb.connect(
-    host='localhost', port='3306', user='root', passwd='password', db='Alva_Server', charset='utf8'
+db = MySQLdb.connect(
+    host='localhost', port=3306, user='root', passwd='password', db='Alva_Server', charset='utf8'
 )
-cursor = connection.cursor()
+db.cursorclass = MySQLdb.cursors.DictCursor
 
 scanner = zbar.ImageScanner()
 scanner.parse_config('enable')
