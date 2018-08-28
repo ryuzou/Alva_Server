@@ -5,7 +5,7 @@ import threading
 import MySQLdb
 
 db = MySQLdb.connect(
-    host='localhost', port=3306, user='root', passwd='password', db='Alva_Server', charset='utf8'
+    host='127.18.0.2', port=3306, user='root', passwd='password', db='Alva_Server', charset='utf8'
 )
 db.cursorclass = MySQLdb.cursors.DictCursor
 
