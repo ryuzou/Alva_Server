@@ -20,8 +20,8 @@ services:
     - db
     links:
     - db
-  hwrecognition:
-    build: ./HWRecognition
+  imagerecognition:
+    build: ImageRecognition
     ports:
     - '8090:8090'
     depends_on:
@@ -29,7 +29,7 @@ services:
     links:
     - db
   detectbarcode:
-    build: ./BarcodeRecognition
+    build: BarcodeHWRecognition
     ports:
     - '8091:8091'
     volumes:
