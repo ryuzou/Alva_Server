@@ -1,33 +1,40 @@
 version: '2'
 services:
- db:
-  build: ./Database
-  ports:
+  db:
+    build: ./Database
+    ports:
     - '3306:3306'
-  volumes:
-   - ./Database/mysql_data:/var/lib/mysql
-   - ./Database/init:/docker-entrypoint-initdb.d
-  environment:
-   MYSQL_ROOT_PASSWORD: 'password'
- web:
-  build: ./Web
-  ports:
-   - '8080:80'
-  volumes:
-   - ./html:/var/www/html
-  depends_on:
-   - db
- hwrecognition:
-  build: ./HWRecognition
-  ports:
-    - 8090:8090
-  depends_on:
+    volumes:
+    - ./Database/mysql_data:/var/lib/mysql
+    - ./Database/init:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: 'password'
+      MYSQL_DATABASE: 'Alva_Server'
+  web:
+    build: ./Web
+    ports:
+    - '8080:8080'
+    volumes:
+    - ./html:/var/www/html
+    depends_on:
     - db
- detectbarcode:
-   build: ./BarcodeRecognition
-   ports:
-     - 8091:8091
-   volumes:
-     - /dev/video0:/dev/video0
-   depends_on:
-     - db
+    links:
+    - db
+  hwrecognition:
+    build: ./HWRecognition
+    ports:
+    - '8090:8090'
+    depends_on:
+    - db
+    links:
+    - db
+  detectbarcode:
+    build: ./BarcodeRecognition
+    ports:
+    - '8091:8091'
+    volumes:
+    - /dev/video0:/dev/video0
+    depends_on:
+    - db
+    links:
+    - db
