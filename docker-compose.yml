@@ -34,7 +34,10 @@ services:
     - '8091:8091'
     volumes:
     - /dev/video0:/dev/video0
+    - /dev/ttyUSB0:/dev/ttyUSB0
     depends_on:
     - db
     links:
     - db
+    command: >
+      bash -c 'sh /usr/local/lib/Alva/StartProc.sh && sh /usr/local/lib/Alva/debug-loop.sh'

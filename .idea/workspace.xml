@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="apply some small changes, which makes the &quot;mysql-ip-related&quot; errors to be fixed, but not ready to go">
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="some name changes(which do not effect the &quot;important&quot; thing)">
+      <change afterPath="$PROJECT_DIR$/BarcodeHWRecognition/debug-loop.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BarcodeRecognition/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeHWRecognition/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BarcodeRecognition/ReadBarcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeHWRecognition/ReadBarcode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BarcodeRecognition/StartProc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeHWRecognition/StartProc.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BarcodeHWRecognition/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeHWRecognition/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HWRecognition/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ImageRecognition/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HWRecognition/OCR.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageRecognition/OCR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HWRecognition/StartProc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ImageRecognition/StartProc.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,6 +41,10 @@
   <component name="DockerExecCommand">
     <ExecCommand>
       <option name="command" value="bash" />
+      <option name="imageId" value="alvaserver_detectbarcode" />
+    </ExecCommand>
+    <ExecCommand>
+      <option name="command" value="bash" />
       <option name="imageId" value="alvaserver_db" />
     </ExecCommand>
     <ExecCommand>
@@ -59,7 +60,7 @@
     <session id="1423906475">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -68,38 +69,38 @@
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="2" />
-          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.22" value="4" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="269" />
+          <entry key="Dockerfile" value="332" />
           <entry key="py" value="19" />
-          <entry key="sh" value="65" />
+          <entry key="sh" value="95" />
           <entry key="sql" value="150" />
-          <entry key="txt" value="154" />
-          <entry key="yml" value="154" />
+          <entry key="txt" value="219" />
+          <entry key="yml" value="213" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="65" />
-          <entry key="Dockerfile" value="269" />
-          <entry key="PLAIN_TEXT" value="156" />
+          <entry key="Bash" value="95" />
+          <entry key="Dockerfile" value="332" />
+          <entry key="PLAIN_TEXT" value="221" />
           <entry key="Python" value="17" />
           <entry key="SQL" value="21" />
           <entry key="Scratch" value="129" />
-          <entry key="YAML" value="154" />
+          <entry key="YAML" value="213" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="7" />
+          <entry key="Dockerfile" value="8" />
           <entry key="cnf" value="1" />
           <entry key="conf" value="1" />
           <entry key="css" value="1" />
@@ -109,16 +110,16 @@
           <entry key="json" value="2" />
           <entry key="md" value="1" />
           <entry key="py" value="4" />
-          <entry key="sh" value="6" />
+          <entry key="sh" value="8" />
           <entry key="sql" value="4" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="6" />
+          <entry key="Bash" value="8" />
           <entry key="CSS" value="1" />
-          <entry key="Dockerfile" value="7" />
+          <entry key="Dockerfile" value="8" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="5" />
@@ -212,15 +213,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/StartProc.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
@@ -229,29 +221,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageRecognition/StartProc.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <caret line="10" column="4" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Database/my.cnf">
+        <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="360">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -277,8 +269,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/debug-loop.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -295,8 +296,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/ReadBarcode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="161">
+              <caret line="13" column="25" selection-start-line="13" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
@@ -347,7 +348,9 @@
         <option value="$PROJECT_DIR$/Database/config/BookData_scheme.sql" />
         <option value="$PROJECT_DIR$/BarcodeRecognition/StartProc.sh" />
         <option value="$PROJECT_DIR$/BarcodeRecognition/ReadBarcode.py" />
+        <option value="$PROJECT_DIR$/BarcodeHWRecognition/debug-loop.sh" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/BarcodeHWRecognition/Dockerfile" />
       </list>
     </option>
   </component>
@@ -391,8 +394,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -442,7 +445,7 @@
     <property name="DatabaseDriversLRU" value="sqlserver&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535810307831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535962693988" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -475,18 +478,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ALVA=SERVER" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+    <configuration name="ALVA_SERVER" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="commandLineOptions" value="--build" />
-          <option name="services">
-            <list>
-              <option value="imagerecognition" />
-              <option value="db" />
-              <option value="web" />
-              <option value="detectbarcode" />
-            </list>
-          </option>
           <option name="sourceFilePath" value="docker-compose.yml" />
           <option name="startBrowserSettings">
             <browser url="http://127.0.0.1" />
@@ -543,7 +538,8 @@
       <workItem from="1535209749993" duration="840000" />
       <workItem from="1535297245948" duration="1555000" />
       <workItem from="1535332040983" duration="2690000" />
-      <workItem from="1535808070740" duration="2196000" />
+      <workItem from="1535808070740" duration="2620000" />
+      <workItem from="1535959954336" duration="2687000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -573,16 +569,24 @@
       <option name="project" value="LOCAL" />
       <updated>1535809794891</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some name changes(which do not effect the &quot;important&quot; thing)">
+      <created>1535810363428</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535810363428</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70635000" />
+    <option name="totallyTimeSpent" value="73746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.19007732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.19265464" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.23985043" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -600,7 +604,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.5565327" visible="true" weight="0.39757413" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.5565327" visible="true" weight="0.40161726" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -629,7 +633,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="apply some small changes, but not ready to go" />
     <MESSAGE value="apply some small changes, which makes the &quot;mysql-ip-related&quot; errors to be fixed, but not ready to go" />
-    <option name="LAST_COMMIT_MESSAGE" value="apply some small changes, which makes the &quot;mysql-ip-related&quot; errors to be fixed, but not ready to go" />
+    <MESSAGE value="some name changes(which do not effect the &quot;important&quot; thing)" />
+    <option name="LAST_COMMIT_MESSAGE" value="some name changes(which do not effect the &quot;important&quot; thing)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -664,13 +669,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -721,13 +719,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/html/js/respond.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/html/js/npm.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -737,22 +729,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
+        <state relative-caret-position="943">
           <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/StartProc.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageRecognition/StartProc.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -763,10 +741,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="115">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/StartProc.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -777,34 +762,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ImageRecognition/StartProc.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="4" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/ReadBarcode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="161">
+          <caret line="13" column="25" selection-start-line="13" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/debug-loop.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="23">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
+        <state relative-caret-position="360">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
         </state>
       </provider>
     </entry>
