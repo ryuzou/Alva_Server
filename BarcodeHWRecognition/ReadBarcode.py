@@ -14,6 +14,19 @@ scanner.parse_config('enable')
 cap = cv2.VideoCapture(0)
 captured = False
 
+
+class Barcode_Recognise:
+    inited = 0
+    cap = None
+
+    def __init__(self):
+        if self.inited != 0:
+            pass
+        scanner = zbar.ImageScanner()
+        scanner.parse_config('enable')
+        self.cap = cv2.VideoCapture(0)
+        captured = False
+
 def Barcode_read():
     ret, frame = cap.read()
     gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
