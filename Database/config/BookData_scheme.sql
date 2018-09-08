@@ -1,4 +1,4 @@
-CREATE TABLE `D_Bookdata` (
+CREATE TABLE D_Bookdata (
   `barcode` int primary key,
   `id` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `book_id` int(10),
@@ -9,5 +9,5 @@ CREATE TABLE `D_Bookdata` (
   `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   FOREIGN KEY (book_id) REFERENCE D_Bookshelf(id)
-  on update cascade on delete cascade
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB;
