@@ -28,6 +28,7 @@ services:
     - db
     links:
     - db
+    - web
   detectbarcode:
     build: BarcodeHWRecognition
     ports:
@@ -39,5 +40,6 @@ services:
     - db
     links:
     - db
+    - web
     command: >
       bash -c 'sh /usr/local/lib/Alva/StartProc.sh && sh /usr/local/lib/Alva/debug-loop.sh'
