@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-while True:
+while :
 do
 sleep 1000000000
 done
