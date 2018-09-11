@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="commit for clouding, NO ERRORS FIXED">
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="fixed mysql error in Database">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/config/BookData_scheme.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Database/config/BookData_scheme.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
@@ -160,8 +161,8 @@
           <entry key="Dockerfile" value="76" />
           <entry key="py" value="478" />
           <entry key="sh" value="58" />
-          <entry key="sql" value="114" />
-          <entry key="txt" value="47" />
+          <entry key="sql" value="132" />
+          <entry key="txt" value="127" />
           <entry key="yml" value="29" />
         </counts>
       </usages-collector>
@@ -169,6 +170,8 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="D_Barcode" value="1" />
+          <entry key="D_BookShelf" value="1" />
           <entry key="Dockerfile" value="7" />
           <entry key="conf" value="1" />
           <entry key="html" value="5" />
@@ -177,7 +180,7 @@
           <entry key="md" value="1" />
           <entry key="py" value="5" />
           <entry key="sh" value="4" />
-          <entry key="sql" value="10" />
+          <entry key="sql" value="12" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -189,13 +192,14 @@
         <counts>
           <entry key="Bash" value="4" />
           <entry key="DBN-SQL" value="9" />
+          <entry key="Database Element" value="2" />
           <entry key="Dockerfile" value="7" />
           <entry key="HTML" value="5" />
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="5" />
-          <entry key="Scratch" value="1" />
+          <entry key="Scratch" value="3" />
           <entry key="SmartyConfig" value="1" />
           <entry key="YAML" value="1" />
         </counts>
@@ -203,9 +207,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="58" />
-          <entry key="DBN-SQL" value="92" />
+          <entry key="DBN-SQL" value="110" />
           <entry key="Dockerfile" value="76" />
-          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="PLAIN_TEXT" value="127" />
           <entry key="Python" value="478" />
           <entry key="Scratch" value="22" />
           <entry key="YAML" value="29" />
@@ -239,8 +243,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Database/init/DBSet.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="89" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="161">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -248,8 +252,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Database/config/BookData_scheme.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="69">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -257,22 +261,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="15" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/main.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+            <state relative-caret-position="69">
+              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -280,7 +270,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
+            <state relative-caret-position="433">
               <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
             </state>
           </provider>
@@ -301,12 +291,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/StartProc.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2655defa-6547-464a-a887-32ab9f26ec36/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -420,12 +406,6 @@
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="Database" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
-              <item name="init" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
@@ -562,7 +542,7 @@
       <workItem from="1536390462202" duration="877000" />
       <workItem from="1536399744287" duration="2763000" />
       <workItem from="1536564355930" duration="599000" />
-      <workItem from="1536653711750" duration="3532000" />
+      <workItem from="1536653711750" duration="5849000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -606,11 +586,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536401905363</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed mysql error in Database">
+      <created>1536658463543</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536658463543</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86237000" />
+    <option name="totallyTimeSpent" value="88554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -639,7 +626,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.44346735" side_tool="true" weight="0.43682796" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3286334" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" weight="0.3286334" />
+      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3286334" />
       <window_info anchor="bottom" id="Inspection Results" order="15" visible="true" weight="0.180593" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -663,7 +650,8 @@
     <MESSAGE value="apply some small changes, but not ready to go" />
     <MESSAGE value="apply some small changes, which makes the &quot;mysql-ip-related&quot; errors to be fixed, but not ready to go" />
     <MESSAGE value="commit for clouding, NO ERRORS FIXED" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit for clouding, NO ERRORS FIXED" />
+    <MESSAGE value="fixed mysql error in Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed mysql error in Database" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -789,29 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/StartProc.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/GiveCommandToEmmbd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1536401900081" expanded="true" signature="37:42" ph="..." />
-            <marker date="1536401900081" expanded="true" signature="110:115" ph="..." />
-            <marker date="1536401900081" expanded="true" signature="183:188" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -825,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database/init/DBSet.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="89" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Database/config/Barcode_data.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -839,17 +801,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/82c59f66-c298-41ed-a306-26961a97fa33/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/GiveCommandToEmmbd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1536401900081" expanded="true" signature="37:42" ph="..." />
+            <marker date="1536401900081" expanded="true" signature="110:115" ph="..." />
+            <marker date="1536401900081" expanded="true" signature="183:188" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2655defa-6547-464a-a887-32ab9f26ec36/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/init/DBSet.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2655defa-6547-464a-a887-32ab9f26ec36/schema/Alva_Server/table/D_BookShelf">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="15" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="69">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2655defa-6547-464a-a887-32ab9f26ec36/schema/Alva_Server/table/D_Barcode">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/config/BookData_scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="69">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,7 @@
 CREATE TABLE D_Bookdata (
-  `barcode` int primary key,
+  `barcode` int ,
   `id` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  `book_id` int(10),
+  `book_id` int(10) UNIQUE KEY,
   `exist_S` int(1) DEFAULT '0',
   `book_title` varchar(100) DEFAULT 'NOT INPUTED',
   `book_genre` varchar(15) DEFAULT 'NOT INPUTED',
