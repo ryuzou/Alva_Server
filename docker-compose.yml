@@ -20,6 +20,7 @@ services:
     - db
     links:
     - db
+    - detectbarcode
   imagerecognition:
     build: ImageRecognition
     ports:
@@ -30,7 +31,7 @@ services:
     - db
     - web
   detectbarcode:
-    build: BarcodeHWRecognition
+    build: BarcodeRecognitionServer
     ports:
     - '8091:8091'
     volumes:
