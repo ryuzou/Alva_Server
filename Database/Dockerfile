@@ -1,8 +1,6 @@
 FROM mysql:5.7
 MAINTAINER docker-db
 
-RUN apt-get -y install python3 python3-pip
-
 COPY ./my.cnf /etc/mysql/my.cnf
 COPY config/BookShelf_scheme.sql /usr/local/lib/SQL_schfiles/BookShelf_scheme.sql
 COPY config/BookData_scheme.sql /usr/local/lib/SQL_schfiles/BookData_scheme.sql
