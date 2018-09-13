@@ -18,18 +18,12 @@ services:
     - ./html:/var/www/html
     depends_on:
     - db
-    links:
-    - db
-    - detectbarcode
   imagerecognition:
     build: ImageRecognition
     ports:
     - '8090:8090'
     depends_on:
     - db
-    links:
-    - db
-    - web
   detectbarcode:
     build: BarcodeRecognitionServer
     ports:
@@ -39,8 +33,5 @@ services:
     - /dev/ttyUSB0:/dev/ttyUSB0
     depends_on:
     - db
-    links:
-    - db
-    - web
     command: >
       bash -c 'sh /usr/local/lib/Alva/StartProc.sh && sh /usr/local/lib/Alva/debug-loop.sh'

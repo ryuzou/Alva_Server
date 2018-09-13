@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Simple Bootgrid example with add,edit and delete using PHP,MySQL and AJAX</title>
+    <title>Alva_Serverside__test_for_2018RCF</title>
     <link rel="stylesheet" href="dist/bootstrap.min.css" type="text/css" media="all">
     <link href="dist/jquery.bootgrid.css" rel="stylesheet"/>
     <script src="dist/jquery-1.11.1.min.js"></script>
@@ -12,7 +12,7 @@
 <body>
 <div class="container">
     <div class="">
-        <h1>Simple Bootgrid example with add,edit and delete using PHP,MySQL and AJAX</h1>
+        <h1>Alva::__Managing_Page__</h1>
         <div class="col-sm-8">
             <div class="well clearfix">
                 <div class="pull-right">
@@ -21,14 +21,17 @@
                     </button>
                 </div>
             </div>
-            <table id="employee_grid" class="table table-condensed table-hover table-striped" width="60%"
+            <table id="employee_grid" class="table table-condensed table-hover table-striped" width="90%"
                    cellspacing="0" data-toggle="bootgrid">
                 <thead>
                 <tr>
-                    <th data-column-id="id" data-type="numeric" data-identifier="true">Empid</th>
-                    <th data-column-id="employee_name">Name</th>
-                    <th data-column-id="employee_salary">Salary</th>
-                    <th data-column-id="employee_age">Age</th>
+                    <th data-column-id="id" data-type="numeric" data-identifier="true">id</th>
+                    <th data-column-id="employee_name">barcode</th>
+                    <th data-column-id="employee_salary">Title</th>
+                    <th data-column-id="employee_age">Genre</th>
+                    <th data-column-id="employee_age">Author</th>
+                    <th data-column-id="employee_age">Created time</th>
+                    <th data-column-id="employee_age">Updated time</th>
                     <th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
                 </tr>
                 </thead>
