@@ -105,6 +105,47 @@
         </div>
     </div>
 </div>
+<br>
+<div class="udp connection">
+    <?php
+
+    class packet_format
+    {
+        public $type;
+        public $message;
+        public $recv_date;
+    }
+
+    $recv_data = new packet_format;
+    $port = 4000;
+
+    //UDPのソケット作成
+    $sock = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
+    socket_bind($sock, detectbarcode, $port);
+    $from = '';
+    while (true) {
+        //UDPのソケットを受信
+        socket_recvfrom($sock, $buf, 4096, 0, $from, $port);
+        //バイナリで取得しているため、unpackでデータを取得
+        $packet_data = unpack("Stype/Smessage/ITimestamp", $buf);
+
+        //対応する変数に代入
+        $recv_data->type = $array["type"];
+        $recv_data->message = $array["message"];
+        $recv_data->recv_date = date('D M d H:i:s Y', $array["Timestamp"]);
+        /*
+            確認応答パケットをUDPで送信(データは1,2,3,4)
+            送るデータをpackでバイナリ文字列にパックした後送る
+        */
+        $socket = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
+        $sock_data = pack('SSSS', 1, 2, 3, 4);
+        socket_sendto($socket, $sock_data, strlen($sock_data), 0, $from, $port);
+    }
+    //close socket
+    socket_close($sock);
+    socket_close($socket);
+    ?>
+</div>
 </body>
 </html>
 <script type="text/javascript">
