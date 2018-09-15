@@ -1,6 +1,6 @@
 CREATE TABLE D_Barcode (
   `Number` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  `Barcode` int(255) NOT NULL,
+  `Barcode` int(255),
   `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;

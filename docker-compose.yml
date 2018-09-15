@@ -1,7 +1,7 @@
-version: '2'
+version: '3'
 services:
   db:
-    build: ./Database
+    build: Database
     ports:
     - '3306:3306'
     volumes:
@@ -10,14 +10,6 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: 'password'
       MYSQL_DATABASE: 'Alva_Server'
-  web:
-    build: ./Web
-    ports:
-    - '80:80'
-    volumes:
-    - ./html:/var/www/html
-    depends_on:
-    - db
   imagerecognition:
     build: ImageRecognition
     ports:
@@ -34,4 +26,13 @@ services:
     depends_on:
     - db
     command: >
-      bash -c 'sh /usr/local/lib/Alva/StartProc.sh && sh /usr/local/lib/Alva/debug-loop.sh'
+      bash -c 'sh /usr/local/lib/Alva/debug-loop.sh'
+    #   bash -c 'sh /usr/local/lib/Alva/debug-loop.sh && python /usr/local/lib/Alva/test.py'
+  web:
+    build: Web
+    ports:
+    - 80:80
+    volumes:
+    - ./html:/var/www/html
+    depends_on:
+    - db

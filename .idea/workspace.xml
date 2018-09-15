@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="fixed mysql error in Database">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="little changes">
+      <change afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/barcoderecgnizition.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/config/Barcode_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Database/config/Barcode_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/config/BookData_scheme.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Database/config/BookData_scheme.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/config/BookShelf_scheme.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Database/config/BookShelf_scheme.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/init/DBSet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Database/init/DBSet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/my.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/Database/my.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/base.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Web/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,85 +71,89 @@
     <session id="1423906475">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.21" value="3" />
-          <entry key="project.open.time.22" value="4" />
+          <entry key="project.open.time.22" value="5" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="362" />
+          <entry key="Dockerfile" value="414" />
           <entry key="dummy" value="11" />
-          <entry key="php" value="60" />
-          <entry key="py" value="694" />
+          <entry key="html" value="15" />
+          <entry key="php" value="129" />
+          <entry key="py" value="759" />
           <entry key="sh" value="116" />
-          <entry key="sql" value="219" />
-          <entry key="txt" value="536" />
-          <entry key="yml" value="238" />
+          <entry key="sql" value="321" />
+          <entry key="txt" value="550" />
+          <entry key="yml" value="359" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="116" />
-          <entry key="Dockerfile" value="362" />
-          <entry key="PHP" value="60" />
-          <entry key="PLAIN_TEXT" value="549" />
-          <entry key="Python" value="692" />
-          <entry key="SQL" value="72" />
+          <entry key="Dockerfile" value="414" />
+          <entry key="HTML" value="15" />
+          <entry key="PHP" value="129" />
+          <entry key="PLAIN_TEXT" value="563" />
+          <entry key="Python" value="757" />
+          <entry key="SQL" value="174" />
           <entry key="Scratch" value="147" />
-          <entry key="YAML" value="238" />
+          <entry key="YAML" value="359" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="15" />
+          <entry key="Dockerfile" value="23" />
           <entry key="cnf" value="1" />
-          <entry key="conf" value="3" />
+          <entry key="conf" value="4" />
           <entry key="css" value="2" />
-          <entry key="html" value="3" />
-          <entry key="ini" value="3" />
+          <entry key="html" value="4" />
+          <entry key="ini" value="5" />
           <entry key="js" value="5" />
           <entry key="json" value="2" />
           <entry key="md" value="1" />
-          <entry key="php" value="3" />
-          <entry key="py" value="10" />
+          <entry key="php" value="10" />
+          <entry key="py" value="12" />
           <entry key="sample" value="1" />
-          <entry key="sh" value="14" />
-          <entry key="sql" value="9" />
-          <entry key="yml" value="3" />
+          <entry key="sh" value="18" />
+          <entry key="sql" value="12" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="14" />
+          <entry key="Bash" value="18" />
           <entry key="CSS" value="2" />
-          <entry key="Dockerfile" value="15" />
-          <entry key="HTML" value="3" />
-          <entry key="Ini" value="2" />
+          <entry key="Dockerfile" value="23" />
+          <entry key="HTML" value="4" />
+          <entry key="Ini" value="4" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="3" />
+          <entry key="PHP" value="10" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="9" />
-          <entry key="SQL" value="4" />
+          <entry key="Python" value="11" />
+          <entry key="SQL" value="7" />
           <entry key="Scratch" value="5" />
-          <entry key="SmartyConfig" value="3" />
-          <entry key="YAML" value="3" />
+          <entry key="SmartyConfig" value="4" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -148,6 +164,7 @@
       <usages-collector id="statistics.php.rename.constructor" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
     <session id="1628339918">
       <usages-collector id="statistics.lifecycle.project">
@@ -227,49 +244,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="299">
+              <caret line="29" column="92" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="42" />
+            <state relative-caret-position="92">
+              <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Database/init/DBSet.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="86" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py">
+        <entry file="file://$PROJECT_DIR$/Web/php.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -277,7 +312,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
+            <state relative-caret-position="299">
               <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
@@ -286,38 +321,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/connection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/debug-loop.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -328,6 +345,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SQL Script" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -356,13 +374,10 @@
         <option value="$PROJECT_DIR$/HWRecognition/StartProc.sh" />
         <option value="$PROJECT_DIR$/HWRecognition/Dockerfile" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f02025fd-d566-4042-adfb-8569ace3d55c/console.sql" />
-        <option value="$PROJECT_DIR$/Database/config/Barcode_data.sql" />
         <option value="$PROJECT_DIR$/BarcodeRecognition/Dockerfile" />
         <option value="$PROJECT_DIR$/BarcodeRecognition/StartProc.sh" />
         <option value="$PROJECT_DIR$/BarcodeRecognition/ReadBarcode.py" />
         <option value="$PROJECT_DIR$/BarcodeHWRecognition/GiveCommandToEmmbd.py" />
-        <option value="$PROJECT_DIR$/Database/config/BookShelf_scheme.sql" />
-        <option value="$PROJECT_DIR$/Database/config/BookData_scheme.sql" />
         <option value="$PROJECT_DIR$/Database/init/DBSet.sh" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e7860407-30ab-46b0-a319-ef4b92d2bdef/console.sql" />
         <option value="$PROJECT_DIR$/html/config.php" />
@@ -371,12 +386,21 @@
         <option value="$PROJECT_DIR$/BarcodeHWRecognition/Dockerfile" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e7860407-30ab-46b0-a319-ef4b92d2bdef/console_1.sql" />
         <option value="$PROJECT_DIR$/html/connection.php" />
-        <option value="$PROJECT_DIR$/html/index.php" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py" />
-        <option value="$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py" />
-        <option value="$PROJECT_DIR$/Web/Dockerfile" />
         <option value="$PROJECT_DIR$/Database/Dockerfile" />
+        <option value="$PROJECT_DIR$/html/index.php" />
+        <option value="$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py" />
+        <option value="$PROJECT_DIR$/Database/config/BookShelf_scheme.sql" />
+        <option value="$PROJECT_DIR$/Database/config/BookData_scheme.sql" />
+        <option value="$PROJECT_DIR$/Database/config/Barcode_data.sql" />
+        <option value="$PROJECT_DIR$/html/barcoderecgnisition.php" />
+        <option value="$PROJECT_DIR$/html/barcoderecgnizition.html" />
+        <option value="$PROJECT_DIR$/html/barcoderecgnizition.php" />
+        <option value="$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile" />
+        <option value="$PROJECT_DIR$/BarcodeRecognitionServer/test.py" />
+        <option value="$PROJECT_DIR$/Web/php.ini" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/Web/Dockerfile" />
       </list>
     </option>
   </component>
@@ -420,44 +444,13 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="BarcodeRecognitionServer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
-              <item name="init" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="ImageRecognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
@@ -469,20 +462,20 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlserver&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536778629972" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537040728661" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -511,30 +504,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/codeStyles/Project.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_logfile0</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ibdata1</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Web/Dockerfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/docker-compose.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/charts.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap-table.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/datepicker.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/datepicker3.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/elements.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/index.html.bak</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/bootstrap-datepicker.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/chart.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/custom.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/easypiechart-data.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/easypiechart.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/html5shiv.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/respond.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/login.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/panels.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/sass/styles.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/widgets.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/index.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -549,6 +518,289 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/Alva_Server/db.opt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/auto.cnf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ca-key.pem</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ca.pem</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/client-cert.pem</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/client-key.pem</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_logfile0</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_logfile1</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ibdata1</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/columns_priv.MYD</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/columns_priv.MYI</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/columns_priv.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/db.MYD</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/db.MYI</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/db.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/db.opt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/engine_cost.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/engine_cost.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/event.MYD</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/event.MYI</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/event.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/func.MYD</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/func.MYI</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/func.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/general_log.CSM</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/general_log.CSV</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/general_log.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/gtid_executed.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/gtid_executed.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/help_category.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/help_category.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/help_keyword.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/help_keyword.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/help_relation.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/help_relation.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/help_topic.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/help_topic.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/innodb_index_stats.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/innodb_index_stats.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/innodb_table_stats.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/innodb_table_stats.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/ndb_binlog_index.MYD</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/ndb_binlog_index.MYI</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/ndb_binlog_index.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/plugin.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/plugin.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/proc.MYD</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/proc.MYI</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/proc.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/procs_priv.MYD</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/procs_priv.MYI</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/procs_priv.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/proxies_priv.MYD</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/proxies_priv.MYI</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/proxies_priv.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/server_cost.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/server_cost.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/servers.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/servers.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/slave_master_info.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/slave_master_info.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/slave_relay_log_info.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/slave_relay_log_info.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/slave_worker_info.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/slave_worker_info.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/slow_log.CSM</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/slow_log.CSV</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/slow_log.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/tables_priv.MYD</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/tables_priv.MYI</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/tables_priv.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/time_zone.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/time_zone.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/time_zone_leap_second.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/time_zone_leap_second.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/time_zone_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/time_zone_name.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/time_zone_transition.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/time_zone_transition.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/time_zone_transition_type.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/time_zone_transition_type.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/user.MYD</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/user.MYI</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/mysql/user.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/accounts.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/cond_instances.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/db.opt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_stages_current.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_stages_history.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_stages_history_long.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_stages_summary_by_account_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_stages_summary_by_host_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_stages_summary_by_thread_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_stages_summary_by_user_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_stages_summary_global_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_statements_current.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_statements_history.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_statements_history_long.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_statements_summary_by_account_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_statements_summary_by_digest.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_statements_summary_by_host_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_statements_summary_by_program.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_statements_summary_by_thread_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_statements_summary_by_user_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_statements_summary_global_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_transactions_current.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_transactions_history.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_transactions_history_long.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_transactions_summary_by_account_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_transactions_summary_by_host_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_transactions_summary_by_thread_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_transactions_summary_by_user_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_transactions_summary_global_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_waits_current.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_waits_history.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_waits_history_long.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_waits_summary_by_account_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_waits_summary_by_host_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_waits_summary_by_instance.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_waits_summary_by_thread_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_waits_summary_by_user_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/events_waits_summary_global_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/file_instances.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/file_summary_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/file_summary_by_instance.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/global_status.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/global_variables.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/host_cache.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/hosts.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/memory_summary_by_account_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/memory_summary_by_host_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/memory_summary_by_thread_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/memory_summary_by_user_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/memory_summary_global_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/metadata_locks.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/mutex_instances.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/objects_summary_global_by_type.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/performance_timers.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/prepared_statements_instances.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/replication_applier_configuration.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/replication_applier_status.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/replication_applier_status_by_coordinator.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/replication_applier_status_by_worker.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/replication_connection_configuration.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/replication_connection_status.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/replication_group_member_stats.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/replication_group_members.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/rwlock_instances.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/session_account_connect_attrs.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/session_connect_attrs.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/session_status.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/session_variables.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/setup_actors.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/setup_consumers.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/setup_instruments.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/setup_objects.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/setup_timers.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/socket_instances.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/socket_summary_by_event_name.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/socket_summary_by_instance.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/status_by_account.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/status_by_host.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/status_by_thread.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/status_by_user.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/table_handles.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/table_io_waits_summary_by_index_usage.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/table_io_waits_summary_by_table.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/table_lock_waits_summary_by_table.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/threads.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/user_variables_by_thread.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/users.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/performance_schema/variables_by_thread.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/private_key.pem</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/public_key.pem</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/server-cert.pem</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/server-key.pem</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/db.opt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/host_summary.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/host_summary_by_file_io.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/host_summary_by_file_io_type.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/host_summary_by_stages.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/host_summary_by_statement_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/host_summary_by_statement_type.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/innodb_buffer_stats_by_schema.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/innodb_buffer_stats_by_table.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/innodb_lock_waits.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/io_by_thread_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/io_global_by_file_by_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/io_global_by_file_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/io_global_by_wait_by_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/io_global_by_wait_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/latest_file_io.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/memory_by_host_by_current_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/memory_by_thread_by_current_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/memory_by_user_by_current_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/memory_global_by_current_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/memory_global_total.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/metrics.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/processlist.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/ps_check_lost_instrumentation.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/schema_auto_increment_columns.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/schema_index_statistics.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/schema_object_overview.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/schema_redundant_indexes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/schema_table_lock_waits.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/schema_table_statistics.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/schema_table_statistics_with_buffer.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/schema_tables_with_full_table_scans.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/schema_unused_indexes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/session.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/session_ssl_status.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/statement_analysis.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/statements_with_errors_or_warnings.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/statements_with_full_table_scans.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/statements_with_runtimes_in_95th_percentile.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/statements_with_sorting.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/statements_with_temp_tables.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/sys_config.TRG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/sys_config.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/sys_config.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/sys_config_insert_set_user.TRN</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/sys_config_update_set_user.TRN</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/user_summary.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/user_summary_by_file_io.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/user_summary_by_file_io_type.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/user_summary_by_stages.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/user_summary_by_statement_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/user_summary_by_statement_type.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/version.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/wait_classes_global_by_avg_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/wait_classes_global_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/waits_by_host_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/waits_by_user_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/waits_global_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024host_summary.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024host_summary_by_file_io.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024host_summary_by_file_io_type.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024host_summary_by_stages.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024host_summary_by_statement_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024host_summary_by_statement_type.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024innodb_buffer_stats_by_schema.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024innodb_buffer_stats_by_table.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024innodb_lock_waits.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024io_by_thread_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024io_global_by_file_by_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024io_global_by_file_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024io_global_by_wait_by_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024io_global_by_wait_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024latest_file_io.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024memory_by_host_by_current_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024memory_by_thread_by_current_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024memory_by_user_by_current_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024memory_global_by_current_bytes.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024memory_global_total.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024processlist.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024ps_digest_95th_percentile_by_avg_us.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024ps_digest_avg_latency_distribution.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024ps_schema_table_statistics_io.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024schema_flattened_keys.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024schema_index_statistics.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024schema_table_lock_waits.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024schema_table_statistics.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024schema_table_statistics_with_buffer.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024schema_tables_with_full_table_scans.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024session.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024statement_analysis.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024statements_with_errors_or_warnings.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024statements_with_full_table_scans.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024statements_with_runtimes_in_95th_percentile.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024statements_with_sorting.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024statements_with_temp_tables.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024user_summary.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024user_summary_by_file_io.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024user_summary_by_file_io_type.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024user_summary_by_stages.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024user_summary_by_statement_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024user_summary_by_statement_type.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024wait_classes_global_by_avg_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024wait_classes_global_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024waits_by_host_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024waits_by_user_by_latency.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/sys/x@0024waits_global_by_latency.frm</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -716,7 +968,11 @@
       <workItem from="1536600112465" duration="2555000" />
       <workItem from="1536685788206" duration="1452000" />
       <workItem from="1536687587970" duration="5700000" />
-      <workItem from="1536848984557" duration="3629000" />
+      <workItem from="1536848984557" duration="4137000" />
+      <workItem from="1536916043478" duration="1764000" />
+      <workItem from="1536926084437" duration="1306000" />
+      <workItem from="1536998459209" duration="3736000" />
+      <workItem from="1537011270719" duration="11984000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -767,17 +1023,23 @@
       <option name="project" value="LOCAL" />
       <updated>1536694537419</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="little changes">
+      <created>1536869261288</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536869261288</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98857000" />
+    <option name="totallyTimeSpent" value="118155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.20554124" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.21713917" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.23985043" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -795,7 +1057,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.5565327" visible="true" weight="0.24932614" />
+      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.5565327" visible="true" weight="0.38140163" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -828,15 +1090,12 @@
     <MESSAGE value="update, fixed mysql errors by deleating foreign keys." />
     <MESSAGE value="UPDATE&#10;big update, re-created html directory for 2018RCF&#10;has an error which cant access to server outside of contena but can inside it.&#10;NOT IN USE,ONLY FOR TEST&#10;fixed some errors of &quot;debug-loop&quot;" />
     <MESSAGE value="fixed mysql error in Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed mysql error in Database" />
+    <MESSAGE value="little changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="little changes" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/calendar.html" />
-    <entry file="file://$PROJECT_DIR$/html/css/lib/normalize.scss" />
-    <entry file="file://$PROJECT_DIR$/HWRecognition/download_build_install_opencv.sh" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a1fbdb10-38d3-46bc-8f80-4d04140004b0/console.sql" />
     <entry file="file://$PROJECT_DIR$/html/example.html" />
     <entry file="file://$PROJECT_DIR$/html/wp-admin/js/xfn.js" />
     <entry file="file://$PROJECT_DIR$/html/bootstrap-test-copy/css/styles.css">
@@ -901,38 +1160,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/main.py" />
-    <entry file="file://$PROJECT_DIR$/Database/config/BookData_scheme.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7860407-30ab-46b0-a319-ef4b92d2bdef/console.sql" />
-    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/config.php.sample" />
     <entry file="file://$PROJECT_DIR$/html/config.php" />
     <entry file="file://$PROJECT_DIR$/html/db/demo.sql" />
     <entry file="file://$PROJECT_DIR$/html/index.html" />
-    <entry file="file://$PROJECT_DIR$/Web/base.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/php.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/bootstrap.min.css" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7860407-30ab-46b0-a319-ef4b92d2bdef/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -942,24 +1174,12 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2655defa-6547-464a-a887-32ab9f26ec36/console.sql" />
-    <entry file="file://$PROJECT_DIR$/Database/config/Barcode_data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/server.php" />
     <entry file="file://$PROJECT_DIR$/html/dist/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/html/employee.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ImageRecognition/StartProc.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -968,31 +1188,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state>
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/connection.php">
+    <entry file="file://$PROJECT_DIR$/Database/config/BookData_scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        <state>
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1003,26 +1209,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/debug-loop.sh">
+    <entry file="file://$PROJECT_DIR$/html/response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2967">
+          <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
+        <state>
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/barcodercgnisition/php.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/barcoderecgnisition.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/config/Barcode_data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/debug-loop.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
+        <state relative-caret-position="299">
           <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
@@ -1030,24 +1283,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/base.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="299">
+          <caret line="29" column="92" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        <state relative-caret-position="92">
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
         </state>
       </provider>
     </entry>

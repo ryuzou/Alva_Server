@@ -9,3 +9,6 @@ RUN pip install mysql-connector-python-rf
 COPY ./StartProc.sh /usr/local/lib/Alva/StartProc.sh
 COPY ./ReadBarcode.py /usr/local/lib/Alva/ReadBarcode.py
 COPY ./debug-loop.sh /usr/local/lib/Alva/debug-loop.sh
+COPY ./test.py /usr/local/lib/Alva/test.py
+
+#CMD ["python", "/usr/local/lib/Alva/test.py"]

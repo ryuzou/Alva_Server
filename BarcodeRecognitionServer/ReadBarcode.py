@@ -11,7 +11,7 @@ cap = cv2.VideoCapture(0)
 
 captured = False
 UDP = UDP_connection()
-UDP.Config(web)
+UDP.Config("web")
 
 while True:
 
