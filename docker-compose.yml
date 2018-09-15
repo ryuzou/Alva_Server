@@ -26,8 +26,7 @@ services:
     depends_on:
     - db
     command: >
-      bash -c 'sh /usr/local/lib/Alva/debug-loop.sh'
-    #   bash -c 'sh /usr/local/lib/Alva/debug-loop.sh && python /usr/local/lib/Alva/test.py'
+      bash -c 'sh /usr/local/lib/Alva/debug-loop.sh && python /usr/local/lib/Alva/test.py'
   web:
     build: Web
     ports:
