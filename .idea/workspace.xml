@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="updated main server&#10;##ATTENTION !!! ACSESS FROM GOOGLE CHROME!!!###">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update Databases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -113,14 +111,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="414" />
-          <entry key="cell" value="26" />
+          <entry key="cell" value="116" />
           <entry key="dummy" value="11" />
           <entry key="html" value="15" />
           <entry key="php" value="129" />
           <entry key="py" value="759" />
           <entry key="sh" value="116" />
           <entry key="sql" value="321" />
-          <entry key="txt" value="637" />
+          <entry key="txt" value="653" />
           <entry key="yml" value="361" />
         </counts>
       </usages-collector>
@@ -130,17 +128,17 @@
           <entry key="Dockerfile" value="414" />
           <entry key="HTML" value="15" />
           <entry key="PHP" value="129" />
-          <entry key="PLAIN_TEXT" value="650" />
+          <entry key="PLAIN_TEXT" value="666" />
           <entry key="Python" value="757" />
           <entry key="SQL" value="174" />
-          <entry key="Scratch" value="173" />
+          <entry key="Scratch" value="263" />
           <entry key="YAML" value="361" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="D_Barcode" value="1" />
-          <entry key="D_Bookdata" value="2" />
+          <entry key="D_Bookdata" value="3" />
           <entry key="Dockerfile" value="23" />
           <entry key="cnf" value="1" />
           <entry key="conf" value="4" />
@@ -150,7 +148,7 @@
           <entry key="js" value="5" />
           <entry key="json" value="2" />
           <entry key="md" value="1" />
-          <entry key="php" value="10" />
+          <entry key="php" value="12" />
           <entry key="py" value="12" />
           <entry key="sample" value="1" />
           <entry key="sh" value="19" />
@@ -162,14 +160,14 @@
         <counts>
           <entry key="Bash" value="19" />
           <entry key="CSS" value="2" />
-          <entry key="Database Element" value="3" />
+          <entry key="Database Element" value="4" />
           <entry key="Dockerfile" value="23" />
           <entry key="HTML" value="4" />
           <entry key="Ini" value="4" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="10" />
+          <entry key="PHP" value="12" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="11" />
           <entry key="SQL" value="7" />
@@ -275,20 +273,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="das://9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63/schema/Alva_Server/table/D_Barcode">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/html/response.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2967">
+              <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
@@ -323,6 +316,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/connection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -486,7 +488,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537042036393" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537050008404" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -989,7 +991,7 @@
       <workItem from="1536916043478" duration="1764000" />
       <workItem from="1536926084437" duration="1306000" />
       <workItem from="1536998459209" duration="3736000" />
-      <workItem from="1537011270719" duration="13487000" />
+      <workItem from="1537011270719" duration="14391000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -1054,11 +1056,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537040803721</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update Databases">
+      <created>1537042261345</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1537042261345</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119658000" />
+    <option name="totallyTimeSpent" value="120562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
@@ -1081,7 +1090,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.5565327" visible="true" weight="0.38140163" />
+      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.5565327" visible="true" weight="0.38140163" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -1094,7 +1103,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="right" id="Database" order="5" visible="true" weight="0.32925257" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.2609536" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1116,7 +1125,8 @@
     <MESSAGE value="fixed mysql error in Database" />
     <MESSAGE value="little changes" />
     <MESSAGE value="updated main server&#10;##ATTENTION !!! ACSESS FROM GOOGLE CHROME!!!###" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated main server&#10;##ATTENTION !!! ACSESS FROM GOOGLE CHROME!!!###" />
+    <MESSAGE value="update Databases" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Databases" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1222,20 +1232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2967">
-          <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1337,29 +1333,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/init/DBSet.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63/schema/Alva_Server/table/D_Bookdata">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1372,6 +1351,37 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/init/DBSet.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2967">
+          <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
