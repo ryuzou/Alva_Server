@@ -20,13 +20,12 @@ services:
     build: BarcodeRecognitionServer
     ports:
     - '8091:8091'
-    volumes:
-    - /dev/video0:/dev/video0
-    - /dev/ttyUSB0:/dev/ttyUSB0
+    devices:
+    - "/dev/video0:/dev/video0"
     depends_on:
     - db
-    command: >
-      bash -c 'sh /usr/local/lib/Alva/debug-loop.sh && python /usr/local/lib/Alva/test.py'
+    #command: >
+    #  bash -c 'sh /usr/local/lib/Alva/debug-loop.sh && python /usr/local/lib/Alva/ReadBarcode'
   web:
     build: Web
     ports:

@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import cv2
 import zbar
-from Communicate import UDP_connection
+import MySQLdb
+from time import sleep
 
 scanner = zbar.ImageScanner()
 
@@ -9,19 +10,13 @@ scanner.parse_config('enable')
 
 cap = cv2.VideoCapture(0)
 
-captured = False
-UDP = UDP_connection()
-UDP.Config("web")
+connect = MySQLdb.connect(
+    # host='db', port=3306, user='root', passwd='password', db='Alva_Server', charset='utf8'
+    host='127.0.0.1', port=3306, user='root', passwd='password', db='Alva_Server', charset='utf8'
+)
+cursor = connect.cursor()
 
 while True:
-
-    try:
-        if UDP.Recieve()[-1] == "read":
-            pass
-        elif UDP.Recieve()[-1] == "end":
-            break
-    except:
-        continue
 
     ret, frame = cap.read()
 
@@ -40,8 +35,17 @@ while True:
     scanner.scan(image)
 
     for symbol in image:
-        # print('%s' % symbol.data)
-        UDP.Send(symbol.data)
+        sqltext1 = "insert into D_Barcode_log (barcode) VALUES ('"
+        sqltext2 = "')"
+        sqltext = sqltext1 + symbol.data + sqltext2
+        cursor.execute(sqltext)
+        print symbol.data
 
-
+    connect.commit()
+    if cv2.waitKey(1) == 27:
+        break
 cap.release()
+
+cursor.close()
+connect.close()  # データベースオジェクトを閉じる
+# end with esc
