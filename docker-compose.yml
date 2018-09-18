@@ -20,8 +20,18 @@ services:
     - db
   alvacomserver:
     build: ACS
+    depends_on:
+    - db
+    volumes:
+    - .:/usr/src/app
+    - vendor_bundle:/usr/src/app/vendor/bundle
     ports:
-    - 8000:8000
+    - "3000:3000"
+    entrypoint:
+    - bin/rails
+    - s
+    - -b
+    - 0.0.0.0
 #  imagerecognition:
 #    build: ImageRecognition
 #    ports:
