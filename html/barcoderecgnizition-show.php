@@ -14,14 +14,16 @@ if ($link->connect_errno) {
     printf("Connect failed: %s\n", $link->connect_error);
     exit();
 }
-$barcodelog_result = $link->query("SELECT barcode, id FROM D_Barcode_log");
+$barcodelog_result = $link->query(/** @lang text */
+    "SELECT barcode, id FROM D_Barcode_log");
 if (!$barcodelog_result) {
     throw new Exception("Database Error [{$link->errno}] {$link->error}");
 }
 while ($row = $barcodelog_result->fetch_assoc()) {
     $barcode = $row["barcode"];
 }
-$barcode_result = $link->query("SELECT Barcode, Number FROM D_Barcode");
+$barcode_result = $link->query(/** @lang text */
+    "SELECT Barcode, Number FROM D_Barcode");
 if (!$barcode_result) {
     throw new Exception("Database Error [{$link->errno}] {$link->error}");
 }
@@ -30,7 +32,8 @@ while ($row = $barcode_result->fetch_assoc()) {
         $bookid = $row["Number"];
     }
 }
-$book_result = $link->query("SELECT id, AdvancedbookdataDIR, book_title, book_genre, book_author FROM D_Bookdata");
+$book_result = $link->query(/** @lang text */
+    "SELECT id, AdvancedbookdataDIR, book_title, book_genre, book_author FROM D_Bookdata");
 if (!$book_result) {
     throw new Exception("Database Error [{$link->errno}] {$link->error}");
 }

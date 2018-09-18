@@ -119,29 +119,20 @@
     $recv_data = new packet_format;
     $port = 4000;
 
-    //UDPのソケット作成
     $sock = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
-    socket_bind($sock, detectbarcode, $port);
+    socket_bind($sock, "DETECTBARCODE", $port);
     $from = '';
     while (true) {
-        //UDPのソケットを受信
         socket_recvfrom($sock, $buf, 4096, 0, $from, $port);
-        //バイナリで取得しているため、unpackでデータを取得
         $packet_data = unpack("Stype/Smessage/ITimestamp", $buf);
 
-        //対応する変数に代入
         $recv_data->type = $array["type"];
         $recv_data->message = $array["message"];
         $recv_data->recv_date = date('D M d H:i:s Y', $array["Timestamp"]);
-        /*
-            確認応答パケットをUDPで送信(データは1,2,3,4)
-            送るデータをpackでバイナリ文字列にパックした後送る
-        */
         $socket = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
         $sock_data = pack('SSSS', 1, 2, 3, 4);
         socket_sendto($socket, $sock_data, strlen($sock_data), 0, $from, $port);
     }
-    //close socket
     socket_close($sock);
     socket_close($socket);
     ?>
@@ -154,7 +145,6 @@
             ajax: true,
             rowSelect: true,
             post: function () {
-                /* To accumulate custom parameter with the request object */
                 return {
                     id: "b0df282a-0d67-40e5-8558-c9e93b7befed"
                 };
@@ -168,21 +158,17 @@
                 }
             }
         }).on("loaded.rs.jquery.bootgrid", function () {
-            /* Executes after data is loaded and rendered */
             grid.find(".command-edit").on("click", function (e) {
-                //alert("You pressed edit on row: " + $(this).data("row-id"));
                 var ele = $(this).parent();
                 var g_id = $(this).parent().siblings(':first').html();
                 var g_name = $(this).parent().siblings(':nth-of-type(2)').html();
                 console.log(g_id);
                 console.log(g_name);
 
-                //console.log(grid.data());//
                 $('#edit_model').modal('show');
                 if ($(this).data("row-id") > 0) {
 
-                    // collect the data
-                    $('#edit_id').val(ele.siblings(':first').html()); // in case we're changing the key
+                    $('#edit_id').val(ele.siblings(':first').html());
                     $('#edit_name').val(ele.siblings(':nth-of-type(2)').html());
                     $('#edit_salary').val(ele.siblings(':nth-of-type(3)').html());
                     $('#edit_age').val(ele.siblings(':nth-of-type(4)').html());
@@ -196,11 +182,8 @@
                 if (conf) {
                     $.post('response.php', {id: $(this).data("row-id"), action: 'delete'}
                         , function () {
-                            // when ajax returns (callback),
                             $("#employee_grid").bootgrid('reload');
                         });
-                    //$(this).parent('tr').remove();
-                    //$("#employee_grid").bootgrid('remove', $(this).data("row-id"))
                 }
             });
         });
