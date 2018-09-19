@@ -6,6 +6,8 @@ WORKDIR $project_dir
 
 ADD requirements.txt /requirements/
 
+RUN apt-get install -y default-libmysqlclient-dev
+
 RUN pip install flask
 RUN pip install -r ../requirements/requirements.txt
 
