@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="updated databases;&#10;CREATED ACS(alva communication service) dir!! not in use!!">
-      <change afterPath="$PROJECT_DIR$/ACS/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ACS/Applications/reply.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b46c66ca-4368-40eb-91b0-82e1cda0126c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4262e7c-7f78-4b02-9ec5-246fffe3437f.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACS/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Barcode_log.frm" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Barcode_log.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Barcode_log.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Barcode_log.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -185,13 +186,13 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="76" />
+          <entry key="Dockerfile" value="94" />
           <entry key="php" value="39" />
           <entry key="py" value="267" />
           <entry key="sh" value="58" />
           <entry key="sql" value="103" />
-          <entry key="txt" value="108" />
-          <entry key="yml" value="98" />
+          <entry key="txt" value="124" />
+          <entry key="yml" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -199,14 +200,15 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="D_Bookdata" value="2" />
-          <entry key="Dockerfile" value="4" />
+          <entry key="Dockerfile" value="5" />
           <entry key="html" value="3" />
           <entry key="js" value="1" />
           <entry key="md" value="1" />
           <entry key="php" value="8" />
-          <entry key="py" value="2" />
+          <entry key="py" value="5" />
           <entry key="sh" value="2" />
           <entry key="sql" value="13" />
+          <entry key="txt" value="1" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
@@ -219,12 +221,13 @@
           <entry key="Bash" value="2" />
           <entry key="DBN-SQL" value="9" />
           <entry key="Database Element" value="2" />
-          <entry key="Dockerfile" value="4" />
+          <entry key="Dockerfile" value="5" />
           <entry key="HTML" value="3" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PHP" value="8" />
-          <entry key="Python" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="5" />
           <entry key="Scratch" value="4" />
           <entry key="YAML" value="2" />
         </counts>
@@ -233,13 +236,13 @@
         <counts>
           <entry key="Bash" value="58" />
           <entry key="DBN-SQL" value="60" />
-          <entry key="Dockerfile" value="76" />
+          <entry key="Dockerfile" value="94" />
           <entry key="PHP" value="39" />
-          <entry key="PLAIN_TEXT" value="108" />
+          <entry key="PLAIN_TEXT" value="124" />
           <entry key="Python" value="267" />
           <entry key="SQL" value="14" />
           <entry key="Scratch" value="29" />
-          <entry key="YAML" value="98" />
+          <entry key="YAML" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -251,17 +254,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition-show.php">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-414" />
+            <state relative-caret-position="322">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="207">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ACS/Applications/reply.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -269,38 +283,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACS/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/AdvancedBookDatas/1/index.html">
+        <entry file="file://$PROJECT_DIR$/Database/config/BookData_scheme.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/AdvancedBookDatas/2/index.html">
+        <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="69">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
               <folding>
-                <element signature="e#24#34#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2806">
+              <caret line="122" column="37" selection-start-line="122" selection-start-column="37" selection-end-line="122" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -308,35 +322,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="230">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+            <state relative-caret-position="874">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -347,8 +343,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SQL Script" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -407,9 +403,10 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b46c66ca-4368-40eb-91b0-82e1cda0126c/console.sql" />
         <option value="$PROJECT_DIR$/html/barcoderecgnizition-show.php" />
         <option value="$PROJECT_DIR$/Database/config/BookData_scheme.sql" />
-        <option value="$PROJECT_DIR$/ACS/Dockerfile" />
+        <option value="$PROJECT_DIR$/ACS/reply.py" />
         <option value="$PROJECT_DIR$/ACS/requirements.txt" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/ACS/Dockerfile" />
       </list>
     </option>
   </component>
@@ -458,6 +455,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -473,6 +473,12 @@
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="ACS" type="462c0819:PsiDirectoryNode" />
+              <item name="Applications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="BarcodeRecognitionServer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -483,7 +489,24 @@
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageRecognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
@@ -494,9 +517,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -504,7 +524,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537294831273" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537344914923" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -513,19 +533,200 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ACS/Applications" />
+      <recent name="$PROJECT_DIR$/html/BookImages/2" />
+      <recent name="$PROJECT_DIR$/html/BookImages/1" />
+      <recent name="$PROJECT_DIR$/html/bootstrap-test-copy" />
+      <recent name="$PROJECT_DIR$/Database/config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html/BookImages" />
       <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Database" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html/BookImages/2" />
-      <recent name="$PROJECT_DIR$/html/BookImages/1" />
-      <recent name="$PROJECT_DIR$/html/bootstrap-test-copy" />
-      <recent name="$PROJECT_DIR$/Database/config" />
-      <recent name="$PROJECT_DIR$/Database/init" />
-    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/codeStyles/Project.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Dockerfile</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_logfile0</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ibdata1</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/docker-compose.yml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/requirements.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Barcode_log.frm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Barcode_log.ibd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/EditableGrid.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/add.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/config.php.sample</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/HELP-US-OUT.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/css/font-awesome.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/css/font-awesome.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/FontAwesome.otf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/animated.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/bordered-pulled.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/core.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/fixed-width.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/font-awesome.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/icons.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/larger.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/list.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/mixins.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/path.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/rotated-flipped.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/screen-reader.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/stacked.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/variables.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_animated.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_bordered-pulled.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_core.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_fixed-width.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_icons.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_larger.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_list.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_mixins.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_path.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_rotated-flipped.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_screen-reader.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_stacked.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_variables.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/font-awesome.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/font-awesome.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/font-awesome.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/responsive.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/responsive.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/responsive.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/style.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/style.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/db/demo.sql</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/delete.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/js/demo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/js/editablegrid-2.1.0-49.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/js/images/bullet_arrow_down.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/js/images/bullet_arrow_up.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/js/jquery-1.11.1.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/loaddata.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/update.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dataSources.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -705,12 +906,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152832000" />
+    <option name="totallyTimeSpent" value="155960000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1600" height="875" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.23646908" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.19465241" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.23985043" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -728,7 +929,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.5565327" visible="true" weight="0.393531" />
+      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.5565327" visible="true" weight="0.37349397" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -742,7 +943,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.08054124" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.1973262" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32994652" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -775,17 +976,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Database/my.cnf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageRecognition/OCR.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BarcodeHWRecognition/main.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7860407-30ab-46b0-a319-ef4b92d2bdef/console.sql" />
     <entry file="file://$PROJECT_DIR$/html/config.php.sample" />
     <entry file="file://$PROJECT_DIR$/html/config.php" />
@@ -824,13 +1014,6 @@
     <entry file="file://$PROJECT_DIR$/Web/base.conf" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63/console.sql" />
     <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition-show.html" />
-    <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/IPC-FIFO-FLES/bookid.txt" />
     <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition.php" />
     <entry file="das://9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63/schema/Alva_Server/table/D_Barcode_log" />
@@ -877,11 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -921,7 +1101,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="2806">
           <caret line="122" column="37" selection-start-line="122" selection-start-column="37" selection-end-line="122" selection-end-column="37" />
         </state>
       </provider>
@@ -930,6 +1110,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -945,31 +1128,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/Applications/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="230">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="207">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/ACS/Applications/reply.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>

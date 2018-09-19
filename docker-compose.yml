@@ -20,11 +20,10 @@ services:
     - db
   alvacomserver:
     build: ACS
-    command: python3 manage.py runserver 0.0.0.0:8000
     volumes:
-    - ./ACS:/code
+    - ./ACS/Applications:/app/
     ports:
-    - 8000:8000
+    - 5000:5000
     depends_on:
     - db
 #  imagerecognition:

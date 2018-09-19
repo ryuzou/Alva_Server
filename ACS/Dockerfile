@@ -1,8 +1,12 @@
- FROM python:3
+FROM python:3.7
 
- ENV PYTHONUNBUFFERED 1
- RUN mkdir /code
- WORKDIR /code
- ADD requirements.txt /code/
- RUN pip install -r requirements.txt
- ADD . /code/
+ARG project_dir=/app/
+
+WORKDIR $project_dir
+
+ADD requirements.txt /requirements/
+
+RUN pip install flask
+RUN pip install -r ../requirements/requirements.txt
+
+CMD ["python", "reply.py"]
