@@ -1,6 +1,6 @@
 version: '3'
 services:
-  db:
+  rdb:
     build: Database
     ports:
     - '3306:3306'
@@ -17,7 +17,7 @@ services:
     volumes:
     - ./html:/var/www/html
     depends_on:
-    - db
+    - rdb
   alvacomserver:
     build: ACS
     volumes:
@@ -25,13 +25,14 @@ services:
     ports:
     - 5000:5000
     depends_on:
-    - db
-#  imagerecognition:
-#    build: ImageRecognition
-#    ports:
-#    - '8090:8090'
-#    depends_on:
-#    - db
+    - rdb
+  cassandra:
+    build: Cassandra
+    volumes:
+    - ./Cassandra/cassandra-db:/var/lib/cassandra
+    ports:
+    - 9160:9160
+    - 9042:9042
 #  detectbarcode:
 #    build: BarcodeRecognitionServer
 #    ports:
@@ -39,6 +40,6 @@ services:
 #    devices:
 #    - "/dev/video0:/dev/video0"
 #    depends_on:
-#    - db
+#    - rdb
 #    command: >
 #      bash -c 'sh /usr/local/lib/Alva/debug-loop.sh && python /usr/local/lib/Alva/ReadBarcode'
