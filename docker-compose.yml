@@ -28,7 +28,7 @@ services:
     - rdb
   redis:
     build: Redis
-    command: redis-server --appendonly yes --requirepass foobared
+    command: redis-server --appendonly yes --requirepass password
     volumes:
     - ./Redis/redis-data:/data
     ports:
