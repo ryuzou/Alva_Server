@@ -26,13 +26,13 @@ services:
     - 5000:5000
     depends_on:
     - rdb
-  cassandra:
-    build: Cassandra
+  redis:
+    build: Redis
+    command: redis-server --appendonly yes --requirepass foobared
     volumes:
-    - ./Cassandra/cassandra-db:/var/lib/cassandra
+    - ./Redis/redis-data:/data
     ports:
-    - 9160:9160
-    - 9042:9042
+    - 6379:6379
 #  detectbarcode:
 #    build: BarcodeRecognitionServer
 #    ports:

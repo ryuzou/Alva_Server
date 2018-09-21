@@ -2,4 +2,4 @@ numpy
 mysqlclient
 lz4
 scales
-cassandra-driver
+redis
