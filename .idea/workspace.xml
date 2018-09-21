@@ -2,350 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="UPDATE to redis(nosql server);&#10;NIUY!">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/cdb5f519-011c-4350-ad67-a2c660d52146.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/Applications/redis-com.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/bin/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/bin/activate.csh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/bin/activate.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/bin/flask" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/bin/python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/bin/python3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/bin/python3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/buffer.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/bytesio.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/bytesio.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/bytesio.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cluster.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cluster.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cmurmur3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cmurmur3.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/concurrent.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/concurrent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/connection.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/columns.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/management.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/named.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/query.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/statements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/usertype.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqltypes.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqltypes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_deps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_marshal.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_marshal.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_utils.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_utils.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_utils.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/deserializers.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/deserializers.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/deserializers.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/encoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/asyncioreactor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/asyncorereactor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/eventletreactor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/geventreactor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/libevreactor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/libevwrapper.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/twistedreactor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/ioutils.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/ioutils.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/marshal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/metadata.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/metadata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/murmur3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/numpyFlags.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/numpy_parser.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/numpy_parser.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/obj_parser.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/obj_parser.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/parsing.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/parsing.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/parsing.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/policies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/pool.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/protocol.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/protocol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/query.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/query.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/row_parser.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/row_parser.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/timestamps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/tuple.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/type_codes.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/type_codes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/util.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_bashcomplete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_termui_impl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_textwrap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_unicodefun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_winconsole.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/formatting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/globals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/termui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/blueprints.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/ctx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/debughelpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/globals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/json/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/json/tag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/sessions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/templating.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/wrappers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/lock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/sentinel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/lib64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACS/venv/pyvenv.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Redis/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Redis/redis-data/appendonly.aof" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Alva_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Alva_Server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/commitlog/CommitLog-6-1537453960885.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-CompressionInfo.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Digest.crc32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Filter.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Statistics.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Summary.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-TOC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/Applications/redis-com.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Applications/redis-com.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/redis-data/appendonly.aof" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/redis-data/appendonly.aof" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -376,45 +40,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="ALVA_SERVER" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ALVA_SERVER" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ALVA_SERVER" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Alva_Server: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ALVA_SERVER" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Alva_Server: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="D_Barcode: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ALVA_SERVER" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Alva_Server: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="D_Barcode_log: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ALVA_SERVER" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Alva_Server: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="D_Bookdata: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ALVA_SERVER" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Alva_Server: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="D_BookShelf: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -422,6 +47,10 @@
     <ExecCommand>
       <option name="command" value="bash" />
       <option name="imageId" value="alvaserver_detectbarcode" />
+    </ExecCommand>
+    <ExecCommand>
+      <option name="command" value="bash" />
+      <option name="imageId" value="alva_server_redis" />
     </ExecCommand>
     <ExecCommand>
       <option name="command" value="bash" />
@@ -460,6 +89,7 @@
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="4" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="4" />
           <entry key="project.open.time.22" value="8" />
           <entry key="project.open.time.23" value="2" />
@@ -471,7 +101,7 @@
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -481,7 +111,7 @@
           <entry key="dummy" value="40" />
           <entry key="html" value="70" />
           <entry key="php" value="1092" />
-          <entry key="py" value="889" />
+          <entry key="py" value="1318" />
           <entry key="sh" value="116" />
           <entry key="sql" value="339" />
           <entry key="txt" value="680" />
@@ -495,7 +125,7 @@
           <entry key="HTML" value="70" />
           <entry key="PHP" value="1092" />
           <entry key="PLAIN_TEXT" value="722" />
-          <entry key="Python" value="886" />
+          <entry key="Python" value="1315" />
           <entry key="SQL" value="193" />
           <entry key="Scratch" value="322" />
           <entry key="YAML" value="509" />
@@ -643,7 +273,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="303">
               <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
             </state>
           </provider>
@@ -691,10 +321,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ACS/Applications/redis-com.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="275">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
+                <marker date="1537552650555" expanded="true" signature="463:675" ph="..." />
               </folding>
             </state>
           </provider>
@@ -703,7 +334,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="69">
               <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -715,7 +346,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="368">
               <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
@@ -864,6 +495,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -906,9 +538,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -916,16 +547,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537519040232" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537552813136" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -941,296 +572,6 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Database" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/codeStyles/Project.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Dockerfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/requirements.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_logfile0</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ibdata1</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/docker-compose.yml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/Dockerfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/commitlog/CommitLog-6-1537453960885.log</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/compaction_history-b4dbb7b4dc493fb5b3bfce6e434832ca/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-13-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/local-7ad54392bcdd35a684174e047860b377/mc-14-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system/sstable_activity-5a1ff267ace03f128563cfae6103c65e/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_auth/roles-5bc52802de2535edaeab188eecebb090/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/aggregates-924c55872e3a345bb10c12f37c1ba895/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-2-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/columns-24101c25a2ae3af787c1b40ee1aca33f/mc-3-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/dropped_columns-5e7583b5f3f43af19a39b7e1d6f5f11f/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/functions-96489b7980be3e14a70166a0b9159450/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/indexes-0feb57ac311f382fba6d9024d305702f/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-2-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/keyspaces-abac5682dea631c5b535b3d6cffd0fb6/mc-3-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-2-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/tables-afddfb9dbc1e30688056eed6c302ba09/mc-3-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/triggers-4df70b666b05325195a132b54005fd48/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/types-5a8b1ca866023f77a0459273d308917a/mc-1-big-TOC.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-CompressionInfo.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Data.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Digest.crc32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Filter.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Index.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Statistics.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-Summary.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Cassandra/cassandra-db/data/system_schema/views-9786ac1cdd583201a7cdad556410c985/mc-1-big-TOC.txt</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ImageRecognition/Dockerfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ImageRecognition/OCR.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ImageRecognition/StartProc.sh</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1331,6 +672,7 @@
       <workItem from="1537252544925" duration="6366000" />
       <workItem from="1537373276172" duration="2145000" />
       <workItem from="1537451719609" duration="2938000" />
+      <workItem from="1537535947359" duration="5581000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -1420,12 +762,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171714000" />
+    <option name="totallyTimeSpent" value="177295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="25" width="1600" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.19679144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.19974227" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.23985043" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -1443,7 +786,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.5561497" visible="true" weight="0.36363637" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.5561497" visible="true" weight="0.47574124" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32968238" />
@@ -1457,7 +800,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.1973262" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.19716495" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32994652" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1581,22 +924,8 @@
     <entry file="file://$PROJECT_DIR$/ACS/__init__.py" />
     <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cdb5f519-011c-4350-ad67-a2c660d52146/console.sql" />
-    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition-show.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -1626,30 +955,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py">
+    <entry file="file://$PROJECT_DIR$/Cassandra/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/Redis/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cassandra/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1660,24 +970,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Redis/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ACS/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1691,12 +1021,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ACS/Applications/redis-com.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="275">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+            <marker date="1537552650555" expanded="true" signature="463:675" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1730,7 +1068,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.6 (venv) interpreter library</last-edited>
+          <last-edited>Python 3.6 (Alva_Server) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1742,7 +1080,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Python 3.6 (venv)</last-edited>
+          <last-edited>Python 3.6 (Alva_Server)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
