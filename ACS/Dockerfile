@@ -11,4 +11,4 @@ RUN apt-get install -y default-libmysqlclient-dev gcc
 RUN pip install flask
 RUN pip install -r ../requirements/requirements.txt
 
-CMD ["python", "reply.py"]
+CMD ["python", "main.py"]

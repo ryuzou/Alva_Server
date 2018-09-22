@@ -1,8 +1,11 @@
 from flask import Flask, jsonify, request
 import json
+import Sakura_io_com
+
 
 app = Flask(__name__)
 
+app.register_blueprint(Sakura_io_com.app)
 
 @app.route("/", methods=['GET'])
 def hello():

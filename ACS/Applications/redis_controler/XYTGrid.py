@@ -1,21 +1,14 @@
 import flask
 import redis
+import Init
 
 __init = None
 redis_db = None
 
-
 def __Init():
-    global __init
-    if __init == None:
-        global redis_db
-        pool = redis.ConnectionPool(host='redis', port=6379, db=0)
-        redis_db = redis.StrictRedis(connection_pool=pool, password='password')
-        __init = 1
-        __init_XYTGrid()
-    else:
-        pass
-
+    Init.__Init()
+    global redis_db
+    redis_db = Init.redis_db
 
 def __init_XYTGrid():
     __Init()
@@ -31,3 +24,13 @@ def GetXYTGrid_least():
     Y = GridText.split("__")[1].split("_")[1]
     T = GridText.split("__")[2].split("_")[1]
     return X, Y, T
+
+
+def InsertXYTGrid_least(X, Y, T):
+    __Init()
+    global redis_db
+    Text = "__X_" + X + "__Y_" + Y + "__T_" + T
+    if redis_db.lpush('XYTGRID', Text) != 0:
+        return -1
+    else:
+        return 0

@@ -5,6 +5,8 @@
     <title>Alva_Serverside__test_for_2018RCF</title>
     <link rel="stylesheet" href="dist/bootstrap.min.css" type="text/css" media="all">
     <link href="dist/jquery.bootgrid.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+          integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <script src="dist/jquery-1.11.1.min.js"></script>
     <script src="dist/bootstrap.min.js"></script>
     <script src="dist/jquery.bootgrid.min.js"></script>
