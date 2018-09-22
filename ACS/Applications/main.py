@@ -14,8 +14,12 @@ def hello():
 
 @app.route('/TaskManager', methods=['POST'])
 def TaskManage():
-    req = json.loads(request.data)
-
+    data = json.loads(request.data)
+    prefix = data['Prefix']
+    retdata = data
+    del retdata["Prefix"]
+    if prefix == "BookShelf_CMD":
+        pass
 
 
 @app.route('/reply', methods=['POST'])
