@@ -12,6 +12,12 @@ def hello():
     return "Hello World!"
 
 
+@app.route('/TaskManager', methods=['POST'])
+def TaskManage():
+    req = json.loads(request.data)
+
+
+
 @app.route('/reply', methods=['POST'])
 def reply():
     data = json.loads(request.data)
