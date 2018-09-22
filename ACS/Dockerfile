@@ -5,10 +5,11 @@ ARG project_dir=/app/
 WORKDIR $project_dir
 
 ADD requirements.txt /requirements/
+ADD uwsgi.ini /init/
 
 RUN apt-get install -y default-libmysqlclient-dev gcc
 
 RUN pip install flask
 RUN pip install -r ../requirements/requirements.txt
 
-CMD ["python", "main.py"]
+CMD ["uwsgi","--ini","/init/uwsgi.ini"]

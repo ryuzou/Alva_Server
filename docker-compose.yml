@@ -23,9 +23,11 @@ services:
     volumes:
     - ./ACS/Applications:/app/
     ports:
-    - 5000:5000
+    - 3031:3031
     depends_on:
     - rdb
+    environment:
+      TZ: "Asia/Tokyo"
   redis:
     build: Redis
     command: redis-server --appendonly yes --requirepass password
