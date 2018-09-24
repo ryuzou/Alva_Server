@@ -1,5 +1,5 @@
-#ALVA_SERVER
->#####A 2018 TEPIA PROJECT
+# ALVA_SERVER
+>##### A 2018 TEPIA PROJECT
 * 2018tepiaで発表するALVAのサーバーの部分です。
 * なお./BarcodeRecognitionServerはraspiの方に乗っけてください。
 * 絶賛開発中です。もちろんまだ使えません。

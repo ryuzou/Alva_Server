@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update ACS&#10;NIUY!">
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update readme and some files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/Applications/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Applications/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -109,12 +104,12 @@
           <entry key="dummy" value="45" />
           <entry key="html" value="70" />
           <entry key="ini" value="10" />
-          <entry key="md" value="93" />
+          <entry key="md" value="266" />
           <entry key="php" value="1092" />
           <entry key="py" value="2504" />
           <entry key="sh" value="116" />
           <entry key="sql" value="339" />
-          <entry key="txt" value="698" />
+          <entry key="txt" value="726" />
           <entry key="yml" value="509" />
         </counts>
       </usages-collector>
@@ -124,9 +119,9 @@
           <entry key="Dockerfile" value="458" />
           <entry key="HTML" value="70" />
           <entry key="Ini" value="10" />
-          <entry key="Markdown" value="93" />
+          <entry key="Markdown" value="266" />
           <entry key="PHP" value="1092" />
-          <entry key="PLAIN_TEXT" value="745" />
+          <entry key="PLAIN_TEXT" value="773" />
           <entry key="Python" value="2501" />
           <entry key="SQL" value="193" />
           <entry key="Scratch" value="322" />
@@ -289,8 +284,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="69">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <first_editor relative-caret-position="115">
+                <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -301,11 +296,11 @@
         <entry file="file://$PROJECT_DIR$/ACS/Applications/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <marker date="1537767851228" expanded="true" signature="435:450" ph="..." />
-                <marker date="1537767851228" expanded="true" signature="807:810" ph="..." />
+                <marker date="1537772120363" expanded="true" signature="436:451" ph="..." />
+                <marker date="1537772120363" expanded="true" signature="808:811" ph="..." />
               </folding>
             </state>
           </provider>
@@ -315,7 +310,7 @@
         <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -339,7 +334,7 @@
         <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="18" />
+              <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -568,7 +563,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537771904439" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537772135380" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ACS/venv/bin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -695,7 +690,7 @@
       <workItem from="1537451719609" duration="2938000" />
       <workItem from="1537535947359" duration="5862000" />
       <workItem from="1537595450899" duration="2063000" />
-      <workItem from="1537753552893" duration="13671000" />
+      <workItem from="1537753552893" duration="13922000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -809,11 +804,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537765252802</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update readme and some files">
+      <created>1537772125134</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1537772125134</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207147000" />
+    <option name="totallyTimeSpent" value="207398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
@@ -881,7 +883,8 @@
     <MESSAGE value="some Updates;&#10;NIUY!" />
     <MESSAGE value="update to use uwsgi" />
     <MESSAGE value="update ACS&#10;NIUY!" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ACS&#10;NIUY!" />
+    <MESSAGE value="update readme and some files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme and some files" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1072,11 +1075,11 @@
     <entry file="file://$PROJECT_DIR$/ACS/Applications/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <marker date="1537767851228" expanded="true" signature="435:450" ph="..." />
-            <marker date="1537767851228" expanded="true" signature="807:810" ph="..." />
+            <marker date="1537772120363" expanded="true" signature="436:451" ph="..." />
+            <marker date="1537772120363" expanded="true" signature="808:811" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1104,7 +1107,7 @@
     <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -1114,7 +1117,7 @@
     <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="18" />
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1135,8 +1138,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <first_editor relative-caret-position="115">
+            <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>
