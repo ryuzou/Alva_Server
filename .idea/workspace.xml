@@ -1,8 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update readme and some files">
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update readme">
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap-table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/datepicker3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/index.html.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/chart-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/easypiechart-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/easypiechart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/lumino.glyphs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/panels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/sass/.sass-cache/deff34d1f5b7167181b556002c25068d6adc024d/styles.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/sass/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/tables/data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/tables/data2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bootstrap-test-copy/widgets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/connection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dist/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dist/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dist/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dist/jquery.bootgrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dist/jquery.bootgrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/EditableGrid.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/config.php.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/font-awesome.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/responsive.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/db/demo.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/delete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/js/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/js/editablegrid-2.1.0-49.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/js/images/bullet_arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/js/images/bullet_arrow_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/js/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/loaddata.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/editablegrid-mysql-example/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/employee.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/base-context-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base-context-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/base-context.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base-context.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/base-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/buttons-core-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons-core-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/buttons-core.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons-core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/buttons-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/forms-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/forms-nr-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms-nr-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/forms-nr.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms-nr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/grids-core-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-core-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/grids-core.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/grids-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/grids-responsive-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/grids-responsive-old-ie-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/grids-responsive-old-ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/grids-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/grids-units-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-units-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/grids-units.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-units.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/grids.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus-core-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-core-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus-core.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus-dropdown-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-dropdown-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus-horizontal-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-horizontal-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus-horizontal.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-horizontal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus-scrollable-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-scrollable-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus-scrollable.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-scrollable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus-skin-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-skin-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus-skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-skin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/menus.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/pure-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/pure-nr-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure-nr-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/pure-nr.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure-nr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/pure.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/tables-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/tables-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure/tables.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/tables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/response.php" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -100,11 +267,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="458" />
+          <entry key="JavaScript Console" value="1" />
           <entry key="cell" value="175" />
           <entry key="dummy" value="45" />
-          <entry key="html" value="70" />
+          <entry key="html" value="150" />
           <entry key="ini" value="10" />
-          <entry key="md" value="266" />
+          <entry key="md" value="268" />
           <entry key="php" value="1092" />
           <entry key="py" value="2504" />
           <entry key="sh" value="116" />
@@ -117,9 +285,10 @@
         <counts>
           <entry key="Bash" value="116" />
           <entry key="Dockerfile" value="458" />
-          <entry key="HTML" value="70" />
+          <entry key="HTML" value="150" />
           <entry key="Ini" value="10" />
-          <entry key="Markdown" value="266" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="268" />
           <entry key="PHP" value="1092" />
           <entry key="PLAIN_TEXT" value="773" />
           <entry key="Python" value="2501" />
@@ -136,13 +305,13 @@
           <entry key="Dockerfile" value="27" />
           <entry key="cnf" value="1" />
           <entry key="conf" value="4" />
-          <entry key="css" value="2" />
-          <entry key="html" value="7" />
+          <entry key="css" value="5" />
+          <entry key="html" value="10" />
           <entry key="ini" value="6" />
           <entry key="js" value="5" />
           <entry key="json" value="2" />
           <entry key="md" value="2" />
-          <entry key="php" value="14" />
+          <entry key="php" value="16" />
           <entry key="py" value="23" />
           <entry key="sample" value="1" />
           <entry key="sh" value="19" />
@@ -154,15 +323,15 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="19" />
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="5" />
           <entry key="Database Element" value="20" />
           <entry key="Dockerfile" value="27" />
-          <entry key="HTML" value="7" />
+          <entry key="HTML" value="10" />
           <entry key="Ini" value="5" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="14" />
+          <entry key="PHP" value="16" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="22" />
           <entry key="SQL" value="7" />
@@ -280,29 +449,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="115">
-                <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <first_editor relative-caret-position="23">
+                <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/Applications/main.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <marker date="1537772120363" expanded="true" signature="436:451" ph="..." />
-                <marker date="1537772120363" expanded="true" signature="808:811" ph="..." />
-              </folding>
+            <state relative-caret-position="253">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/pure-css/pure.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34224" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/pure-css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5175" />
           </provider>
         </entry>
       </file>
@@ -322,7 +500,7 @@
         <entry file="file://$PROJECT_DIR$/ACS/Applications/Sakura_io_com.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -360,32 +538,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/Init.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SQL Script" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -401,7 +561,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BarcodeRecognition/StartProc.sh" />
         <option value="$PROJECT_DIR$/BarcodeRecognition/ReadBarcode.py" />
         <option value="$PROJECT_DIR$/BarcodeHWRecognition/GiveCommandToEmmbd.py" />
         <option value="$PROJECT_DIR$/Database/init/DBSet.sh" />
@@ -452,6 +611,7 @@
         <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py" />
         <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/html/index.html" />
       </list>
     </option>
   </component>
@@ -563,7 +723,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537772135380" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537774891531" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ACS/venv/bin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -572,21 +732,21 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$/html/BookImages" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Database" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ACS/Applications" />
       <recent name="$PROJECT_DIR$/ACS/Applications/redis_controler" />
       <recent name="$PROJECT_DIR$/html/BookImages/2" />
       <recent name="$PROJECT_DIR$/html/BookImages/1" />
       <recent name="$PROJECT_DIR$/html/bootstrap-test-copy" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html" />
-      <recent name="$PROJECT_DIR$/html/BookImages" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Database" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -690,7 +850,7 @@
       <workItem from="1537451719609" duration="2938000" />
       <workItem from="1537535947359" duration="5862000" />
       <workItem from="1537595450899" duration="2063000" />
-      <workItem from="1537753552893" duration="13922000" />
+      <workItem from="1537753552893" duration="16484000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -811,11 +971,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537772125134</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update readme">
+      <created>1537772238727</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1537772238727</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207398000" />
+    <option name="totallyTimeSpent" value="209960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
@@ -833,12 +1000,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3355795" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.3045822" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.10242587" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32968238" />
@@ -852,12 +1019,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.49224806" visible="true" weight="0.17525773" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.4924925" visible="true" weight="0.0" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32994652" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="SciView" order="10" weight="0.32941177" />
-      <window_info anchor="right" id="Structure" order="11" sideWeight="0.50775194" side_tool="true" visible="true" weight="0.17525773" />
+      <window_info anchor="right" id="Structure" order="11" sideWeight="0.5075075" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Redis Servers" order="12" />
     </layout>
   </component>
@@ -884,7 +1051,8 @@
     <MESSAGE value="update to use uwsgi" />
     <MESSAGE value="update ACS&#10;NIUY!" />
     <MESSAGE value="update readme and some files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme and some files" />
+    <MESSAGE value="update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -893,29 +1061,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/barcoderecgnisition.php" />
-    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/debug-loop.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/base.conf" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63/console.sql" />
     <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition-show.html" />
     <entry file="file://$PROJECT_DIR$/html/IPC-FIFO-FLES/bookid.txt" />
     <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition.php" />
     <entry file="das://9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63/schema/Alva_Server/table/D_Barcode_log" />
     <entry file="das://9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63/schema/Alva_Server/table/D_Barcode" />
     <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/test.py" />
-    <entry file="file://$PROJECT_DIR$/html/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Web/php.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1023,13 +1174,6 @@
         <state relative-caret-position="-3657" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Redis/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1097,7 +1241,7 @@
     <entry file="file://$PROJECT_DIR$/ACS/Applications/Sakura_io_com.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -1135,13 +1279,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/layouts/email.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="115">
-            <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <first_editor relative-caret-position="23">
+            <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pure-css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pure-css/pure.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
