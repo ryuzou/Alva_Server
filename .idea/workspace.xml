@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update to use uwsgi">
-      <change afterPath="$PROJECT_DIR$/ACS/Applications/BookShelf_CMD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/Applications/BookShelf_CMD.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Applications/BookShelf_CMD.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACS/Applications/Sakura_io_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Applications/Sakura_io_com.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACS/Applications/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Applications/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/uwsgi.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -91,7 +92,7 @@
           <entry key="project.open.time.19" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="4" />
-          <entry key="project.open.time.22" value="8" />
+          <entry key="project.open.time.22" value="9" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.26" value="1" />
@@ -101,7 +102,7 @@
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -110,8 +111,9 @@
           <entry key="cell" value="175" />
           <entry key="dummy" value="45" />
           <entry key="html" value="70" />
+          <entry key="ini" value="10" />
           <entry key="php" value="1092" />
-          <entry key="py" value="1712" />
+          <entry key="py" value="2457" />
           <entry key="sh" value="116" />
           <entry key="sql" value="339" />
           <entry key="txt" value="680" />
@@ -123,9 +125,10 @@
           <entry key="Bash" value="116" />
           <entry key="Dockerfile" value="458" />
           <entry key="HTML" value="70" />
+          <entry key="Ini" value="10" />
           <entry key="PHP" value="1092" />
           <entry key="PLAIN_TEXT" value="727" />
-          <entry key="Python" value="1709" />
+          <entry key="Python" value="2454" />
           <entry key="SQL" value="193" />
           <entry key="Scratch" value="322" />
           <entry key="YAML" value="509" />
@@ -141,12 +144,12 @@
           <entry key="conf" value="4" />
           <entry key="css" value="2" />
           <entry key="html" value="7" />
-          <entry key="ini" value="5" />
+          <entry key="ini" value="6" />
           <entry key="js" value="5" />
           <entry key="json" value="2" />
           <entry key="md" value="1" />
           <entry key="php" value="14" />
-          <entry key="py" value="19" />
+          <entry key="py" value="23" />
           <entry key="sample" value="1" />
           <entry key="sh" value="19" />
           <entry key="sql" value="13" />
@@ -161,13 +164,13 @@
           <entry key="Database Element" value="20" />
           <entry key="Dockerfile" value="27" />
           <entry key="HTML" value="7" />
-          <entry key="Ini" value="4" />
+          <entry key="Ini" value="5" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="1" />
           <entry key="PHP" value="14" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="18" />
+          <entry key="Python" value="22" />
           <entry key="SQL" value="7" />
           <entry key="Scratch" value="6" />
           <entry key="SmartyConfig" value="4" />
@@ -274,62 +277,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Redis/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ACS/Applications/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="103">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+                <marker date="1537765039898" expanded="true" signature="345:360" ph="..." />
+                <marker date="1537765039898" expanded="true" signature="716:719" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py">
+        <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="310">
+              <caret line="46" lean-forward="true" selection-start-line="6" selection-end-line="46" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -340,8 +306,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACS/Applications/Sakura_io_com.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="276">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -352,12 +330,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACS/Applications/BookShelf_CMD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="115">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
-                <marker date="1537604289618" expanded="true" signature="189:194" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/Init.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -440,18 +447,18 @@
         <option value="$PROJECT_DIR$/ACS/Applications/reply.py" />
         <option value="$PROJECT_DIR$/ACS/Applications/Sakura-io-com.py" />
         <option value="$PROJECT_DIR$/ACS/Applications/redis-com.py" />
-        <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/Init.py" />
-        <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py" />
         <option value="$PROJECT_DIR$/html/index.php" />
-        <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py" />
-        <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/ACS/requirements.txt" />
         <option value="$PROJECT_DIR$/ACS/Dockerfile" />
-        <option value="$PROJECT_DIR$/ACS/uwsgi.ini" />
         <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/Book_CMD.py" />
         <option value="$PROJECT_DIR$/ACS/Applications/Book_CMD.py" />
+        <option value="$PROJECT_DIR$/ACS/uwsgi.ini" />
         <option value="$PROJECT_DIR$/ACS/Applications/Sakura_io_com.py" />
+        <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/Init.py" />
+        <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py" />
+        <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py" />
+        <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py" />
         <option value="$PROJECT_DIR$/ACS/Applications/BookShelf_CMD.py" />
         <option value="$PROJECT_DIR$/ACS/Applications/main.py" />
       </list>
@@ -502,6 +509,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -556,26 +565,11 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.6 (Alva_Server) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (Alva_Server) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Applications" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (Alva_Server) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Applications" type="462c0819:PsiDirectoryNode" />
-              <item name="redis_controler" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -583,7 +577,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537605934421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537765073375" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ACS/Applications/redis_controler" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -608,180 +602,6 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Database" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/Alva_Server.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/codeStyles/Project.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Dockerfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/requirements.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_logfile0</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ibdata1</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/docker-compose.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/index.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/Sakura_io_com.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/redis_controler/Init.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/uwsgi.ini</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/HISTORY.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/base-context-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/base-context.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/base-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/base.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/buttons-core-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/buttons-core.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/buttons-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/buttons.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/forms-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/forms-nr-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/forms-nr.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/forms.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-core-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-core.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-responsive-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-responsive-old-ie-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-responsive-old-ie.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-responsive.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-units-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-units.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-core-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-core.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-dropdown-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-dropdown.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-horizontal-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-horizontal.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-scrollable-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-scrollable.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-skin-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-skin.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/pure-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/pure-nr-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/pure-nr.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/pure.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/tables-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/tables.css</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/redis-com.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/reply.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Redis/redis-data/appendonly.aof</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -884,6 +704,7 @@
       <workItem from="1537451719609" duration="2938000" />
       <workItem from="1537535947359" duration="5862000" />
       <workItem from="1537595450899" duration="2063000" />
+      <workItem from="1537753552893" duration="9447000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -994,13 +815,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193476000" />
+    <option name="totallyTimeSpent" value="202923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.20231959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.20489691" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Job Explorer" order="3" />
@@ -1017,7 +838,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.42587602" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.3045822" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32968238" />
@@ -1031,12 +852,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.49708286" visible="true" weight="0.19716495" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.49418604" visible="true" weight="0.17525773" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32994652" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="SciView" order="10" weight="0.32941177" />
-      <window_info anchor="right" id="Structure" order="11" sideWeight="0.5029172" side_tool="true" visible="true" weight="0.2433155" />
+      <window_info anchor="right" id="Structure" order="11" sideWeight="0.50581396" side_tool="true" visible="true" weight="0.17525773" />
       <window_info anchor="right" id="Redis Servers" order="12" />
     </layout>
   </component>
@@ -1179,9 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,9 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,20 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/Init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1228,6 +1029,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Redis/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1235,10 +1043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
+    <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="207">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -1249,41 +1057,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py">
+    <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="46">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        <state relative-caret-position="138">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/Init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+        <state relative-caret-position="322">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py">
+    <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="92">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py">
+    <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="310">
+          <caret line="46" lean-forward="true" selection-start-line="6" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/Applications/Sakura_io_com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -1292,19 +1120,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/Applications/BookShelf_CMD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <marker date="1537604289618" expanded="true" signature="189:194" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/Applications/Sakura_io_com.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -1313,10 +1130,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/Applications/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="103">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <marker date="1537765039898" expanded="true" signature="345:360" ph="..." />
+            <marker date="1537765039898" expanded="true" signature="716:719" ph="..." />
           </folding>
         </state>
       </provider>
