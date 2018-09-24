@@ -1,5 +1,9 @@
 import redis
-import Init
+import os
+import sys
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '.'))
+from . import Init
 
 __init = None
 redis_db = None

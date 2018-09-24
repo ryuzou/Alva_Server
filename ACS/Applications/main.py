@@ -1,6 +1,10 @@
 from flask import Flask, jsonify, request
 import json
-import Sakura_io_com
+import os
+import sys
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '.'))
+from . import Sakura_io_com
 import requests
 
 app = Flask(__name__)
