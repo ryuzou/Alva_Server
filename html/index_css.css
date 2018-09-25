@@ -1,0 +1,96 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+div, section, article {
+    box-sizing: border-box;
+}
+
+div.base {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+section.head {
+    background-color: #eee;
+}
+
+section.foot {
+    background-color: #eee;
+}
+
+section.cont {
+    height: 1rem;
+    flex-grow: 1;
+    display: flex;
+}
+
+section.left {
+    width: 20%;
+    background-color: #fee;
+    display: flex;
+    flex-direction: column;
+}
+
+section.mid {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0.5rem;
+    background-color: #fef;
+}
+
+section.right {
+    width: 10em;
+    padding: 0.5rem;
+    border: 5px solid black;
+    background-color: #eef;
+}
+
+article.left_up {
+    height: 10rem;
+}
+
+article.left_down {
+    flex-grow: 1;
+}
+
+article.left_up .roll {
+    margin-top: 1rem;
+}
+
+article.left_down .roll {
+    margin-top: 1rem;
+}
+
+section.mid .rollbase {
+    flex-grow: 1;
+}
+
+.rollbase {
+    position: relative;
+}
+
+.roll {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.roll div {
+    background-color: #efe;
+}
+
+div.mdiv {
+    padding: 0.5rem;
+    border: 1px dotted black;
+}
