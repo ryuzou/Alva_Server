@@ -16,7 +16,7 @@ app.register_blueprint(Sakura_io_com.app)
 
 @app.route("/", methods=['GET'])
 def hello():
-    return "Hello World!"
+    return "Hello World!"  # this is a test
 
 
 @app.route('/ACS', methods=['GET'])  # Frontend first connects to this at first
@@ -37,17 +37,6 @@ def TaskManage():
     # elif prefix == ""
     requests.post(url, json=retjson)
 
-
-@app.route('/reply', methods=['POST'])
-def reply():
-    data = json.loads(request.data)
-    answer = "Yes, it is %s!\n" % data["keyword"]
-    result = {
-        "Content-Type": "application/json",
-        "Answer": {"Text": answer}
-    }
-    # return answer
-    return jsonify(result)
 
 
 if __name__ == "__main__":
