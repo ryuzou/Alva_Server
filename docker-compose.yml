@@ -18,14 +18,27 @@ services:
     - ./html:/var/www/html
     depends_on:
     - rdb
-  alvacomserver:
+  acs:
     build: ACS
     volumes:
-    - ./ACS/Applications:/app/
+    - ./ACS/app:/app/
     ports:
     - 3031:3031
     depends_on:
     - rdb
+    environment:
+      TZ: "Asia/Tokyo"
+  nginx:
+    build: ./S2A
+    volumes:
+    - ./S2A/nginx.conf:/etc/nginx/nginx.conf
+    ports:
+    - 8081:80
+    depends_on:
+    - acs
+    - rdb
+    - web
+    - redis
     environment:
       TZ: "Asia/Tokyo"
   redis:

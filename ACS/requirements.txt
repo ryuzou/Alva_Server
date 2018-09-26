@@ -4,3 +4,4 @@ lz4
 scales
 redis
 uwsgi
+requests
