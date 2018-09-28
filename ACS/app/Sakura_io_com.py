@@ -7,7 +7,7 @@ app = flask.Blueprint('sakura_io_com', __name__)
 @app.route('/Sakuraio', methods=['GET'])
 def SakuraioTaskManage():
     # todo
-    return 0
+    return "Hello Sakura!"  # this is a test
 
 
 @app.route("/api/sakura_iot_send")

@@ -3,7 +3,7 @@ services:
   rdb:
     build: Database
     ports:
-    - '3306:3306'
+    - '8136:3306'
     volumes:
     - ./Database/mysql_data:/var/lib/mysql
     - ./Database/init:/docker-entrypoint-initdb.d
@@ -13,7 +13,7 @@ services:
   web:
     build: Web
     ports:
-    - 80:80
+    - 8181:80
     volumes:
     - ./html:/var/www/html
     depends_on:
@@ -23,7 +23,7 @@ services:
     volumes:
     - ./ACS/app:/app/
     ports:
-    - 3031:3031
+    - 8131:3031
     depends_on:
     - rdb
     environment:
@@ -33,7 +33,7 @@ services:
     volumes:
     - ./S2A/nginx.conf:/etc/nginx/nginx.conf
     ports:
-    - 8081:80
+    - 8182:80
     depends_on:
     - acs
     - rdb
@@ -47,7 +47,7 @@ services:
     volumes:
     - ./Redis/redis-data:/data
     ports:
-    - 6379:6379
+    - 8179:6379
 #  detectbarcode:
 #    build: BarcodeRecognitionServer
 #    ports:

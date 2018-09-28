@@ -5,14 +5,17 @@ import sys
 
 try:
     from ..app import Sakura_io_com
+    from ..app import BookShelf_CMD
 except Exception:
     import Sakura_io_com
+    import BookShelf_CMD
 
 import requests
 
 app = Flask(__name__)
 
 app.register_blueprint(Sakura_io_com.app)
+app.register_blueprint(BookShelf_CMD.app)
 
 @app.route("/", methods=['GET'])
 def hello():

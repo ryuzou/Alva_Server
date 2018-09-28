@@ -2,8 +2,185 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update ACS to use unix socket; update acs to use nginx to connect to sakura">
+      <change afterPath="$PROJECT_DIR$/.idea/phpRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/playground.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACS/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/redis-data/appendonly.aof" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/redis-data/appendonly.aof" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/.versions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/accordion.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/accordion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/ad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/ad.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/api.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/breadcrumb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/breadcrumb.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/button.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/card.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/checkbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/checkbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/colorize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/colorize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/comment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/comment.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/container.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/dimmer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/dimmer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/dimmer.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/dimmer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/divider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/divider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/dropdown.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/dropdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/embed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/embed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/embed.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/embed.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/feed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/feed.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/flag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/flag.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/form.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/form.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/header.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/icon.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/image.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/input.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/item.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/label.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/label.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/list.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/loader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/loader.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/menu.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/message.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/message.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/modal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/modal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/modal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/nag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/nag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/nag.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/nag.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/placeholder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/placeholder.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/popup.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/progress.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/progress.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/progress.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/rail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/rail.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/rating.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/rating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/rating.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/rating.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/reset.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/reveal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/reveal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/search.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/search.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/segment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/segment.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/shape.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/shape.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/shape.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/shape.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/sidebar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/sidebar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/site.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/site.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/state.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/statistic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/statistic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/step.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/step.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/sticky.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/sticky.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/sticky.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/tab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/tab.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/tab.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/transition.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/transition.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/transition.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/video.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/video.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/visibility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/visibility.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/visit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/components/visit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/semantic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/semantic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/semantic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/semantic.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/brand-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/brand-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/brand-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/brand-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/brand-icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/icons.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/outline-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/outline-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/outline-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/outline-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/fonts/outline-icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Semantic-UI/themes/default/assets/images/flags.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -93,6 +270,7 @@
           <entry key="project.open.time.22" value="9" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
@@ -101,44 +279,45 @@
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="458" />
+          <entry key="Dockerfile" value="495" />
           <entry key="JavaScript Console" value="1" />
           <entry key="cell" value="175" />
           <entry key="conf" value="6" />
           <entry key="css" value="24" />
           <entry key="dummy" value="45" />
-          <entry key="html" value="876" />
+          <entry key="html" value="1130" />
           <entry key="ini" value="42" />
           <entry key="md" value="268" />
-          <entry key="php" value="1092" />
-          <entry key="py" value="2666" />
+          <entry key="php" value="1112" />
+          <entry key="py" value="2729" />
           <entry key="sh" value="116" />
           <entry key="sql" value="339" />
           <entry key="txt" value="829" />
-          <entry key="yml" value="553" />
+          <entry key="yml" value="576" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="116" />
           <entry key="CSS" value="24" />
-          <entry key="Dockerfile" value="458" />
-          <entry key="HTML" value="876" />
+          <entry key="Dockerfile" value="495" />
+          <entry key="HTML" value="1058" />
           <entry key="Ini" value="42" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="268" />
-          <entry key="PHP" value="1092" />
+          <entry key="PHP" value="1182" />
           <entry key="PLAIN_TEXT" value="876" />
-          <entry key="Python" value="2663" />
+          <entry key="Perl" value="2" />
+          <entry key="Python" value="2726" />
           <entry key="SQL" value="193" />
           <entry key="Scratch" value="322" />
           <entry key="SmartyConfig" value="6" />
-          <entry key="YAML" value="553" />
+          <entry key="YAML" value="576" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -146,17 +325,17 @@
           <entry key="D_Barcode" value="4" />
           <entry key="D_Barcode_log" value="6" />
           <entry key="D_Bookdata" value="10" />
-          <entry key="Dockerfile" value="30" />
+          <entry key="Dockerfile" value="33" />
           <entry key="cnf" value="1" />
-          <entry key="conf" value="5" />
-          <entry key="css" value="11" />
-          <entry key="html" value="11" />
-          <entry key="ini" value="8" />
-          <entry key="js" value="6" />
+          <entry key="conf" value="6" />
+          <entry key="css" value="12" />
+          <entry key="html" value="12" />
+          <entry key="ini" value="9" />
+          <entry key="js" value="8" />
           <entry key="json" value="2" />
           <entry key="md" value="2" />
-          <entry key="php" value="16" />
-          <entry key="py" value="30" />
+          <entry key="php" value="17" />
+          <entry key="py" value="35" />
           <entry key="sample" value="1" />
           <entry key="sh" value="19" />
           <entry key="sql" value="13" />
@@ -167,20 +346,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="19" />
-          <entry key="CSS" value="11" />
+          <entry key="CSS" value="12" />
           <entry key="Database Element" value="20" />
-          <entry key="Dockerfile" value="30" />
+          <entry key="Dockerfile" value="33" />
           <entry key="HTML" value="11" />
-          <entry key="Ini" value="7" />
+          <entry key="Ini" value="8" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JavaScript" value="8" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="16" />
+          <entry key="PHP" value="18" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="29" />
+          <entry key="Python" value="34" />
           <entry key="SQL" value="7" />
           <entry key="Scratch" value="6" />
-          <entry key="SmartyConfig" value="5" />
+          <entry key="SmartyConfig" value="6" />
           <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
@@ -284,70 +463,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="253">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/jquery-3.3.1.min.js">
+        <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S2A/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/index_css.css">
+        <entry file="file://$PROJECT_DIR$/ACS/app/BookShelf_CMD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="295" column="5" selection-start-line="295" selection-start-column="5" selection-end-line="295" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/Semantic-UI/components/sidebar.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12811">
-              <caret line="557" column="22" selection-start-line="557" selection-start-column="22" selection-end-line="557" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/Init.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="161">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -365,10 +548,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/app/BookShelf_CMD.py">
+        <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+              <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="15" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -379,8 +562,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="989">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -392,8 +575,8 @@
       <list>
         <option value="SQL Script" />
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -412,15 +595,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/connection.php" />
-        <option value="$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py" />
-        <option value="$PROJECT_DIR$/Database/Dockerfile" />
-        <option value="$PROJECT_DIR$/Database/config/BookShelf_scheme.sql" />
         <option value="$PROJECT_DIR$/Database/config/Barcode_data.sql" />
         <option value="$PROJECT_DIR$/html/barcoderecgnisition.php" />
         <option value="$PROJECT_DIR$/html/barcoderecgnizition.html" />
         <option value="$PROJECT_DIR$/Web/php.ini" />
-        <option value="$PROJECT_DIR$/Web/Dockerfile" />
         <option value="$PROJECT_DIR$/html/barcoderecgnizition-show.html" />
         <option value="$PROJECT_DIR$/BarcodeRecognitionServer/test.py" />
         <option value="$PROJECT_DIR$/html/barcoderecgnizition.php" />
@@ -457,12 +635,17 @@
         <option value="$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py" />
         <option value="$PROJECT_DIR$/ACS/app/redis_controler/TASKGrid.py" />
         <option value="$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py" />
-        <option value="$PROJECT_DIR$/ACS/app/BookShelf_CMD.py" />
         <option value="$PROJECT_DIR$/ACS/requirements.txt" />
+        <option value="$PROJECT_DIR$/html/index_css.css" />
+        <option value="$PROJECT_DIR$/html/Sidemenu.php" />
+        <option value="$PROJECT_DIR$/html/Sidemenu.html" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/playground.html" />
+        <option value="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/ACS/app/main.py" />
-        <option value="$PROJECT_DIR$/html/index_css.css" />
-        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/ACS/app/BookShelf_CMD.py" />
+        <option value="$PROJECT_DIR$/Web/Dockerfile" />
       </list>
     </option>
   </component>
@@ -478,14 +661,10 @@
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/html/Semantic-UI/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="PhpServers">
     <servers />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="800" />
@@ -517,6 +696,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -545,17 +726,12 @@
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="BarcodeRecognitionServer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
@@ -575,8 +751,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -584,9 +758,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537953737351" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538120069306" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ACS/venv/bin" />
+    <property name="last_opened_file_path" value="/usr/bin/php" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -594,21 +768,22 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/bootstrap" />
+      <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$/html/BookImages" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Database" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ACS/Applications" />
       <recent name="$PROJECT_DIR$/ACS/Applications/redis_controler" />
       <recent name="$PROJECT_DIR$/html/BookImages/2" />
       <recent name="$PROJECT_DIR$/html/BookImages/1" />
       <recent name="$PROJECT_DIR$/html/bootstrap-test-copy" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html" />
-      <recent name="$PROJECT_DIR$/html/BookImages" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Database" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -717,6 +892,7 @@
       <workItem from="1537855758954" duration="6153000" />
       <workItem from="1537897550233" duration="4164000" />
       <workItem from="1537945622761" duration="8073000" />
+      <workItem from="1538111618653" duration="8859000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -855,13 +1031,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228350000" />
+    <option name="totallyTimeSpent" value="237209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.20360824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.20618556" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Job Explorer" order="3" />
@@ -870,6 +1046,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="7" />
       <window_info id="Image Layers" order="8" />
+      <window_info anchor="bottom" id="PHP-CGI Server" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
@@ -878,7 +1055,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.39892185" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32968238" />
@@ -897,12 +1074,15 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="SciView" order="10" weight="0.32941177" />
-      <window_info anchor="right" id="Structure" order="11" sideWeight="0.67160493" side_tool="true" visible="true" weight="0.2564433" />
+      <window_info anchor="right" id="Structure" order="11" sideWeight="0.67160493" side_tool="true" visible="true" weight="0.24548969" />
       <window_info anchor="right" id="Redis Servers" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.html" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -936,10 +1116,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://9a53b8c0-05b8-414b-b3ce-d1fb3d6f8d63/schema/Alva_Server/table/D_Bookdata" />
-    <entry file="file://$PROJECT_DIR$/html/employee.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b46c66ca-4368-40eb-91b0-82e1cda0126c/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c4262e7c-7f78-4b02-9ec5-246fffe3437f/console.sql" />
     <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1061,27 +1237,6 @@
     <entry file="file://$PROJECT_DIR$/html/pure-css/base.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/S2A/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Web/php.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1096,6 +1251,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/Init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2905">
+          <caret line="295" column="5" selection-start-line="295" selection-start-column="5" selection-end-line="295" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Sidemenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Semantic-UI/components/sidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="546" column="1" selection-start-line="546" selection-start-column="1" selection-end-line="546" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/playground.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#619#626#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1103,10 +1338,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py">
+    <entry file="file://$PROJECT_DIR$/S2A/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="46">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -1123,30 +1372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/TASKGrid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1157,26 +1382,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/Init.py">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="989">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/BookShelf_CMD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        <state relative-caret-position="161">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -1185,32 +1401,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="253">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Semantic-UI/components/sidebar.css">
+    <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12811">
-          <caret line="557" column="22" selection-start-line="557" selection-start-column="22" selection-end-line="557" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/index_css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="295" column="5" selection-start-line="295" selection-start-column="5" selection-end-line="295" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        <state relative-caret-position="184">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
