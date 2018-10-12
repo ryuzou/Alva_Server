@@ -1,15 +1,13 @@
-FROM python:3.6
+FROM openjdk:8-jre-alpine
 
-ARG project_dir=/app/
+ENV APPLICATION_USER ktor
 
-WORKDIR $project_dir
+RUN adduser -D -g '' $APPLICATION_USER
+RUN mkdir /app
+RUN chown -R $APPLICATION_USER /app
 
-ADD requirements.txt /requirements/
-ADD uwsgi.ini /init/
+USER $APPLICATION_USER
 
-RUN apt-get install -y default-libmysqlclient-dev gcc
+WORKDIR /app
 
-RUN pip install flask
-RUN pip install -r ../requirements/requirements.txt
-
-CMD ["uwsgi","--ini","/init/uwsgi.ini"]
+CMD ["java", "-server", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-XX:InitialRAMFraction=2", "-XX:MinRAMFraction=2", "-XX:MaxRAMFraction=2", "-XX:+UseG1GC", "-XX:MaxGCPauseMillis=100", "-XX:+UseStringDeduplication", "-jar", "my-application.jar"]
