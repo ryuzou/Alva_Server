@@ -2,12 +2,257 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update webpages">
+      <change beforePath="$PROJECT_DIR$/.idea/Alva_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Alva_Server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cdb5f519-011c-4350-ad67-a2c660d52146.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cdb5f519-011c-4350-ad67-a2c660d52146.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/BookShelf_CMD.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/BookShelf_CMD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/redis_controler/Init.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/redis_controler/Init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/redis_controler/TASKGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/redis_controler/TASKGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/uwsgi.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/bin/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/bin/activate.csh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/bin/activate.fish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/buffer.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/buffer.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/bytesio.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/bytesio.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/bytesio.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/bytesio.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cmurmur3.c" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cmurmur3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/concurrent.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/concurrent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/columns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/management.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/named.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/named.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/statements.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/statements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/usertype.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/usertype.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqltypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqltypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_deps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_deps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_marshal.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_marshal.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_utils.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_utils.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_utils.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_utils.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/deserializers.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/deserializers.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/deserializers.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/deserializers.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/encoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/asyncioreactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/asyncioreactor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/asyncorereactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/asyncorereactor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/eventletreactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/eventletreactor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/geventreactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/geventreactor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/libevreactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/libevreactor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/libevwrapper.c" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/libevwrapper.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/twistedreactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/twistedreactor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/ioutils.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/ioutils.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/marshal.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/marshal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/metadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/metadata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/murmur3.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/murmur3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/numpyFlags.h" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/numpyFlags.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/numpy_parser.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/numpy_parser.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/obj_parser.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/obj_parser.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/parsing.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/parsing.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/parsing.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/parsing.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/policies.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/policies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/protocol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/row_parser.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/row_parser.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/timestamps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/timestamps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/tuple.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/tuple.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/type_codes.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/type_codes.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/type_codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/type_codes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/DESCRIPTION.rst" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_bashcomplete.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_bashcomplete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_termui_impl.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_termui_impl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_textwrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_textwrap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_unicodefun.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_unicodefun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_winconsole.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_winconsole.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/formatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/formatting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/globals.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/globals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/termui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/termui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/blueprints.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/blueprints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/ctx.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/ctx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/debughelpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/debughelpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/globals.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/globals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/json/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/json/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/json/tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/json/tag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/sessions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/templating.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/templating.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/DESCRIPTION.rst" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/lock.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/lock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/sentinel.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/sentinel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/debug-loop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/debug-loop.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/2a40a48adfa5.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/2a40a48adfa5.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Bookdata.frm" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Bookdata.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Bookdata.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Bookdata.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S2A/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/S2A/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S2A/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/S2A/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Web/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acs-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/acs-claim0-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acs-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/acs-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acs-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/acs-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/AdvancedBookDatas/1/img01.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/AdvancedBookDatas/1/img01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/AdvancedBookDatas/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/AdvancedBookDatas/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/AdvancedBookDatas/2/img02.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/AdvancedBookDatas/2/img02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/AdvancedBookDatas/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/AdvancedBookDatas/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/barcoderecgnizition-show.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/barcoderecgnizition-show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/alvalogo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/alvalogo1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/alvalogo1.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/alvalogo1.xcf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/images/alvalogo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/alvalogo2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/alvalogo2.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/alvalogo2.xcf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/index_css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/playground.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/playground.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/base-context-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base-context-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/base-context.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base-context.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/base-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/buttons-core-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons-core-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/buttons-core.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons-core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/buttons-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/forms-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/forms-nr-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms-nr-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/forms-nr.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms-nr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-core-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-core-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-core.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-responsive-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-units-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-units-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-units.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-units.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/grids.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-core-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-core-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-core.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-dropdown-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-dropdown-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-horizontal-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-horizontal-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-horizontal.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-horizontal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-scrollable-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-scrollable-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-scrollable.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-scrollable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-skin-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-skin-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-skin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/menus.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/pure-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/pure-nr-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure-nr-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/pure-nr.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure-nr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/pure.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/tables-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/tables-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pure-css/tables.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/tables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/nginx-claim0-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/nginx-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/nginx-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rdb-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-claim0-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rdb-claim1-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-claim1-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rdb-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rdb-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/redis-claim0-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/redis-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/redis-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/web-claim0-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/web-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/web-service.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -208,22 +453,28 @@
     <session id="1628339918">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="143" />
+          <entry key="Dockerfile" value="178" />
+          <entry key="conf" value="54" />
           <entry key="dummy" value="15" />
           <entry key="html" value="72" />
           <entry key="ini" value="29" />
@@ -232,7 +483,7 @@
           <entry key="sh" value="58" />
           <entry key="sql" value="103" />
           <entry key="txt" value="258" />
-          <entry key="yml" value="187" />
+          <entry key="yml" value="247" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -240,18 +491,20 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="D_Bookdata" value="2" />
-          <entry key="Dockerfile" value="9" />
+          <entry key="Dockerfile" value="12" />
+          <entry key="conf" value="2" />
           <entry key="css" value="1" />
           <entry key="html" value="4" />
-          <entry key="ini" value="1" />
+          <entry key="ini" value="2" />
           <entry key="js" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="php" value="9" />
-          <entry key="py" value="11" />
+          <entry key="py" value="19" />
           <entry key="sh" value="3" />
           <entry key="sql" value="14" />
           <entry key="txt" value="2" />
-          <entry key="yml" value="2" />
+          <entry key="yaml" value="8" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.rename.constructor" />
@@ -264,32 +517,36 @@
           <entry key="CSS" value="1" />
           <entry key="DBN-SQL" value="9" />
           <entry key="Database Element" value="2" />
-          <entry key="Dockerfile" value="9" />
+          <entry key="Dockerfile" value="12" />
           <entry key="HTML" value="4" />
+          <entry key="Ini" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PHP" value="9" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="11" />
+          <entry key="Python" value="19" />
           <entry key="Scratch" value="5" />
-          <entry key="YAML" value="2" />
+          <entry key="SmartyConfig" value="2" />
+          <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="58" />
           <entry key="DBN-SQL" value="60" />
-          <entry key="Dockerfile" value="143" />
+          <entry key="Dockerfile" value="178" />
           <entry key="HTML" value="72" />
           <entry key="PHP" value="41" />
           <entry key="PLAIN_TEXT" value="302" />
           <entry key="Python" value="809" />
           <entry key="SQL" value="14" />
           <entry key="Scratch" value="29" />
-          <entry key="YAML" value="187" />
+          <entry key="SmartyConfig" value="54" />
+          <entry key="YAML" value="247" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.kubernetes.usages" />
     </session>
   </component>
   <component name="FavoritesManager">
@@ -300,17 +557,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="867">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Redis/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="23">
+                <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="-48">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -319,43 +588,56 @@
         <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="23">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-            </state>
+            <state relative-caret-position="-697" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/index.html">
+        <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="345">
+              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state>
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -382,14 +664,12 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Database/config/Barcode_data.sql" />
-        <option value="$PROJECT_DIR$/html/barcoderecgnisition.php" />
         <option value="$PROJECT_DIR$/html/barcoderecgnizition.html" />
         <option value="$PROJECT_DIR$/Web/php.ini" />
         <option value="$PROJECT_DIR$/html/barcoderecgnizition-show.html" />
@@ -433,12 +713,14 @@
         <option value="$PROJECT_DIR$/html/Sidemenu.html" />
         <option value="$PROJECT_DIR$/html/playground.html" />
         <option value="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/ACS/app/main.py" />
         <option value="$PROJECT_DIR$/ACS/app/BookShelf_CMD.py" />
         <option value="$PROJECT_DIR$/Web/Dockerfile" />
         <option value="$PROJECT_DIR$/html/index_css.css" />
         <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/BRP/Dockerfile" />
+        <option value="$PROJECT_DIR$/BRP/default.conf" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -489,6 +771,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -504,6 +788,19 @@
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="ACS" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="ACS" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="redis_controler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="Database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -514,20 +811,13 @@
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
+              <item name="S2A" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -536,33 +826,33 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538120069306" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540191512270" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="/usr/bin/php" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s-dev" />
+      <recent name="$PROJECT_DIR$/ACS/Applications" />
+      <recent name="$PROJECT_DIR$/ACS/Applications/redis_controler" />
+      <recent name="$PROJECT_DIR$/html/BookImages/2" />
+      <recent name="$PROJECT_DIR$/html/BookImages/1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html/bootstrap" />
       <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$/html/BookImages" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Database" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ACS/Applications" />
-      <recent name="$PROJECT_DIR$/ACS/Applications/redis_controler" />
-      <recent name="$PROJECT_DIR$/html/BookImages/2" />
-      <recent name="$PROJECT_DIR$/html/BookImages/1" />
-      <recent name="$PROJECT_DIR$/html/bootstrap-test-copy" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -579,17 +869,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/codeStyles/Project.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/requirements.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/uwsgi.ini</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ib_logfile0</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Database/mysql_data/ibdata1</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Web/Dockerfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/docker-compose.yml</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -597,68 +876,22 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/phpRuntime.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/app/BookShelf_CMD.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/app/Sakura_io_com.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/app/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/app/redis_controler/Init.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/app/redis_controler/TASKGrid.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Redis/redis-data/appendonly.aof</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/S2A/Dockerfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/S2A/nginx.conf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/images/alvalogo1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/images/alvalogo1.xcf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/images/alvalogo2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/index_css.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/jquery-3.3.1.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/playground.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/HISTORY.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/base-context-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/base-context.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/base-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/base.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/buttons-core-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/buttons-core.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/buttons-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/buttons.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/forms-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/forms-nr-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/forms-nr.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/forms.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/grids-core-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/grids-core.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/grids-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/grids-responsive-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/grids-responsive.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/grids-units-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/grids-units.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/grids.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus-core-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus-core.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus-dropdown-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus-dropdown.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus-horizontal-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus-horizontal.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus-scrollable-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus-scrollable.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus-skin-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus-skin.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/menus.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/pure-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/pure-nr-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/pure-nr.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/pure.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/tables-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure-css/tables.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/acs-claim0-persistentvolumeclaim.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/acs-deployment.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/acs-service.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/nginx-claim0-persistentvolumeclaim.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/nginx-deployment.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/nginx-service.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/rdb-claim0-persistentvolumeclaim.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/rdb-claim1-persistentvolumeclaim.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/rdb-deployment.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/rdb-service.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/redis-claim0-persistentvolumeclaim.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/redis-deployment.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/redis-service.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web-claim0-persistentvolumeclaim.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web-deployment.yaml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web-service.yaml</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -666,178 +899,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/Sakura_io_com.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/redis_controler/COMMANDGrid.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/redis_controler/Init.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/redis_controler/TASKGrid.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACS/Applications/redis_controler/XYTGrid.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/charts.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap-table.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap-theme.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap-theme.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap-theme.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap-theme.min.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/bootstrap.min.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/datepicker.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/datepicker3.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/font-awesome.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/css/styles.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/elements.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/fonts/FontAwesome.otf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/fonts/fontawesome-webfont.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/fonts/fontawesome-webfont.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/fonts/fontawesome-webfont.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/fonts/fontawesome-webfont.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/fonts/fontawesome-webfont.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/fonts/glyphicons-halflings-regular.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/index.html.bak</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/bootstrap-datepicker.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/bootstrap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/chart-data.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/chart.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/custom.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/easypiechart-data.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/easypiechart.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/html5shiv.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/jquery-1.11.1.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/lumino.glyphs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/npm.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/js/respond.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/login.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/panels.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/sass/.sass-cache/deff34d1f5b7167181b556002c25068d6adc024d/styles.scssc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/sass/styles.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/tables/data1.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/tables/data2.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/bootstrap-test-copy/widgets.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/connection.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/dist/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/dist/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/dist/jquery-1.11.1.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/dist/jquery.bootgrid.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/dist/jquery.bootgrid.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/EditableGrid.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/add.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/config.php.sample</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/HELP-US-OUT.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/css/font-awesome.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/css/font-awesome.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/FontAwesome.otf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/animated.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/bordered-pulled.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/core.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/fixed-width.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/font-awesome.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/icons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/larger.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/list.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/mixins.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/path.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/rotated-flipped.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/screen-reader.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/stacked.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/less/variables.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_animated.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_bordered-pulled.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_core.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_fixed-width.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_icons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_larger.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_list.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_mixins.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_path.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_rotated-flipped.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_screen-reader.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_stacked.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/_variables.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/font-awesome.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/font-awesome.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/font-awesome-4.7.0/scss/font-awesome.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/responsive.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/responsive.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/responsive.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/style.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/css/style.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/db/demo.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/delete.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/js/demo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/js/editablegrid-2.1.0-49.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/js/images/bullet_arrow_down.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/js/images/bullet_arrow_up.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/js/jquery-1.11.1.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/loaddata.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/editablegrid-mysql-example/update.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/employee.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/HISTORY.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/base-context-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/base-context.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/base-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/base.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/buttons-core-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/buttons-core.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/buttons-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/buttons.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/forms-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/forms-nr-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/forms-nr.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/forms.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-core-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-core.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-responsive-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-responsive-old-ie-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-responsive-old-ie.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-responsive.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-units-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids-units.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/grids.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-core-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-core.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-dropdown-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-dropdown.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-horizontal-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-horizontal.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-scrollable-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-scrollable.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-skin-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus-skin.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/menus.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/pure-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/pure-nr-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/pure-nr.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/pure.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/tables-min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/pure/tables.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/html/response.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -1027,6 +1088,11 @@
       <workItem from="1537945622761" duration="8073000" />
       <workItem from="1538111618653" duration="8859000" />
       <workItem from="1538463016293" duration="3292000" />
+      <workItem from="1539750392478" duration="3195000" />
+      <workItem from="1539764572328" duration="1071000" />
+      <workItem from="1539831978662" duration="333000" />
+      <workItem from="1539833897099" duration="597000" />
+      <workItem from="1540178384314" duration="7591000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -1172,13 +1238,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244989000" />
+    <option name="totallyTimeSpent" value="257776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.20387097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.22" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Job Explorer" order="3" />
@@ -1190,12 +1256,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3355795" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33424285" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.34652114" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.3478854" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32968238" />
@@ -1258,49 +1324,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/response.php" />
-    <entry file="file://$PROJECT_DIR$/Database/config/Barcode_data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c4262e7c-7f78-4b02-9ec5-246fffe3437f/schema/Alva_Server/table/D_Bookdata" />
-    <entry file="file://$PROJECT_DIR$/Database/init/DBSet.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/config/BookData_scheme.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/Applications/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/ACS/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/ImageRecognition/Dockerfile" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cdb5f519-011c-4350-ad67-a2c660d52146/console.sql" />
     <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition-show.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/AdvancedBookDatas/2/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1339,13 +1364,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/pure/base.css" />
-    <entry file="file://$PROJECT_DIR$/Redis/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1356,16 +1374,6 @@
     <entry file="file://$PROJECT_DIR$/html/index.php" />
     <entry file="file://$PROJECT_DIR$/html/connection.php" />
     <entry file="file://$PROJECT_DIR$/html/css/layouts/email.css" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="23">
-            <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/Semantic-UI/semantic.css" />
     <entry file="file://$PROJECT_DIR$/html/pure-css/pure.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1380,37 +1388,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/Init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/Init.py" />
     <entry file="file://$PROJECT_DIR$/html/Sidemenu.html" />
     <entry file="file://$PROJECT_DIR$/html/Semantic-UI/components/sidebar.css" />
     <entry file="file://$PROJECT_DIR$/html/playground.html">
@@ -1422,62 +1404,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/bootstrap/js/bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/html/bootstrap/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/BookShelf_CMD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/TASKGrid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/TASKGrid.py" />
     <entry file="file://$PROJECT_DIR$/S2A/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1492,6 +1419,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Redis/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1501,8 +1435,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="345">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s-dev/acs-service.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s-dev/acs-claim0-persistentvolumeclaim.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s-dev/acs-deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s-dev/redis-claim0-persistentvolumeclaim.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s-dev/redis-deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s-dev/redis-service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s-dev/rdb-claim1-persistentvolumeclaim.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s-dev/rdb-claim0-persistentvolumeclaim.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/BookShelf_CMD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BRP/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BRP/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="23">
+            <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1535,7 +1588,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.6 (Alva_Server) interpreter library</last-edited>
+          <last-edited>Python 3.6 (venv) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1547,7 +1600,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Python 3.6 (Alva_Server)</last-edited>
+          <last-edited>Python 3.6 (venv)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
