@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.7.0 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: rdb
+  name: rdb
+spec:
+  ports:
+  - name: "8136"
+    port: 8136
+    targetPort: 3306
+  selector:
+    io.kompose.service: rdb
+status:
+  loadBalancer: {}

@@ -1,0 +1,38 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.7.0 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: acs
+  name: acs
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: acs
+    spec:
+      containers:
+      - env:
+        - name: TZ
+          value: Asia/Tokyo
+        image: acs
+        name: acs
+        ports:
+        - containerPort: 3031
+        resources: {}
+        volumeMounts:
+        - mountPath: /app/
+          name: acs-claim0
+      restartPolicy: Always
+      volumes:
+      - name: acs-claim0
+        persistentVolumeClaim:
+          claimName: acs-claim0
+status: {}

@@ -1,0 +1,45 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.7.0 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: rdb
+  name: rdb
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: rdb
+    spec:
+      containers:
+      - env:
+        - name: MYSQL_DATABASE
+          value: Alva_Server
+        - name: MYSQL_ROOT_PASSWORD
+          value: password
+        image: rdb
+        name: rdb
+        ports:
+        - containerPort: 3306
+        resources: {}
+        volumeMounts:
+        - mountPath: /var/lib/mysql
+          name: rdb-claim0
+        - mountPath: /docker-entrypoint-initdb.d
+          name: rdb-claim1
+      restartPolicy: Always
+      volumes:
+      - name: rdb-claim0
+        persistentVolumeClaim:
+          claimName: rdb-claim0
+      - name: rdb-claim1
+        persistentVolumeClaim:
+          claimName: rdb-claim1
+status: {}
