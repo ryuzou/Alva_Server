@@ -2,7 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update infracture">
-      <change beforePath="$PROJECT_DIR$/html/images/alvalogo1.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/alvalogo1.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-256x256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-384x384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-114x114-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-120x120-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-144x144-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-152x152-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-180x180-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-57x57-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-60x60-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-72x72-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-76x76-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-160x160.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-196x196.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-24x24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-256x256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-384x384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/mstile-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/mstile-310x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/mstile-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/favicons/mstile-70x70.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -210,13 +266,14 @@
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -226,7 +283,7 @@
           <entry key="Dockerfile" value="178" />
           <entry key="conf" value="54" />
           <entry key="dummy" value="15" />
-          <entry key="html" value="72" />
+          <entry key="html" value="106" />
           <entry key="ini" value="29" />
           <entry key="php" value="41" />
           <entry key="py" value="809" />
@@ -244,13 +301,14 @@
           <entry key="Dockerfile" value="12" />
           <entry key="conf" value="2" />
           <entry key="css" value="1" />
-          <entry key="html" value="4" />
+          <entry key="html" value="5" />
+          <entry key="ico" value="2" />
           <entry key="ini" value="2" />
           <entry key="js" value="1" />
           <entry key="md" value="2" />
           <entry key="php" value="9" />
-          <entry key="png" value="1" />
-          <entry key="py" value="19" />
+          <entry key="png" value="3" />
+          <entry key="py" value="20" />
           <entry key="sh" value="3" />
           <entry key="sql" value="14" />
           <entry key="txt" value="2" />
@@ -269,14 +327,14 @@
           <entry key="DBN-SQL" value="9" />
           <entry key="Database Element" value="2" />
           <entry key="Dockerfile" value="12" />
-          <entry key="HTML" value="4" />
-          <entry key="Image" value="1" />
+          <entry key="HTML" value="5" />
+          <entry key="Image" value="5" />
           <entry key="Ini" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PHP" value="9" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="19" />
+          <entry key="Python" value="20" />
           <entry key="Scratch" value="5" />
           <entry key="SmartyConfig" value="2" />
           <entry key="YAML" value="11" />
@@ -287,7 +345,7 @@
           <entry key="Bash" value="58" />
           <entry key="DBN-SQL" value="60" />
           <entry key="Dockerfile" value="178" />
-          <entry key="HTML" value="72" />
+          <entry key="HTML" value="106" />
           <entry key="PHP" value="41" />
           <entry key="PLAIN_TEXT" value="312" />
           <entry key="Python" value="809" />
@@ -306,45 +364,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="23">
-                <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
           <provider selected="true" editor-type-id="text-editor" />
@@ -366,15 +385,13 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-697" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="966">
               <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -383,9 +400,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/images/alvalogofav.png">
           <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -463,10 +500,10 @@
         <option value="$PROJECT_DIR$/ACS/app/BookShelf_CMD.py" />
         <option value="$PROJECT_DIR$/Web/Dockerfile" />
         <option value="$PROJECT_DIR$/html/index_css.css" />
-        <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/BRP/Dockerfile" />
         <option value="$PROJECT_DIR$/BRP/default.conf" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/html/index.html" />
       </list>
     </option>
   </component>
@@ -517,8 +554,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -563,6 +598,13 @@
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="favicons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="S2A" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -570,6 +612,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -578,7 +622,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540193921535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540279203770" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="/usr/bin/php" />
@@ -592,6 +636,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/images" />
+      <recent name="$PROJECT_DIR$/html/bootstrap" />
+      <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$/html/BookImages" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/k8s-dev" />
       <recent name="$PROJECT_DIR$/ACS/Applications" />
@@ -599,138 +650,6 @@
       <recent name="$PROJECT_DIR$/html/BookImages/2" />
       <recent name="$PROJECT_DIR$/html/BookImages/1" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html/bootstrap" />
-      <recent name="$PROJECT_DIR$/html" />
-      <recent name="$PROJECT_DIR$/html/BookImages" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Database" />
-    </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/acs-claim0-persistentvolumeclaim.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/acs-deployment.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/acs-service.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/nginx-claim0-persistentvolumeclaim.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/nginx-deployment.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/nginx-service.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/rdb-claim0-persistentvolumeclaim.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/rdb-claim1-persistentvolumeclaim.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/rdb-deployment.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/rdb-service.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/redis-claim0-persistentvolumeclaim.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/redis-deployment.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/redis-service.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web-claim0-persistentvolumeclaim.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web-deployment.yaml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web-service.yaml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -845,6 +764,7 @@
       <workItem from="1539831978662" duration="333000" />
       <workItem from="1539833897099" duration="597000" />
       <workItem from="1540178384314" duration="9061000" />
+      <workItem from="1540274924980" duration="1800000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -993,17 +913,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540192659443</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update infracture">
+      <created>1540275011040</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1540275011040</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259246000" />
+    <option name="totallyTimeSpent" value="261046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.22" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.2232258" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Job Explorer" order="3" />
@@ -1020,7 +947,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.3478854" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.34924966" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32968238" />
@@ -1084,21 +1011,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/AdvancedBookDatas/2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/AdvancedBookDatas/1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cassandra/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1190,13 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/k8s-dev/acs-service.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1234,56 +1139,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BRP/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BRP/default.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BRP/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/BRP/default.conf" />
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
+        <state relative-caret-position="1150">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
@@ -1298,17 +1158,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="966">
           <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -1316,8 +1198,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/images/alvalogofav.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/images/favicons/mstile-310x150.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/images/favicons/mstile-310x310.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/images/favicons/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
