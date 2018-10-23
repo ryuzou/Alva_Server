@@ -1,258 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update webpages">
-      <change beforePath="$PROJECT_DIR$/.idea/Alva_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Alva_Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cdb5f519-011c-4350-ad67-a2c660d52146.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cdb5f519-011c-4350-ad67-a2c660d52146.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpRuntime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/app/BookShelf_CMD.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/BookShelf_CMD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/redis_controler/COMMANDGrid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/app/redis_controler/Init.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/redis_controler/Init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/app/redis_controler/TASKGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/redis_controler/TASKGrid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/uwsgi.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/bin/activate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/bin/activate.csh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/bin/activate.fish" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/INSTALLER" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/METADATA" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/WHEEL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/entry_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask-1.0.2.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/buffer.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/buffer.pxd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/bytesio.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/bytesio.pxd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/bytesio.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/bytesio.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cluster.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cmurmur3.c" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cmurmur3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/concurrent.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/concurrent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/columns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/management.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/management.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/named.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/named.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/operators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/query.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/statements.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/statements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/usertype.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqlengine/usertype.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqltypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cqltypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_deps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_deps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_marshal.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_marshal.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_utils.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_utils.pxd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_utils.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/cython_utils.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/deserializers.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/deserializers.pxd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/deserializers.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/deserializers.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/encoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/asyncioreactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/asyncioreactor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/asyncorereactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/asyncorereactor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/eventletreactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/eventletreactor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/geventreactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/geventreactor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/libevreactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/libevreactor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/libevwrapper.c" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/libevwrapper.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/twistedreactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/io/twistedreactor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/ioutils.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/ioutils.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/marshal.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/marshal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/metadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/metadata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/metrics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/murmur3.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/murmur3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/numpyFlags.h" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/numpyFlags.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/numpy_parser.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/numpy_parser.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/obj_parser.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/obj_parser.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/parsing.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/parsing.pxd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/parsing.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/parsing.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/policies.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/policies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/pool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/protocol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/query.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/row_parser.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/row_parser.pyx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/timestamps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/timestamps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/tuple.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/tuple.pxd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/type_codes.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/type_codes.pxd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/type_codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/type_codes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/INSTALLER" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/METADATA" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/WHEEL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/cassandra_driver-3.15.1.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/DESCRIPTION.rst" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/INSTALLER" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/METADATA" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/WHEEL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click-6.7.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_bashcomplete.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_bashcomplete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_termui_impl.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_termui_impl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_textwrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_textwrap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_unicodefun.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_unicodefun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_winconsole.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/_winconsole.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/decorators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/formatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/formatting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/globals.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/globals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/termui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/termui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/click/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/_compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/blueprints.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/blueprints.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/ctx.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/ctx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/debughelpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/debughelpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/globals.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/globals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/json/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/json/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/json/tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/json/tag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/logging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/sessions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/templating.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/templating.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask/wrappers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/INSTALLER" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/METADATA" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/WHEEL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous-0.24.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/itsdangerous.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/DESCRIPTION.rst" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/INSTALLER" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/METADATA" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/WHEEL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis-2.10.6.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/_compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/lock.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/lock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/sentinel.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/sentinel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/redis/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/Communicate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/ReadBarcode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/StartProc.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BarcodeRecognitionServer/debug-loop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/BarcodeRecognitionServer/debug-loop.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/2a40a48adfa5.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/2a40a48adfa5.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Bookdata.frm" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Bookdata.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Bookdata.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_Bookdata.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/auto.cnf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redis/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/S2A/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/S2A/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/S2A/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/S2A/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Web/php.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acs-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/acs-claim0-persistentvolumeclaim.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acs-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/acs-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acs-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/acs-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/AdvancedBookDatas/1/img01.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/AdvancedBookDatas/1/img01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/AdvancedBookDatas/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/AdvancedBookDatas/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/AdvancedBookDatas/2/img02.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/AdvancedBookDatas/2/img02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/AdvancedBookDatas/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/AdvancedBookDatas/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/barcoderecgnizition-show.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/barcoderecgnizition-show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/alvalogo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/alvalogo1.jpg" afterDir="false" />
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update infracture">
       <change beforePath="$PROJECT_DIR$/html/images/alvalogo1.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/alvalogo1.xcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/alvalogo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/alvalogo2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/alvalogo2.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/alvalogo2.xcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/index_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/jquery-3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/playground.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/playground.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/base-context-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base-context-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/base-context.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base-context.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/base-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/buttons-core-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons-core-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/buttons-core.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons-core.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/buttons-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/forms-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/forms-nr-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms-nr-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/forms-nr.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms-nr.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/forms.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-core-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-core-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-core.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-core.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-responsive-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive-old-ie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-units-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-units-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/grids-units.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids-units.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/grids.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/grids.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-core-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-core-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-core.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-core.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-dropdown-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-dropdown-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-dropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-horizontal-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-horizontal-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-horizontal.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-horizontal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-scrollable-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-scrollable-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-scrollable.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-scrollable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-skin-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-skin-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus-skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus-skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/menus.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/menus.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/pure-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/pure-nr-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure-nr-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/pure-nr.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure-nr.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/pure.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/pure.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/tables-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/tables-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pure-css/tables.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/pure-css/tables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/nginx-claim0-persistentvolumeclaim.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/nginx-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/nginx-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rdb-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-claim0-persistentvolumeclaim.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rdb-claim1-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-claim1-persistentvolumeclaim.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rdb-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rdb-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/redis-claim0-persistentvolumeclaim.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/redis-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/redis-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/web-claim0-persistentvolumeclaim.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/web-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/web-service.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -482,7 +232,7 @@
           <entry key="py" value="809" />
           <entry key="sh" value="58" />
           <entry key="sql" value="103" />
-          <entry key="txt" value="258" />
+          <entry key="txt" value="268" />
           <entry key="yml" value="247" />
         </counts>
       </usages-collector>
@@ -499,6 +249,7 @@
           <entry key="js" value="1" />
           <entry key="md" value="2" />
           <entry key="php" value="9" />
+          <entry key="png" value="1" />
           <entry key="py" value="19" />
           <entry key="sh" value="3" />
           <entry key="sql" value="14" />
@@ -519,6 +270,7 @@
           <entry key="Database Element" value="2" />
           <entry key="Dockerfile" value="12" />
           <entry key="HTML" value="4" />
+          <entry key="Image" value="1" />
           <entry key="Ini" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
@@ -537,7 +289,7 @@
           <entry key="Dockerfile" value="178" />
           <entry key="HTML" value="72" />
           <entry key="PHP" value="41" />
-          <entry key="PLAIN_TEXT" value="302" />
+          <entry key="PLAIN_TEXT" value="312" />
           <entry key="Python" value="809" />
           <entry key="SQL" value="14" />
           <entry key="Scratch" value="29" />
@@ -619,7 +371,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -631,15 +383,9 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACS/app/redis_controler/XYTGrid.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/images/alvalogofav.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -811,6 +557,12 @@
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="S2A" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -826,7 +578,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540191512270" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540193921535" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="/usr/bin/php" />
@@ -1092,7 +844,7 @@
       <workItem from="1539764572328" duration="1071000" />
       <workItem from="1539831978662" duration="333000" />
       <workItem from="1539833897099" duration="597000" />
-      <workItem from="1540178384314" duration="7591000" />
+      <workItem from="1540178384314" duration="9061000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -1234,11 +986,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538465156612</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update infracture">
+      <created>1540192659443</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1540192659443</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257776000" />
+    <option name="totallyTimeSpent" value="259246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
@@ -1315,7 +1074,8 @@
     <MESSAGE value="update website codes&#10;NIUY..." />
     <MESSAGE value="update ACS to use unix socket; update acs to use nginx to connect to sakura" />
     <MESSAGE value="update webpages" />
-    <option name="LAST_COMMIT_MESSAGE" value="update webpages" />
+    <MESSAGE value="update infracture" />
+    <option name="LAST_COMMIT_MESSAGE" value="update infracture" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1324,9 +1084,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/barcoderecgnizition-show.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/AdvancedBookDatas/2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1558,6 +1315,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/images/alvalogofav.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
