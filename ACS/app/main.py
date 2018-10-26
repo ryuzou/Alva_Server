@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import json
 import os
 import sys
@@ -13,34 +14,33 @@ except Exception:
 import requests
 
 app = Flask(__name__)
+CORS(app)
 
 app.register_blueprint(Sakura_io_com.app)
 app.register_blueprint(BookShelf_CMD.app)
-
-@app.route("/", methods=['GET'])
-def hello():
-    return "Hello World!"  # this is a test
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 
-@app.route('/ACS', methods=['GET'])  # Frontend first connects to this at first
+def error():
+    return 0
+
+
+@app.route('/ACS', methods=['POST'])  # Frontend first connects to this at first
 def ACSTaskManager():
+    print(request.data)
     # todo
     return 0
 
-@app.route('/TaskManager', methods=['POST'])
+
+@app.route('/', methods=['POST'])
 def TaskManage():
-    data = json.loads(request.data)
-    prefix = data['Prefix']
-    retdata = data
-    del retdata["Prefix"]
-    retjson = jsonify(retdata)
-    url = None
-    if prefix == "BookShelf_CMD":
-        url = '127.0.0.1:3031/cmd/bookshelf'
-    # elif prefix == ""
-    requests.post(url, json=retjson)
-
-
+    if request.headers['Content-Type'] != 'application/json':
+        print(request.headers['Content-Type'])
+        return jsonify(res='error'), 400
+    data = request.data.decode('utf-8')
+    data = json.loads(data)
+    cmd = data['cmd']
+    requests.post("http://localhost:8182/ACS", cmd)
 
 if __name__ == "__main__":
     app.run()

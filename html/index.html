@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="pure-css/pure.css">
     <link rel="stylesheet" type="text/css" href="pure-css/grids-responsive-min.css">
     <link rel="stylesheet" type="text/css" href="index_css.css">
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
 </head>
 <body>
 <div id="layout" class="pure-g">
@@ -44,14 +45,42 @@
             </div>
             <div class="main">
                 <h4>CONSOLE</h4>
-                <form class="pure-form">
-                    <fieldset>
-                        <input class="pure-input-1-2" placeholder="CMD">
-                        <button type="submit" class="pure-button pure-button-primary">SEND</button>
-                        <button type="reset" class="pure-button-disabled">reset</button>
-                        <button class="pure-button">show commands</button>
-                    </fieldset>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <form method="post" action="http://localhost:8182" id="cmdForm" class="pure-form">
+                    <input type="text" class="pure-input-1-2" name="command" id="cmd" placeholder="CMD">
+                    <button type="button" id="sendCMDTrigger" class="pure-button pure-button-primary">SEND</button>
+                    <button type="reset" class="pure-button-selected">reset</button>
+                    <button type="button" id="showCMDTrigger" class="pure-button">show commands</button>
                 </form>
+                <script>
+                    $("button#sendCMDTrigger").click(function () {
+                        var button = $(this);
+                        button.attr("disabled", true);
+                        var data = {
+                            cmd: $("#cmd").val()
+                        };
+                        $.ajax({
+                            type: "post",
+                            url: "http://localhost:8182",
+                            data: JSON.stringify(data),
+                            contentType: 'application/json',
+                            dataType: "json",
+                            success: function (json_data) {
+                                if (!json_data[0]) {
+                                    //dosomething when nothing had been returned
+                                    return;
+                                }
+                                location.reload();
+                            },
+                            error: function () {
+                                alert("Server Error. Pleasy try again later.");
+                            },
+                            complete: function () {
+                                button.attr("disabled", false);
+                            }
+                        });
+                    });
+                </script>
             </div>
         </div>
     </div>
