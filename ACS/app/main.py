@@ -3,6 +3,7 @@ from flask_cors import CORS
 import json
 import os
 import sys
+import requests_unixsocket
 
 try:
     from ..app import Sakura_io_com
@@ -25,11 +26,13 @@ def error():
     return 0
 
 
-@app.route('/ACS', methods=['POST'])  # Frontend first connects to this at first
+@app.route('/ACS', methods=['POST'])
 def ACSTaskManager():
-    print(request.data)
+    data = request.data.decode('utf-8')
+    tasks = data.split(" ")
+    ret = json.dumps(tasks)
     # todo
-    return 0
+    return ret
 
 
 @app.route('/', methods=['POST'])
@@ -40,7 +43,8 @@ def TaskManage():
     data = request.data.decode('utf-8')
     data = json.loads(data)
     cmd = data['cmd']
-    requests.post("http://localhost:8182/ACS", cmd)
+    requests.post("http://nginx/ACS", cmd)
+    return "ret"
 
 if __name__ == "__main__":
     app.run()

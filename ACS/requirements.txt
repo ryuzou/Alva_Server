@@ -5,3 +5,4 @@ scales
 redis
 uwsgi
 requests
+requests_unixsocket
