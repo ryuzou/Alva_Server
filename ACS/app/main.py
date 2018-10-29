@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, redirect, url_for
 from flask_cors import CORS
 import json
 import os
@@ -8,9 +8,11 @@ import requests_unixsocket
 try:
     from ..app import Sakura_io_com
     from ..app import BookShelf_CMD
+    from ..app import showinfo
 except Exception:
     import Sakura_io_com
     import BookShelf_CMD
+    import showinfo
 
 import requests
 
@@ -31,8 +33,16 @@ def ACSTaskManager():
     data = request.data.decode('utf-8')
     tasks = data.split(" ")
     ret = json.dumps(tasks)
-    # todo
-    return ret
+    retval = None
+    prefix = tasks[0]
+    prefix_map = {
+        "show": showinfo
+    }
+    try:
+        retval = prefix_map[prefix](tasks.pop(0))
+    except KeyError as e:
+        retval = "key error"
+    return retval
 
 
 @app.route('/', methods=['POST'])
@@ -43,8 +53,9 @@ def TaskManage():
     data = request.data.decode('utf-8')
     data = json.loads(data)
     cmd = data['cmd']
-    requests.post("http://nginx/ACS", cmd)
-    return "ret"
+    ret = requests.post("http://nginx/ACS", cmd)
+    print(ret.text)
+    return ret.text
 
 if __name__ == "__main__":
     app.run()
