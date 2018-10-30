@@ -72,7 +72,8 @@
                                 } else {
                                     alert(json_data)
                                 }
-                                location.reload();
+                                //location.reload();
+                                $(this.form).find("textarea, :text, select").val("").end().find(":checked").prop("checked", false);
                             },
                             error: function () {
                                 alert("Server Error. Pleasy try again later.");

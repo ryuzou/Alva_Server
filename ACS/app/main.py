@@ -8,11 +8,9 @@ import requests_unixsocket
 try:
     from ..app import Sakura_io_com
     from ..app import BookShelf_CMD
-    from ..app import showinfo
 except Exception:
     import Sakura_io_com
     import BookShelf_CMD
-    import showinfo
 
 import requests
 
@@ -35,13 +33,21 @@ def ACSTaskManager():
     ret = json.dumps(tasks)
     retval = None
     prefix = tasks[0]
+
+    def showinfo(Lsufix):
+        return Lsufix
+
+    def getData(Lsufix):
+        return Lsufix
     prefix_map = {
-        "show": showinfo
+        "show": showinfo,
+        "getdata": getData
     }
     try:
-        retval = prefix_map[prefix](tasks.pop(0))
+        ret = prefix_map[prefix](tasks[1:])
+        retval = json.dumps(ret)
     except KeyError as e:
-        retval = "key error"
+        retval = ret
     return retval
 
 
@@ -56,6 +62,7 @@ def TaskManage():
     ret = requests.post("http://nginx/ACS", cmd)
     print(ret.text)
     return ret.text
+
 
 if __name__ == "__main__":
     app.run()
