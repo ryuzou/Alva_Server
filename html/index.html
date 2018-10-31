@@ -61,7 +61,7 @@
                         };
                         $.ajax({
                             type: "post",
-                            url: "http://localhost:8182",
+                            url: document.location.protocol + "//" + document.location.hostname + ":8182",
                             data: JSON.stringify(data),
                             contentType: 'application/json',
                             dataType: "json",
