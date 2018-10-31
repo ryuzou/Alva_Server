@@ -26,7 +26,7 @@ def error():
     return 0
 
 
-@app.route('/ACS', methods=['POST'])
+@app.route('/ACS_command-manager', methods=['POST'])
 def ACSTaskManager():
     data = request.data.decode('utf-8')
     tasks = data.split(" ")
@@ -35,16 +35,57 @@ def ACSTaskManager():
     prefix = tasks[0]
 
     def showinfo(Lsufix):
-        return Lsufix
+        return Lsufix[1:]
 
     def getData(Lsufix):
-        return Lsufix
+        return Lsufix[1:]
+
+    def mov(Lsufix, count=0):
+        countnum = count  # count is the count of "prefix" number in which the function is dealing with
+
+        def func(val):  # todo
+            return val
+
+        prefix1_map = {
+            "bookname": func,
+            "bookshelf": func,
+            "bookid": func
+        }
+        prefix2_map = {
+            "bookshelf": func
+        }
+        ret = None
+        if count == 0:  # in this case it is dealing with cmd "MOV"
+            pass
+        elif count == 1:  # in this case "prefix1"
+            try:
+                ret = prefix1_map[Lsufix[0]](Lsufix[1])
+                Lsufix.pop(0)
+            except KeyError as e:
+                return "syntacs error"
+        elif count == 2:  # in this case "TO"
+            if Lsufix[0] == "To":
+                pass
+            else:
+                return "syntacs error"
+        elif count == 3:  # in this case "prefix2"
+            try:
+                ret = prefix2_map[Lsufix[0]](Lsufix[1])
+                Lsufix.pop(0)
+            except KeyError as e:
+                return "syntacs error"
+        elif count == 4:
+            return "success"
+        countnum = countnum + 1
+        return mov(Lsufix[1:], count=countnum)
+
     prefix_map = {
         "show": showinfo,
-        "getdata": getData
+        "getdata": getData,
+        "MOV": mov
     }
     try:
-        ret = prefix_map[prefix](tasks[1:])
+        ret = prefix_map[prefix](tasks)
         retval = json.dumps(ret)
     except KeyError as e:
         retval = ret
@@ -59,7 +100,7 @@ def TaskManage():
     data = request.data.decode('utf-8')
     data = json.loads(data)
     cmd = data['cmd']
-    ret = requests.post("http://nginx/ACS", cmd)
+    ret = requests.post("http://nginx/ACS_command-manager", cmd)
     print(ret.text)
     return ret.text
 

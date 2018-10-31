@@ -48,6 +48,7 @@ def InsertTASKGrid_least(CMD, *args):
     for n in args:
         text = "__arg" + c + "_" + n
         Text += text
+        c = c + 1
     if redis_db.lpush('TASKGRID', Text) != 0:
         return -1
     else:
