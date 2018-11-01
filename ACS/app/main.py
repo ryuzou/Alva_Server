@@ -8,6 +8,9 @@ import requests_unixsocket
 try:
     from ..app import Sakura_io_com
     from ..app import BookShelf_CMD
+    from .redis_controler import XYTGrid
+    from .redis_controler import TASKGrid
+    from .redis_controler import COMMANDGrid
 except Exception:
     import Sakura_io_com
     import BookShelf_CMD
@@ -21,10 +24,14 @@ app.register_blueprint(Sakura_io_com.app)
 app.register_blueprint(BookShelf_CMD.app)
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
-
 def error():
     return 0
 
+
+@app.route('/ACS_taskreminder', methods=['POST'])
+def ACSTaskReminder():
+    data = request.data.decode('utf-8')
+    data = data.split(" ")
 
 @app.route('/ACS_command-manager', methods=['POST'])
 def ACSTaskManager():
@@ -46,6 +53,10 @@ def ACSTaskManager():
         def func(val):  # todo
             return val
 
+        def Fbookshelf(val):
+            NOWCoordinate = getData("NOWCoordinate")
+
+
         prefix1_map = {
             "bookname": func,
             "bookshelf": func,
@@ -64,7 +75,7 @@ def ACSTaskManager():
             except KeyError as e:
                 return "syntacs error"
         elif count == 2:  # in this case "TO"
-            if Lsufix[0] == "To":
+            if Lsufix[0] == "TO":
                 pass
             else:
                 return "syntacs error"
@@ -90,7 +101,6 @@ def ACSTaskManager():
     except KeyError as e:
         retval = ret
     return retval
-
 
 @app.route('/', methods=['POST'])
 def TaskManage():
