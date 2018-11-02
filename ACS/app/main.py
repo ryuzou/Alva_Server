@@ -8,9 +8,9 @@ import requests_unixsocket
 try:
     from ..app import Sakura_io_com
     from ..app import BookShelf_CMD
-    from .redis_controler import XYTGrid
-    from .redis_controler import TASKGrid
-    from .redis_controler import COMMANDGrid
+    from .db_controler import XYTGrid
+    from .db_controler import TASKGrid
+    from .db_controler import COMMANDGrid
 except Exception:
     import Sakura_io_com
     import BookShelf_CMD
@@ -44,7 +44,7 @@ def ACSTaskManager():
     def showinfo(Lsufix):
         return Lsufix[1:]
 
-    def getData(Lsufix):
+    def getData(Lsufix, *args):
         return Lsufix[1:]
 
     def mov(Lsufix, count=0):
@@ -53,24 +53,41 @@ def ACSTaskManager():
         def func(val):  # todo
             return val
 
-        def Fbookshelf(val):
-            NOWCoordinate = getData("NOWCoordinate")
+        def Fbookshelf(val, Idf_Insert_Eject):
+            Idf_Insert_Eject = str(Idf_Insert_Eject)
+            Coordinate = int(val)
+            NOWCoordinate = getData("NOWcoordinate")
+            TASKGrid.InsertTASKGrid_least("MOVARM", NOWCoordinate, Coordinate)
+            if Idf_Insert_Eject.lower() == "insert":  # todo   #must check the vailder of the book
+                TASKGrid.InsertTASKGrid_least("INSERTBOOK")
+            elif Idf_Insert_Eject.lower() == "eject":
+                TASKGrid.InsertTASKGrid_least("EJECTBOOK")
+            else:
+                return -1
+            return 0
 
+        def Fbookname(val, Idf_Insert_Eject):
+            Coordinate = getData("BOOKSHELFcoordinate", val)
+            return Fbookshelf(Coordinate, Idf_Insert_Eject)
+
+        def Fbookid(val, Idf_Insert_Eject):
+            Coordinate = getData("BOOKIDcoordinate", val)
+            return Fbookshelf(Coordinate, Idf_Insert_Eject)
 
         prefix1_map = {
-            "bookname": func,
-            "bookshelf": func,
-            "bookid": func
+            "bookname": Fbookname,
+            "bookshelf": Fbookshelf,
+            "bookid": Fbookid
         }
         prefix2_map = {
-            "bookshelf": func
+            "bookshelf": Fbookshelf
         }
         ret = None
         if count == 0:  # in this case it is dealing with cmd "MOV"
             pass
         elif count == 1:  # in this case "prefix1"
             try:
-                ret = prefix1_map[Lsufix[0]](Lsufix[1])
+                ret = prefix1_map[Lsufix[0]](Lsufix[1], "INSERT")
                 Lsufix.pop(0)
             except KeyError as e:
                 return "syntacs error"
@@ -81,7 +98,7 @@ def ACSTaskManager():
                 return "syntacs error"
         elif count == 3:  # in this case "prefix2"
             try:
-                ret = prefix2_map[Lsufix[0]](Lsufix[1])
+                ret = prefix2_map[Lsufix[0]](Lsufix[1], "EJECT")
                 Lsufix.pop(0)
             except KeyError as e:
                 return "syntacs error"

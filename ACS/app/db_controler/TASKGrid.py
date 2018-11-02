@@ -3,7 +3,7 @@ import os
 import sys
 
 try:
-    from ..redis_controler import Init
+    from ..db_controler import Init
 except Exception:
     import Init
 
