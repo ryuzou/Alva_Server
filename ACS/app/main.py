@@ -10,10 +10,13 @@ try:
     from ..app import BookShelf_CMD
     from .db_controler import XYTGrid
     from .db_controler import TASKGrid
-    from .db_controler import COMMANDGrid
 except Exception:
+    sys.path.append("/app/db_controler")
+    sys.path.append("/app")
     import Sakura_io_com
     import BookShelf_CMD
+    import XYTGrid
+    import TASKGrid
 
 import requests
 
@@ -45,7 +48,20 @@ def ACSTaskManager():
         return Lsufix[1:]
 
     def getData(Lsufix, *args):
-        return Lsufix[1:]
+        if type(Lsufix) == list:
+            args = tuple(Lsufix[2:])
+            Lsufix = Lsufix[1]
+        ret = None
+        NowC = XYTGrid.GetXYTGrid_least()
+        LeastTASK = TASKGrid.GetTASKGrid_least()
+        if Lsufix == "NOWcoordinate":
+            ret = str(NowC["X"]) + "-" + str(NowC["Y"])
+            return ret
+        elif Lsufix == "Ltask":
+            ret = LeastTASK
+            return ret
+        print(Lsufix)
+        return -1
 
     def mov(Lsufix, count=0):
         countnum = count  # count is the count of "prefix" number in which the function is dealing with
@@ -87,21 +103,21 @@ def ACSTaskManager():
             pass
         elif count == 1:  # in this case "prefix1"
             try:
-                ret = prefix1_map[Lsufix[0]](Lsufix[1], "INSERT")
+                ret = prefix1_map[Lsufix[0]](Lsufix[1], "EJECT")
                 Lsufix.pop(0)
             except KeyError as e:
-                return "syntacs error"
+                return "syntacs error1"
         elif count == 2:  # in this case "TO"
             if Lsufix[0] == "TO":
                 pass
             else:
-                return "syntacs error"
+                return "syntacs error2"
         elif count == 3:  # in this case "prefix2"
             try:
-                ret = prefix2_map[Lsufix[0]](Lsufix[1], "EJECT")
+                ret = prefix2_map[Lsufix[0]](Lsufix[1], "INSERT")
                 Lsufix.pop(0)
             except KeyError as e:
-                return "syntacs error"
+                return "syntacs error3"
         elif count == 4:
             return "success"
         countnum = countnum + 1

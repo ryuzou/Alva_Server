@@ -14,10 +14,10 @@ redis_db = None
 def __Init():
     global __init
     if __init != 1:
-        __init_TASKGrid()
         Init.__Init()
         global redis_db
         redis_db = Init.redis_db
+        __init_TASKGrid()
         __init = 1
     else:
         pass
@@ -25,7 +25,6 @@ def __Init():
 
 
 def __init_TASKGrid():
-    __Init()
     global redis_db
     redis_db.lpush('TASKGRID', 'CMD_NONE')
 
@@ -34,11 +33,22 @@ def GetTASKGrid_least():
     __Init()
     global redis_db
     GridText = redis_db.lpop('TASKGRID')
+    GridText = str(GridText.decode('utf-8'))
     d = {}
     for n in GridText.split("__"):
         d[n.split("_")[0]] = n.split("_")[1]
     return d
 
+
+def PopTASKGrid_least():
+    __Init()
+    global redis_db
+    GridText = redis_db.lrange('TASKGRID', 0, 0)
+    GridText = str(GridText.decode('utf-8'))
+    d = {}
+    for n in GridText.split("__"):
+        d[n.split("_")[0]] = n.split("_")[1]
+    return d
 
 def InsertTASKGrid_least(CMD, *args):
     __Init()
@@ -46,7 +56,7 @@ def InsertTASKGrid_least(CMD, *args):
     Text = "CMD_" + CMD
     c = 1
     for n in args:
-        text = "__arg" + c + "_" + n
+        text = "__arg" + str(c) + "_" + str(n)
         Text += text
         c = c + 1
     if redis_db.lpush('TASKGRID', Text) != 0:

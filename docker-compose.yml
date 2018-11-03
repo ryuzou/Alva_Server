@@ -43,7 +43,7 @@ services:
       TZ: "Asia/Tokyo"
   redis:
     build: Redis
-    command: redis-server --appendonly yes --requirepass password
+    command: redis-server --appendonly yes
     volumes:
     - ./Redis/redis-data:/data
     ports:

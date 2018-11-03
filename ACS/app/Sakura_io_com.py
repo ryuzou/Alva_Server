@@ -10,7 +10,7 @@ def SakuraioTaskManage():
     return "Hello Sakura!"  # this is a test
 
 
-@app.route("/api/sakura_iot_send")
+@app.route("/api/sakura_iot_send", methods=['POST'])
 def Sakuraio_send():
     # todo
     return 0
