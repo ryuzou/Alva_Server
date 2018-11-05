@@ -32,7 +32,7 @@ def __init_TASKGrid():
 def GetTASKGrid_least():
     __Init()
     global redis_db
-    GridText = redis_db.lpop('TASKGRID')
+    GridText = redis_db.lrange('TASKGRID', -1, -1)[0]  # The last one
     GridText = str(GridText.decode('utf-8'))
     d = {}
     for n in GridText.split("__"):
@@ -43,7 +43,7 @@ def GetTASKGrid_least():
 def PopTASKGrid_least():
     __Init()
     global redis_db
-    GridText = redis_db.lrange('TASKGRID', 0, 0)
+    GridText = redis_db.rpop('TASKGRID')
     GridText = str(GridText.decode('utf-8'))
     d = {}
     for n in GridText.split("__"):
@@ -59,7 +59,5 @@ def InsertTASKGrid_least(CMD, *args):
         text = "__arg" + str(c) + "_" + str(n)
         Text += text
         c = c + 1
-    if redis_db.lpush('TASKGRID', Text) != 0:
-        return -1
-    else:
-        return 0
+    redis_db.lpush('TASKGRID', str(Text))
+    return 0

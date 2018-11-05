@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update acs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redis/redis-data/appendonly.aof" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/redis-data/appendonly.aof" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -240,7 +242,7 @@
           <entry key="html" value="894" />
           <entry key="ini" value="35" />
           <entry key="php" value="61" />
-          <entry key="py" value="3602" />
+          <entry key="py" value="4152" />
           <entry key="sh" value="58" />
           <entry key="sql" value="103" />
           <entry key="txt" value="391" />
@@ -255,14 +257,14 @@
           <entry key="Dockerfile" value="17" />
           <entry key="conf" value="2" />
           <entry key="css" value="1" />
-          <entry key="html" value="7" />
+          <entry key="html" value="8" />
           <entry key="ico" value="2" />
           <entry key="ini" value="4" />
           <entry key="js" value="1" />
           <entry key="md" value="2" />
           <entry key="php" value="10" />
           <entry key="png" value="3" />
-          <entry key="py" value="32" />
+          <entry key="py" value="34" />
           <entry key="sh" value="3" />
           <entry key="sql" value="15" />
           <entry key="txt" value="3" />
@@ -281,14 +283,14 @@
           <entry key="DBN-SQL" value="10" />
           <entry key="Database Element" value="2" />
           <entry key="Dockerfile" value="17" />
-          <entry key="HTML" value="7" />
+          <entry key="HTML" value="8" />
           <entry key="Image" value="5" />
           <entry key="Ini" value="3" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PHP" value="10" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="32" />
+          <entry key="Python" value="34" />
           <entry key="Scratch" value="5" />
           <entry key="SmartyConfig" value="2" />
           <entry key="YAML" value="14" />
@@ -303,7 +305,7 @@
           <entry key="Ini" value="6" />
           <entry key="PHP" value="61" />
           <entry key="PLAIN_TEXT" value="435" />
-          <entry key="Python" value="3602" />
+          <entry key="Python" value="4152" />
           <entry key="SQL" value="14" />
           <entry key="Scratch" value="29" />
           <entry key="SmartyConfig" value="54" />
@@ -318,17 +320,17 @@
     <favorites_list name="Alva_Server" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6408669">
+    <splitter split-orientation="horizontal" split-proportion="0.49375">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="229">
-                  <caret line="114" column="24" lean-forward="true" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+                <state relative-caret-position="366">
+                  <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
                   <folding>
                     <element signature="e#0#60#0" expanded="true" />
-                    <marker date="1541226143868" expanded="true" signature="2591:2719" ph="..." />
+                    <marker date="1541406652358" expanded="true" signature="2832:2960" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -339,15 +341,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="46">
                   <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1242">
-                  <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -393,18 +386,6 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1196">
-                  <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#0#12#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -442,17 +423,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="690">
-                  <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+                <state relative-caret-position="152">
+                  <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="556">
-                  <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+                <state relative-caret-position="281">
+                  <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -465,6 +446,18 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="230">
                   <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#0#12#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -546,11 +539,11 @@
         <option value="$PROJECT_DIR$/ACS/app/db_controler/__init__.py" />
         <option value="$PROJECT_DIR$/ACS/app/db_controler/Init.py" />
         <option value="$PROJECT_DIR$/ACS/app/db_controler/COMMANDGrid.py" />
-        <option value="$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py" />
-        <option value="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" />
-        <option value="$PROJECT_DIR$/ACS/app/main.py" />
-        <option value="$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py" />
+        <option value="$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py" />
+        <option value="$PROJECT_DIR$/ACS/app/main.py" />
+        <option value="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" />
       </list>
     </option>
   </component>
@@ -673,7 +666,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541229040713" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541407508499" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="/usr/bin/php" />
@@ -827,7 +820,7 @@
       <workItem from="1541245738461" duration="13607000" />
       <workItem from="1541302259489" duration="1246000" />
       <workItem from="1541311157852" duration="2185000" />
-      <workItem from="1541400934000" duration="605000" />
+      <workItem from="1541400934000" duration="6461000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -1032,11 +1025,27 @@
       <option name="project" value="LOCAL" />
       <updated>1541229023635</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update acs">
+      <created>1541401746673</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1541401746673</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342293000" />
+    <option name="totallyTimeSpent" value="348149000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
@@ -1057,15 +1066,15 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33424285" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.08867667" />
+      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.32196453" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32968238" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3287858" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3287858" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.44438502" side_tool="true" weight="0.3833516" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3253012" />
-      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3286334" />
+      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32742155" />
       <window_info anchor="bottom" id="Inspection Results" order="15" visible="true" weight="0.180593" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="16" />
       <window_info anchor="right" id="LuaJ" order="0" weight="0.32994652" />
@@ -1127,7 +1136,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/css/layouts/email.css" />
     <entry file="file://$PROJECT_DIR$/html/Semantic-UI/semantic.css" />
     <entry file="file://$PROJECT_DIR$/html/pure-css/pure.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1278,13 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1299,19 +1300,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/BookShelf_CMD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="253">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -1334,8 +1326,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="152">
+          <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1348,21 +1347,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        <state relative-caret-position="281">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/venv/lib64/python3.6/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="339" column="6" selection-start-line="339" selection-start-column="6" selection-end-line="339" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="114" column="24" lean-forward="true" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+        <state relative-caret-position="366">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
-            <marker date="1541226143868" expanded="true" signature="2591:2719" ph="..." />
+            <marker date="1541406652358" expanded="true" signature="2832:2960" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>

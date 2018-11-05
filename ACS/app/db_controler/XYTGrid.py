@@ -31,8 +31,9 @@ def __init_XYTGrid():
 def GetXYTGrid_least():
     __Init()
     global redis_db
-    GridText = redis_db.lrange('XYTGRID', 0, 0)
-    GridText = str(GridText[0].decode('utf-8'))
+    GridText = redis_db.lrange('XYTGRID', -1, -1)[0]  # The last one
+    if type(GridText) != int:
+        GridText = str(GridText.decode('utf-8'))
     d = {}
     for n in GridText.split("__"):
         d[n.split("_")[0]] = n.split("_")[1]

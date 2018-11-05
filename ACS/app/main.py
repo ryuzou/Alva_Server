@@ -35,6 +35,12 @@ def error():
 def ACSTaskReminder():
     data = request.data.decode('utf-8')
     data = data.split(" ")
+    if data[0] != "NEXT":  # This is just a temporary treatment
+        return -1  # todo
+    TaskRAW = TASKGrid.PopTASKGrid_least()
+    ret = json.dumps(TaskRAW)
+    requests.post("http://nginx/Sakuraio", json=ret)
+    return str(TaskRAW)
 
 @app.route('/ACS_command-manager', methods=['POST'])
 def ACSTaskManager():
@@ -71,7 +77,7 @@ def ACSTaskManager():
 
         def Fbookshelf(val, Idf_Insert_Eject):
             Idf_Insert_Eject = str(Idf_Insert_Eject)
-            Coordinate = int(val)
+            Coordinate = str(val)
             NOWCoordinate = getData("NOWcoordinate")
             TASKGrid.InsertTASKGrid_least("MOVARM", NOWCoordinate, Coordinate)
             if Idf_Insert_Eject.lower() == "insert":  # todo   #must check the vailder of the book
