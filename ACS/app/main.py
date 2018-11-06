@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import requests_unixsocket
+import requests
 
 try:
     from ..app import Sakura_io_com
@@ -18,7 +19,6 @@ except Exception:
     import XYTGrid
     import TASKGrid
 
-import requests
 
 app = Flask(__name__)
 CORS(app)
