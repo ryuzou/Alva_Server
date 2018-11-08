@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update acs">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cdb5f519-011c-4350-ad67-a2c660d52146.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cdb5f519-011c-4350-ad67-a2c660d52146.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACS/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redis/redis-data/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/redis-data/dump.rdb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -209,7 +207,7 @@
     <session id="1628339918">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
@@ -227,8 +225,9 @@
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -241,7 +240,7 @@
           <entry key="html" value="894" />
           <entry key="ini" value="35" />
           <entry key="php" value="61" />
-          <entry key="py" value="4600" />
+          <entry key="py" value="4884" />
           <entry key="sh" value="58" />
           <entry key="sql" value="103" />
           <entry key="txt" value="391" />
@@ -304,7 +303,7 @@
           <entry key="Ini" value="6" />
           <entry key="PHP" value="61" />
           <entry key="PLAIN_TEXT" value="435" />
-          <entry key="Python" value="4600" />
+          <entry key="Python" value="4884" />
           <entry key="SQL" value="14" />
           <entry key="Scratch" value="29" />
           <entry key="SmartyConfig" value="54" />
@@ -319,17 +318,17 @@
     <favorites_list name="Alva_Server" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49375">
+    <splitter split-orientation="horizontal" split-proportion="0.5251572">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2520">
-                  <caret line="139" column="25" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
+                <state relative-caret-position="-570">
+                  <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
                   <folding>
                     <element signature="e#0#60#0" expanded="true" />
-                    <marker date="1541477742039" expanded="true" signature="2831:2959" ph="..." />
+                    <marker date="1541661687927" expanded="true" signature="2873:3001" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -393,7 +392,7 @@
             <entry file="file://$PROJECT_DIR$/ACS/app/BookShelf_CMD.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="299">
-                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                  <caret line="13" selection-start-line="13" selection-end-line="13" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -413,13 +412,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+                <state relative-caret-position="161">
+                  <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Database/config/BookData_scheme.sql">
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
@@ -454,11 +453,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1104">
-                  <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+                <state relative-caret-position="-640">
+                  <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -546,8 +545,8 @@
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py" />
         <option value="$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py" />
-        <option value="$PROJECT_DIR$/ACS/app/main.py" />
         <option value="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" />
+        <option value="$PROJECT_DIR$/ACS/app/main.py" />
       </list>
     </option>
   </component>
@@ -568,9 +567,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="54" />
-    <option name="width" value="1910" />
+    <option name="x" value="181" />
+    <option name="y" value="177" />
+    <option name="width" value="1200" />
     <option name="height" value="810" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -599,6 +598,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -660,7 +660,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -670,10 +669,10 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541491102147" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541491343858" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="/usr/bin/php" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Raspi_Alva" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -825,7 +824,8 @@
       <workItem from="1541302259489" duration="1246000" />
       <workItem from="1541311157852" duration="2185000" />
       <workItem from="1541400934000" duration="7047000" />
-      <workItem from="1541477306581" duration="8836000" />
+      <workItem from="1541477306581" duration="9681000" />
+      <workItem from="1541656842971" duration="6458000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -1044,11 +1044,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541407527475</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="update acs">
+      <created>1541491121697</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1541491121697</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357571000" />
+    <option name="totallyTimeSpent" value="364874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1063,7 +1070,7 @@
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.17677419" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.17935483" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="DB Browser" order="2" weight="0.32967743" />
       <window_info id="Job Explorer" order="3" />
@@ -1072,6 +1079,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="7" />
       <window_info id="Image Layers" order="8" />
+      <window_info anchor="bottom" id="File Transfer" visible="true" weight="0.3287858" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287858" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
@@ -1080,7 +1088,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" visible="true" weight="0.22237381" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55561495" weight="0.092769444" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3287858" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3287858" />
@@ -1325,6 +1333,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/BookShelf_CMD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1356,46 +1374,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
+    <entry file="file://$PROJECT_DIR$/Database/config/BookData_scheme.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="139" column="25" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-            <marker date="1541477742039" expanded="true" signature="2831:2959" ph="..." />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        <state>
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/BookShelf_CMD.py">
+    <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-570">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#60#0" expanded="true" />
+            <marker date="1541661687927" expanded="true" signature="2873:3001" ph="..." />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/config/BookData_scheme.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

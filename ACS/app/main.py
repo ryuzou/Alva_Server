@@ -40,7 +40,7 @@ def ACSTaskReminder():
     TaskRAW = TASKGrid.PopTASKGrid_least()
     ret = json.dumps(TaskRAW)
     requests.post("http://nginx/Sakuraio", json=ret)
-    return str(TaskRAW)
+    return requests.post("http://nginx/ACS_taskreminder", "NEXT")
 
 @app.route('/ACS_command-manager', methods=['POST'])
 def ACSTaskManager():

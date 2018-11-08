@@ -43,9 +43,28 @@ def SakuraioTaskManage():
         num = int(re.split("arg", name)[1])
         ret[num] = data[name]
     ret_json = json.dumps(ret)
-    return requests.post("http://nginx/ACS_command-manager", json=ret_json)
+    return requests.post("http://nginx/api/sakura_iot_send", json=ret_json)
 
 @app.route("/api/sakura_iot_send", methods=['POST'])
 def Sakuraio_send():
-    # todo
-    return 0
+    if request.headers['Content-Type'] != 'application/json':
+        print(request.headers['Content-Type'])
+        return jsonify(res='error'), 400
+    data = request.data.decode('utf-8')
+    data = json.loads(data)
+    sakura_def_json = {
+        "type": "channels",
+        "module": "fRpa8YcKHR",  # Specific val
+        "payload": {}
+    }
+    channels = []
+    CHnum = {}
+    for num in data:
+        CHnum["channel"] = int(num)
+        CHnum["value"] = float(data[num])
+        CHnum["type"] = "f"
+        channels.append(CHnum)
+    sakura_def_json["payload"] = channels
+    sakura_send_json = json.dumps(sakura_def_json)
+    requests.post("https://api.sakura.io/incoming/v1/7686a2ac-31f2-4636-bcf7-e491854fc74f", json=sakura_send_json)
+    return "send"
