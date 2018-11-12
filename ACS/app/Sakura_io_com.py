@@ -66,7 +66,8 @@ def Sakuraio_send():
         channels.append(CHnum)
     sakura_def_json["payload"] = channels
     sakura_send_json = json.dumps(sakura_def_json)
-    requests.post("https://api.sakura.io/incoming/v1/7686a2ac-31f2-4636-bcf7-e491854fc74f", json=sakura_send_json)
+    requests.post("https://api.sakura.io/incoming/v1/7686a2ac-31f2-4636-bcf7-e491854fc74f", json=sakura_send_json,
+                  timeout=1)
     return "send"
 
 

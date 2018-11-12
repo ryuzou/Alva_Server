@@ -5,6 +5,7 @@ import os
 import sys
 import requests_unixsocket
 import requests
+import time
 
 try:
     from ..app import Sakura_io_com
@@ -31,6 +32,17 @@ def error():
     return 0
 
 
+ActivatedIDF = None
+
+
+@app.before_first_request
+def activate_acs_taskreminder():
+    global ActivatedIDF
+    if ActivatedIDF != 1:
+        ActivatedIDF = 1
+        requests.post("http://nginx/ACS_taskreminder", data="NEXT", timeout=0.001)  # timeout is (lim args to 0)
+    return "activated"
+
 @app.route('/ACS_taskreminder', methods=['POST'])
 def ACSTaskReminder():
     data = request.data.decode('utf-8')
@@ -38,6 +50,9 @@ def ACSTaskReminder():
     if data[0] != "NEXT":  # This is just a temporary treatment
         return -1  # todo
     TaskRAW = TASKGrid.PopTASKGrid_least()
+    if TaskRAW == "NULL":
+        time.sleep(1)
+        return requests.post("http://nginx/ACS_taskreminder", "NEXT")
     ret = json.dumps(TaskRAW)
     requests.post("http://nginx/Sakuraio", json=ret)
     return requests.post("http://nginx/ACS_taskreminder", "NEXT")
@@ -152,7 +167,6 @@ def TaskManage():
     ret = requests.post("http://nginx/ACS_command-manager", cmd)
     print(ret.text)
     return ret.text
-
 
 if __name__ == "__main__":
     app.run()
