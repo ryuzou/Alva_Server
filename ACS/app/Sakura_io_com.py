@@ -3,18 +3,24 @@ from flask import Flask, jsonify, request
 import requests
 import json
 import re
+import websocket
+import os
 
 app = flask.Blueprint('sakura_io_com', __name__)
 
 #################################################
 '''
-Sakura.io Rules
+Sakura.io Rules:
 Channel_0 : Command (int)
     """
     """
 Channel_N (1 <= N <= 7) : argN (int)
     """
     """
+'''
+'''
+Sakura.io val Rules:
+val = "id(len = 5)" + val
 '''
 #################################################
 
@@ -60,14 +66,15 @@ def Sakuraio_send():
     channels = []
     CHnum = {}
     for num in data:
+        val = float(str("{:.5f}".format(float("0." + str(os.getpid()).zfill(5)))) + str(data[num]))
         CHnum["channel"] = int(num)
-        CHnum["value"] = float(data[num])
-        CHnum["type"] = "f"
+        CHnum["value"] = val
+        CHnum["type"] = "d"
         channels.append(CHnum)
     sakura_def_json["payload"] = channels
-    sakura_send_json = json.dumps(sakura_def_json)
-    requests.post("https://api.sakura.io/incoming/v1/7686a2ac-31f2-4636-bcf7-e491854fc74f", json=sakura_send_json,
-                  timeout=1)
+    sakura_send_json = json.dumps(sakura_def_json).encode("utf-8")
+    ws = websocket.create_connection("wss://api.sakura.io/ws/v1/82d979f0-309d-4683-ad70-195d7af53314")
+    ws.send(sakura_send_json)
     return "send"
 
 
