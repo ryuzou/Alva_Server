@@ -1,3 +1,5 @@
+flask
+flask-cors
 numpy
 mysqlclient
 lz4
@@ -6,3 +8,4 @@ redis
 uwsgi
 requests
 requests_unixsocket
+websocket

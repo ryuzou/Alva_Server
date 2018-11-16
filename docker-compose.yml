@@ -48,14 +48,3 @@ services:
     - ./Redis/redis-data:/data
     ports:
     - 8179:6379
-
-#  detectbarcode:
-#    build: BarcodeRecognitionServer
-#    ports:
-#    - '8091:8091'
-#    devices:
-#    - "/dev/video0:/dev/video0"
-#    depends_on:
-#    - rdb
-#    command: >
-#      bash -c 'sh /usr/local/lib/Alva/debug-loop.sh && python /usr/local/lib/Alva/ReadBarcode'

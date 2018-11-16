@@ -12,6 +12,7 @@ try:
     from ..app import BookShelf_CMD
     from .db_controler import XYTGrid
     from .db_controler import TASKGrid
+    from ..app import acs_taskreminder
 except Exception:
     sys.path.append("/app/db_controler")
     sys.path.append("/app")
@@ -19,6 +20,7 @@ except Exception:
     import BookShelf_CMD
     import XYTGrid
     import TASKGrid
+    import acs_taskreminder
 
 
 app = Flask(__name__)
@@ -26,36 +28,23 @@ CORS(app)
 
 app.register_blueprint(Sakura_io_com.app)
 app.register_blueprint(BookShelf_CMD.app)
+app.register_blueprint(acs_taskreminder.app)
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 def error():
     return 0
 
 
-ActivatedIDF = None
-
+ActivatedIDF = 0
 
 @app.before_first_request
 def activate_acs_taskreminder():
     global ActivatedIDF
     if ActivatedIDF != 1:
         ActivatedIDF = 1
-        requests.post("http://nginx/ACS_taskreminder", data="NEXT", timeout=0.001)  # timeout is (lim args to 0)
+        thread = acs_taskreminder.activate_acs_RM()
+        thread.start()
     return "activated"
-
-@app.route('/ACS_taskreminder', methods=['POST'])
-def ACSTaskReminder():
-    data = request.data.decode('utf-8')
-    data = data.split(" ")
-    if data[0] != "NEXT":  # This is just a temporary treatment
-        return -1  # todo
-    TaskRAW = TASKGrid.PopTASKGrid_least()
-    if TaskRAW == "NULL":
-        time.sleep(1)
-        return requests.post("http://nginx/ACS_taskreminder", "NEXT")
-    ret = json.dumps(TaskRAW)
-    requests.post("http://nginx/Sakuraio", json=ret)
-    return requests.post("http://nginx/ACS_taskreminder", "NEXT")
 
 @app.route('/ACS_command-manager', methods=['POST'])
 def ACSTaskManager():
