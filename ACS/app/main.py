@@ -43,6 +43,8 @@ def activate_acs_taskreminder():
     if ActivatedIDF != 1:
         ActivatedIDF = 1
         thread = acs_taskreminder.activate_acs_RM()
+        thread2 = Sakura_io_com.activate_sakura()
+        thread2.start()
         thread.start()
     return "activated"
 

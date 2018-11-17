@@ -50,4 +50,5 @@ def ACSTaskReminder():
             continue
         Ret = json.dumps(TaskRAW)
         requests.post("http://nginx/Sakuraio", json=Ret)
-    return "null"
+        break
+    return "sended"
