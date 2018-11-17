@@ -43,17 +43,11 @@ def ACSTaskReminder():
     data = request.data.decode('utf-8')
     data = data.split(" ")
     if data[0] != "NEXT":  # This is just a temporary treatment
-        return -1  # todo
-    TaskRAW = TASKGrid.PopTASKGrid_least()
-    try:
-        ids = str(os.getpid()) + "_" + str(data[1])
-    except:
-        ids = str(os.getpid())
-    ret = "NEXT " + ids
-    print(str(TaskRAW) + ids)
-    if TaskRAW == "NULL":
-        return requests.post("http://nginx/ACS_taskreminder", ret)
-    print(str(TaskRAW) + "twice!!" + ids)
-    Ret = json.dumps(TaskRAW)
-    requests.post("http://nginx/Sakuraio", json=Ret)
-    return requests.post("http://nginx/ACS_taskreminder", ret)
+        return "error"  # todo
+    while True:
+        TaskRAW = TASKGrid.PopTASKGrid_least()
+        if TaskRAW == "NULL":
+            continue
+        Ret = json.dumps(TaskRAW)
+        requests.post("http://nginx/Sakuraio", json=Ret)
+    return "null"

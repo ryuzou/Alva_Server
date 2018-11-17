@@ -5,6 +5,7 @@ import json
 import re
 import websocket
 import os
+import copy
 
 app = flask.Blueprint('sakura_io_com', __name__)
 
@@ -29,52 +30,55 @@ def SakuraioTaskManage():
     if request.headers['Content-Type'] != 'application/json':
         print(request.headers['Content-Type'])
         return jsonify(res='error'), 400
-    data = request.data.decode('utf-8')
-    data = json.loads(data)
+    data = json.loads(json.loads(request.data))
     ret = {}
     Match_CMD_Sakura_dict = {
-        "INSERT": 1,
-        "EJECT": 2,
-        "MOVARM": 3,
-        "NONE": 0
+        "INSERT": "1",
+        "EJECT": "2",
+        "MOVARM": "3",
+        "NONE": "0"
     }
     try:
         if Match_CMD_Sakura_dict[data["CMD"]] == 0:
             return "None"
         ret[0] = Match_CMD_Sakura_dict[data["CMD"]]
     except KeyError as e:
-        print("eroor")  # todo
+        print("error")  # todo
     del data["CMD"]
     for name in data:
         num = int(re.split("arg", name)[1])
         ret[num] = data[name]
     ret_json = json.dumps(ret)
-    return requests.post("http://nginx/api/sakura_iot_send", json=ret_json)
+    requests.post("http://nginx/api/sakura_iot_send", json=ret_json)
+    return "send"
 
 @app.route("/api/sakura_iot_send", methods=['POST'])
 def Sakuraio_send():
     if request.headers['Content-Type'] != 'application/json':
         print(request.headers['Content-Type'])
         return jsonify(res='error'), 400
-    data = request.data.decode('utf-8')
-    data = json.loads(data)
+    data = json.loads(json.loads(request.data))
     sakura_def_json = {
         "type": "channels",
-        "module": "fRpa8YcKHR",  # Specific val
+        "module": "uEAfevTXx6db",  # Specific val
         "payload": {}
     }
-    channels = []
+    lchannels = []
     CHnum = {}
     for num in data:
-        val = float(str("{:.5f}".format(float("0." + str(os.getpid()).zfill(5)))) + str(data[num]))
         CHnum["channel"] = int(num)
-        CHnum["value"] = val
-        CHnum["type"] = "d"
-        channels.append(CHnum)
+        CHnum["value"] = float(data[num])
+        CHnum["type"] = "f"
+        val = copy.deepcopy(CHnum)
+        lchannels.append(val)
+    channels = {
+        "channels": lchannels
+    }
     sakura_def_json["payload"] = channels
     sakura_send_json = json.dumps(sakura_def_json).encode("utf-8")
     ws = websocket.create_connection("wss://api.sakura.io/ws/v1/82d979f0-309d-4683-ad70-195d7af53314")
     ws.send(sakura_send_json)
+    print("send" + str(sakura_send_json))
     return "send"
 
 

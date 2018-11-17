@@ -8,4 +8,4 @@ redis
 uwsgi
 requests
 requests_unixsocket
-websocket
+websocket-client

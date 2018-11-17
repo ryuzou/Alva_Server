@@ -63,11 +63,11 @@ def ACSTaskManager():
             Lsufix = Lsufix[1]
         ret = None
         NowC = XYTGrid.GetXYTGrid_least()
-        LeastTASK = TASKGrid.GetTASKGrid_least()
         if Lsufix == "NOWcoordinate":
-            ret = str(NowC["X"]) + "-" + str(NowC["Y"])
+            ret = str(NowC["X"]) + str(NowC["Y"])
             return ret
-        elif Lsufix == "Ltask":
+        elif Lsufix == "Ltask":  # todo Zanteiteki shochi
+            LeastTASK = TASKGrid.GetTASKGrid_least()
             ret = LeastTASK
             return ret
         print(Lsufix)

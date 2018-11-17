@@ -32,7 +32,7 @@ def __init_TASKGrid():
 def GetTASKGrid_least():
     __Init()
     global redis_db
-    GridText = redis_db.lrange('TASKGRID', -1, -1)[0]  # The last one
+    GridText = redis_db.lrange('TASKGRID', -1, -1)[0]  # todo Zanteiteki shochiThe last one
     GridText = str(GridText.decode('utf-8'))
     d = {}
     for n in GridText.split("__"):
