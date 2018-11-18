@@ -24,8 +24,6 @@ Channel_N (1 <= N <= 7) : argN (int)
 Sakura.io val Rules:
 val = "id(len = 5)" + val
 '''
-
-
 #################################################
 
 @app.route('/Sakuraio', methods=['POST'])
@@ -72,7 +70,7 @@ def Sakuraio_send():
     for num in data:
         CHnum["channel"] = int(num)
         CHnum["value"] = float(data[num])
-        CHnum["type"] = "f"
+        CHnum["type"] = "d"
         val = copy.deepcopy(CHnum)
         lchannels.append(val)
     channels = {
