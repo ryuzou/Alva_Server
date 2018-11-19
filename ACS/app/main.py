@@ -156,8 +156,9 @@ def TaskManage():
     data = json.loads(data)
     cmd = data['cmd']
     ret = requests.post("http://nginx/ACS_command-manager", cmd)
-    print(ret.text)
+    print(str(ret.text) + "at root dir")
     return ret.text
+
 
 if __name__ == "__main__":
     app.run()

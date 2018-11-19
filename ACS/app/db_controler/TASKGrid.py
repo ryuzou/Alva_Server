@@ -44,7 +44,7 @@ def PopTASKGrid_least():
     __Init()
     global redis_db
     GridText = redis_db.rpop('TASKGRID')
-    if GridText == None:
+    if GridText == None or GridText == None:
         return "NULL"
     GridText = str(GridText.decode('utf-8'))
     d = {}
