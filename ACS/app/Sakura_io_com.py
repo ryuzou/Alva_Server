@@ -69,8 +69,9 @@ def Sakuraio_send():
     lchannels = []
     CHnum = {}
     for num in data:
+        val = float(str("{:.5f}".format(float("0." + str(os.getpid()).zfill(5)))) + data[num])
         CHnum["channel"] = int(num)
-        CHnum["value"] = float(data[num])
+        CHnum["value"] = val
         CHnum["type"] = "d"
         val = copy.deepcopy(CHnum)
         lchannels.append(val)
@@ -86,6 +87,7 @@ def Sakuraio_send():
     return "sakuraiotsend finish"
 
 
+'''
 class activate_sakura(threading.Thread):
     def __init__(self):
         super(activate_sakura, self).__init__()
@@ -102,3 +104,4 @@ def Sakuraio_recieve():
     ws = websocket.create_connection("wss://api.sakura.io/ws/v1/82d979f0-309d-4683-ad70-195d7af53314")
     while True:
         resval = ws.recv()
+'''

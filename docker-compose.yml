@@ -3,7 +3,7 @@ services:
   rdb:
     build: Database
     ports:
-    - '8136:3306'
+    - 8136:3306
     volumes:
     - ./Database/mysql_data:/var/lib/mysql
     - ./Database/init:/docker-entrypoint-initdb.d
@@ -26,6 +26,28 @@ services:
     - 8131:3031
     depends_on:
     - rdb
+    - acstaskreminder
+    environment:
+      TZ: "Asia/Tokyo"
+  acstaskreminder:
+    build: ACS_taskreminder
+    volumes:
+    - ./ACS_taskreminder/app:/app/
+    ports:
+    - 8231:3031
+    depends_on:
+    - rdb
+    environment:
+      TZ: "Asia/Tokyo"
+  acsinfo:
+    build: ACS_info
+    volumes:
+    - ./ACS_info/app:/app/
+    ports:
+    - 8331:3031
+    depends_on:
+    - rdb
+    - acs
     environment:
       TZ: "Asia/Tokyo"
   nginx:

@@ -1,11 +1,9 @@
 flask
 flask-cors
-numpy
 mysqlclient
 lz4
 scales
 redis
-uwsgi
 requests
 requests_unixsocket
 websocket-client
