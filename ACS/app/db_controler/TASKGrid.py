@@ -4,30 +4,23 @@ import sys
 
 # todo HAD MANY CHANGES IN THE MAIN SYSTEM!!!
 try:
-    from ..db_controler import Init
+    from ..db_controler import Init as DBINIT
 except Exception:
-    import Init
-
-__init = None
-redis_db = None
-
+    import Init as DBINIT
 
 class TaskGrid():
-    __init = None
     redis_db = None
     UniqueID = None
 
-    def __init__(self):
-        Init.__Init()
-        global redis_db
-        self.redis_db = Init.redis_db
+    def __init__(self, REDIS=DBINIT.REDISDB):
+        self.redis_db = REDIS.redis_db
 
     def InitGrid(self, UID):
         self.UniqueID = str(UID)
-        redis_db.lpush(self.UniqueID, 'CMD_NONE')
+        self.redis_db.lpush(self.UniqueID, 'CMD_NONE')
 
     def GetGrid_least(self):
-        GridText = redis_db.lrange(self.UniqueID, -1, -1)[0]
+        GridText = self.redis_db.lrange(self.UniqueID, -1, -1)[0]
         GridText = str(GridText.decode('utf-8'))
         d = {}
         for n in GridText.split("__"):
@@ -35,7 +28,7 @@ class TaskGrid():
         return d
 
     def PopTASKGrid_least(self):
-        GridText = redis_db.rpop(self.UniqueID)
+        GridText = self.redis_db.rpop(self.UniqueID)
         if GridText == None or GridText == None:
             return "NULL"
         GridText = str(GridText.decode('utf-8'))
@@ -51,5 +44,5 @@ class TaskGrid():
             text = "__arg" + str(c) + "_" + str(n)
             Text += text
             c = c + 1
-        redis_db.lpush(self.UniqueID, str(Text))
+        self.redis_db.lpush(self.UniqueID, str(Text))
         return 0

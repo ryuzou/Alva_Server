@@ -11,12 +11,14 @@ try:
     from ..app import Sakura_io_com
     from .db_controler import XYTGrid
     from .db_controler import TASKGrid
+    from .db_controler import CTGridConductor
 except Exception:
     sys.path.append("/app/db_controler")
     sys.path.append("/app")
     import Sakura_io_com
     import XYTGrid
     import TASKGrid
+    import CTGridConductor
 
 
 app = Flask(__name__)
@@ -36,9 +38,6 @@ def activate_acs_taskreminder():
     global ActivatedIDF
     if ActivatedIDF != 1:
         ActivatedIDF = 1
-        thread2 = Sakura_io_com.activate_sakura()
-        thread2.start()
-        thread.start()
     return "activated"
 
 @app.route('/ACS_command-manager', methods=['POST'])
@@ -57,43 +56,40 @@ def ACSTaskManager():
             args = tuple(Lsufix[2:])
             Lsufix = Lsufix[1]
         ret = None
-        NowC = XYTGrid.GetXYTGrid_least()
+        NowC = XYTGrid.XYTGrid.GetXYTGrid_least()
         if Lsufix == "NOWcoordinate":
             ret = str(NowC["X"]) + str(NowC["Y"])
-            return ret
-        elif Lsufix == "Ltask":  # todo Zanteiteki shochi
-            LeastTASK = TASKGrid.GetTASKGrid_least()
-            ret = LeastTASK
             return ret
         print(Lsufix)
         return -1
 
-    def mov(Lsufix, count=0):
-        countnum = count  # count is the count of "prefix" number in which the function is dealing with
+    def mov(Lsufix):
+        CMD = CTGridConductor.Commands()
+        count = 0
 
-        def func(val):  # todo
-            return val
-
-        def Fbookshelf(val, Idf_Insert_Eject):
+        def Fbookshelf(val, Idf_Insert_Eject, ICMD):
+            CMD = ICMD
             Idf_Insert_Eject = str(Idf_Insert_Eject)
             Coordinate = str(val)
             NOWCoordinate = getData("NOWcoordinate")
-            TASKGrid.InsertTASKGrid_least("MOVARM", NOWCoordinate, Coordinate)
+            CMD.InsertCommand("MOVARM", NOWCoordinate, Coordinate)
             if Idf_Insert_Eject.lower() == "insert":  # todo   #must check the vailder of the book
-                TASKGrid.InsertTASKGrid_least("INSERTBOOK")
+                CMD.InsertCommand("INSERTBOOK")
             elif Idf_Insert_Eject.lower() == "eject":
-                TASKGrid.InsertTASKGrid_least("EJECTBOOK")
+                CMD.InsertCommand("EJECTBOOK")
             else:
                 return -1
             return 0
 
-        def Fbookname(val, Idf_Insert_Eject):
+        def Fbookname(val, Idf_Insert_Eject, ICMD):
+            CMD = ICMD
             Coordinate = getData("BOOKSHELFcoordinate", val)
-            return Fbookshelf(Coordinate, Idf_Insert_Eject)
+            return Fbookshelf(Coordinate, Idf_Insert_Eject, CMD)
 
-        def Fbookid(val, Idf_Insert_Eject):
+        def Fbookid(val, Idf_Insert_Eject, ICMD):
+            CMD = ICMD
             Coordinate = getData("BOOKIDcoordinate", val)
-            return Fbookshelf(Coordinate, Idf_Insert_Eject)
+            return Fbookshelf(Coordinate, Idf_Insert_Eject, CMD)
 
         prefix1_map = {
             "bookname": Fbookname,
@@ -104,29 +100,32 @@ def ACSTaskManager():
             "bookshelf": Fbookshelf
         }
         ret = None
-        if count == 0:  # in this case it is dealing with cmd "MOV"
-            pass
-        elif count == 1:  # in this case "prefix1"
-            try:
-                ret = prefix1_map[Lsufix[0]](Lsufix[1], "EJECT")
-                Lsufix.pop(0)
-            except KeyError as e:
-                return "syntacs error1"
-        elif count == 2:  # in this case "TO"
-            if Lsufix[0] == "TO":
+        while True:
+            print(Lsufix)
+            if count == 0:  # in this case it is dealing with cmd "MOV"
                 pass
-            else:
-                return "syntacs error2"
-        elif count == 3:  # in this case "prefix2"
-            try:
-                ret = prefix2_map[Lsufix[0]](Lsufix[1], "INSERT")
-                Lsufix.pop(0)
-            except KeyError as e:
-                return "syntacs error3"
-        elif count == 4:
-            return "success"
-        countnum = countnum + 1
-        return mov(Lsufix[1:], count=countnum)
+            elif count == 1:  # in this case "prefix1"
+                try:
+                    ret = prefix1_map[Lsufix[0]](Lsufix[1], "EJECT", CMD)
+                    Lsufix.pop(0)
+                except KeyError as e:
+                    return "syntacs error1"
+            elif count == 2:  # in this case "TO"
+                if Lsufix[0] == "TO":
+                    pass
+                else:
+                    return "syntacs error2"
+            elif count == 3:  # in this case "prefix2"
+                try:
+                    ret = prefix2_map[Lsufix[0]](Lsufix[1], "INSERT", CMD)
+                    Lsufix.pop(0)
+                except KeyError as e:
+                    return "syntacs error3"
+            elif count == 4:
+                break
+            count += 1
+            Lsufix = Lsufix[1:]
+        return "success"
 
     prefix_map = {
         "show": showinfo,
@@ -149,7 +148,6 @@ def TaskManage():
     data = json.loads(data)
     cmd = data['cmd']
     ret = requests.post("http://nginx/ACS_command-manager", cmd)
-    print(str(ret.text) + "at root dir")
     return ret.text
 
 if __name__ == "__main__":
