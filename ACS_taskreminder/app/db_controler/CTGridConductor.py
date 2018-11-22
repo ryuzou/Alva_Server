@@ -1,7 +1,3 @@
-import redis
-import os
-import sys
-
 try:
     from ..db_controler import Init
     from ..db_controler import COMMNADGrid

@@ -1,20 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update acs. sakura is not done. reMade acs To the first version(Prototype 1) vision. In concreat, 1) Set Commandgrid to have command(a digree of human(or auto) use of alva) ,2) Split ACS to 3 in orders of usage ,3) AND SO ON">
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update acs. ACS main is Done. CHANGELOGS: 1) &quot;classilize&quot; all Redis Grid composers 2) Made ACS-main(directory: ACS) to only conduct user-in-first-contact. 3) and so on">
+      <change afterPath="$PROJECT_DIR$/ACS_taskreminder/app/db_controler/COMMNADGrid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ACS_taskreminder/app/db_controler/CTGridConductor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ACS_taskreminder/app/db_controler/UniqueIDGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cdb5f519-011c-4350-ad67-a2c660d52146.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cdb5f519-011c-4350-ad67-a2c660d52146.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ACS/app/db_controler/COMMNADGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/db_controler/COMMNADGrid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACS/app/db_controler/CTGridConductor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/db_controler/CTGridConductor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/app/db_controler/Init.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/db_controler/Init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACS/app/db_controler/UniqueIDGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/db_controler/UniqueIDGrid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACS/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask_Cors-3.0.6.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask_Cors-3.0.6.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask_Cors-3.0.6.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask_Cors-3.0.6.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask_Cors-3.0.6.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask_Cors-3.0.6.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask_Cors-3.0.6.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask_Cors-3.0.6.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask_Cors-3.0.6.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/Flask_Cors-3.0.6.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask_cors/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask_cors/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask_cors/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask_cors/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask_cors/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask_cors/decorator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask_cors/extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask_cors/extension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask_cors/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/venv/lib/python3.6/site-packages/flask_cors/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS_info/app/acs_taskreminder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_info/app/acs_taskreminder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS_taskreminder/app/acs_taskreminder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_taskreminder/app/acs_taskreminder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS_taskreminder/app/db_controler/Init.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_taskreminder/app/db_controler/Init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS_taskreminder/app/db_controler/TASKGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_taskreminder/app/db_controler/TASKGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS_taskreminder/app/db_controler/XYTGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_taskreminder/app/db_controler/XYTGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS_taskreminder/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_taskreminder/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/auto.cnf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Redis/redis-data/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/redis-data/dump.rdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/cmd-show.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/cmd-show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images.zip" beforeDir="false" afterPath="$PROJECT_DIR$/html/images.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/alvalogofav.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/alvalogofav.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/android-chrome-128x128.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-128x128.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/android-chrome-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/android-chrome-152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-152x152.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/android-chrome-256x256.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-256x256.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/android-chrome-36x36.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-36x36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/android-chrome-384x384.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-384x384.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/android-chrome-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-48x48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/android-chrome-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-72x72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/android-chrome-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/android-chrome-96x96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-114x114-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-114x114-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-114x114.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-114x114.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-120x120-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-120x120-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-120x120.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-120x120.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-144x144-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-144x144-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-152x152-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-152x152-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-152x152.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-180x180-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-180x180-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-180x180.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-57x57-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-57x57-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-57x57.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-57x57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-60x60-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-60x60-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-60x60.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-60x60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-72x72-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-72x72-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-72x72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-76x76-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-76x76-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-76x76.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-76x76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-128x128.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-128x128.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-152x152.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-160x160.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-160x160.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-196x196.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-196x196.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-24x24.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-24x24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-256x256.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-256x256.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-36x36.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-36x36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-384x384.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-384x384.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-48x48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-72x72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/icon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/icon-96x96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/mstile-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/mstile-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/mstile-310x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/mstile-310x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/mstile-310x310.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/mstile-310x310.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/favicons/mstile-70x70.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/images/favicons/mstile-70x70.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/acs-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/acs-claim0-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/acs-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/acs-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/acs-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/acs-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/nginx-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/nginx-claim0-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/nginx-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/nginx-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/nginx-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/nginx-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/rdb-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-claim0-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/rdb-claim1-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-claim1-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/rdb-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/rdb-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/rdb-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/redis-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/redis-claim0-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/redis-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/redis-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/redis-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/redis-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/web-claim0-persistentvolumeclaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/web-claim0-persistentvolumeclaim.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/web-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/web-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-dev/web-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-dev/web-service.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -264,7 +355,7 @@
           <entry key="py" value="8476" />
           <entry key="sh" value="58" />
           <entry key="sql" value="103" />
-          <entry key="txt" value="893" />
+          <entry key="txt" value="1065" />
           <entry key="yml" value="312" />
         </counts>
       </usages-collector>
@@ -283,7 +374,7 @@
           <entry key="md" value="2" />
           <entry key="php" value="10" />
           <entry key="png" value="3" />
-          <entry key="py" value="51" />
+          <entry key="py" value="55" />
           <entry key="sh" value="3" />
           <entry key="sql" value="16" />
           <entry key="txt" value="7" />
@@ -309,7 +400,7 @@
           <entry key="Markdown" value="2" />
           <entry key="PHP" value="10" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="51" />
+          <entry key="Python" value="55" />
           <entry key="Scratch" value="5" />
           <entry key="SmartyConfig" value="3" />
           <entry key="YAML" value="20" />
@@ -323,7 +414,7 @@
           <entry key="HTML" value="894" />
           <entry key="Ini" value="98" />
           <entry key="PHP" value="61" />
-          <entry key="PLAIN_TEXT" value="958" />
+          <entry key="PLAIN_TEXT" value="1130" />
           <entry key="Python" value="8476" />
           <entry key="SQL" value="14" />
           <entry key="Scratch" value="29" />
@@ -346,10 +437,7 @@
             <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/Init.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="276">
-                  <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-                  <folding>
-                    <marker date="1542872656022" expanded="true" signature="29:30" ph="..." />
-                  </folding>
+                  <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -371,12 +459,26 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="321">
-                  <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+                <state relative-caret-position="-2112">
+                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
                   <folding>
                     <element signature="e#0#60#0" expanded="true" />
                   </folding>
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/Sakura_io_com.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1100" />
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/acs_taskreminder.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-649" />
               </provider>
             </entry>
           </file>
@@ -385,40 +487,10 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="23">
-                  <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="828">
-                  <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="161">
                   <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1725">
-                  <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
-                  <folding>
-                    <element signature="e#0#12#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -449,7 +521,7 @@
             <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/COMMNADGrid.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="529">
-                  <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+                  <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -466,14 +538,32 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/UniqueIDGrid.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="27">
-                  <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+                  <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/db_controler/Init.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="575">
+                  <caret line="35" selection-start-line="35" selection-end-line="35" />
                 </state>
               </provider>
             </entry>
@@ -529,7 +619,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ACS/Applications/redis-com.py" />
         <option value="$PROJECT_DIR$/html/index.php" />
         <option value="$PROJECT_DIR$/ACS/Applications/redis_controler/Book_CMD.py" />
         <option value="$PROJECT_DIR$/ACS/Applications/Book_CMD.py" />
@@ -571,15 +660,16 @@
         <option value="$PROJECT_DIR$/ACS_info/requirements.txt" />
         <option value="$PROJECT_DIR$/ACS_taskreminder/requirements.txt" />
         <option value="$PROJECT_DIR$/ACS/requirements.txt" />
-        <option value="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py" />
         <option value="$PROJECT_DIR$/ACS/app/db_controler/Init.py" />
         <option value="$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py" />
-        <option value="$PROJECT_DIR$/ACS/app/db_controler/UniqueIDGrid.py" />
         <option value="$PROJECT_DIR$/ACS/app/db_controler/CTGridConductor.py" />
-        <option value="$PROJECT_DIR$/ACS/app/main.py" />
         <option value="$PROJECT_DIR$/ACS/app/db_controler/COMMNADGrid.py" />
+        <option value="$PROJECT_DIR$/ACS/app/db_controler/UniqueIDGrid.py" />
+        <option value="$PROJECT_DIR$/ACS_taskreminder/app/main.py" />
+        <option value="$PROJECT_DIR$/ACS/app/Sakura_io_com.py" />
+        <option value="$PROJECT_DIR$/ACS/app/main.py" />
       </list>
     </option>
   </component>
@@ -659,17 +749,6 @@
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="ACS_info" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="ACS_info" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="ACS_taskreminder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -677,6 +756,13 @@
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="ACS_taskreminder" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="ACS_taskreminder" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="db_controler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
@@ -702,7 +788,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542875129245" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542914079304" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ACS/app" />
@@ -716,19 +802,19 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ACS_taskreminder/app" />
+      <recent name="$PROJECT_DIR$/k8s-dev" />
+      <recent name="$PROJECT_DIR$/ACS/Applications" />
+      <recent name="$PROJECT_DIR$/ACS/Applications/redis_controler" />
+      <recent name="$PROJECT_DIR$/html/BookImages/2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ACS_taskreminder" />
       <recent name="$PROJECT_DIR$/ACS_info" />
       <recent name="$PROJECT_DIR$/html/images" />
       <recent name="$PROJECT_DIR$/html/bootstrap" />
       <recent name="$PROJECT_DIR$/html" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/k8s-dev" />
-      <recent name="$PROJECT_DIR$/ACS/Applications" />
-      <recent name="$PROJECT_DIR$/ACS/Applications/redis_controler" />
-      <recent name="$PROJECT_DIR$/html/BookImages/2" />
-      <recent name="$PROJECT_DIR$/html/BookImages/1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -876,7 +962,7 @@
       <workItem from="1542782961325" duration="7189000" />
       <workItem from="1542850187504" duration="2621000" />
       <workItem from="1542869071131" duration="5836000" />
-      <workItem from="1542911649162" duration="913000" />
+      <workItem from="1542911649162" duration="2113000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -1158,11 +1244,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542789338182</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update acs. ACS main is Done. CHANGELOGS: 1) &quot;classilize&quot; all Redis Grid composers 2) Made ACS-main(directory: ACS) to only conduct user-in-first-contact. 3) and so on">
+      <created>1542913236107</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1542913236107</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="443362000" />
+    <option name="totallyTimeSpent" value="444562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1175,8 +1268,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.15354839" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.15354839" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="DB Browser" order="2" weight="0.32967743" />
       <window_info id="Job Explorer" order="3" />
@@ -1193,9 +1287,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.5548387" weight="0.30286494" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.5548387" weight="0.075034104" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3287858" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3287858" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3287858" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.44516128" side_tool="true" weight="0.41473398" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3253012" />
@@ -1270,7 +1364,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed mysql error in Database" />
     <MESSAGE value="little changes" />
     <MESSAGE value="updated main server&#10;##ATTENTION !!! ACSESS FROM GOOGLE CHROME!!!###" />
     <MESSAGE value="update Databases" />
@@ -1295,7 +1388,8 @@
     <MESSAGE value="update acs. finished sakura (NOT DONE AT ALL). some errors might hppen sometime" />
     <MESSAGE value="update acs. sakura is not done" />
     <MESSAGE value="update acs. sakura is not done. reMade acs To the first version(Prototype 1) vision. In concreat, 1) Set Commandgrid to have command(a digree of human(or auto) use of alva) ,2) Split ACS to 3 in orders of usage ,3) AND SO ON" />
-    <option name="LAST_COMMIT_MESSAGE" value="update acs. sakura is not done. reMade acs To the first version(Prototype 1) vision. In concreat, 1) Set Commandgrid to have command(a digree of human(or auto) use of alva) ,2) Split ACS to 3 in orders of usage ,3) AND SO ON" />
+    <MESSAGE value="update acs. ACS main is Done. CHANGELOGS: 1) &quot;classilize&quot; all Redis Grid composers 2) Made ACS-main(directory: ACS) to only conduct user-in-first-contact. 3) and so on" />
+    <option name="LAST_COMMIT_MESSAGE" value="update acs. ACS main is Done. CHANGELOGS: 1) &quot;classilize&quot; all Redis Grid composers 2) Made ACS-main(directory: ACS) to only conduct user-in-first-contact. 3) and so on" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1304,17 +1398,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/k8s-dev/acs-claim0-persistentvolumeclaim.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k8s-dev/acs-deployment.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k8s-dev/redis-claim0-persistentvolumeclaim.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/k8s-dev/redis-deployment.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1425,9 +1508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/main.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/BookShelf_CMD.py" />
     <entry file="file://$PROJECT_DIR$/S2A/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -1463,10 +1543,7 @@
     <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/Init.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <marker date="1542872656022" expanded="true" signature="29:30" ph="..." />
-          </folding>
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1480,16 +1557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1499,25 +1566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/XYTGrid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="805">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1542,7 +1592,7 @@
     <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/COMMNADGrid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -1571,9 +1621,60 @@
     <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/UniqueIDGrid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/db_controler/Init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/Sakura_io_com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1752">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/acs_taskreminder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-649" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/Sakura_io_com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2112">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
           </folding>
         </state>
       </provider>

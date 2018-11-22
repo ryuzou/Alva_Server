@@ -8,14 +8,12 @@ import requests
 import time
 
 try:
-    from ..app import Sakura_io_com
     from .db_controler import XYTGrid
     from .db_controler import TASKGrid
     from .db_controler import CTGridConductor
 except Exception:
     sys.path.append("/app/db_controler")
     sys.path.append("/app")
-    import Sakura_io_com
     import XYTGrid
     import TASKGrid
     import CTGridConductor
@@ -24,21 +22,11 @@ except Exception:
 app = Flask(__name__)
 CORS(app)
 
-app.register_blueprint(Sakura_io_com.app)
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 def error():
     return 0
 
-
-ActivatedIDF = 0
-
-@app.before_first_request
-def activate_acs_taskreminder():
-    global ActivatedIDF
-    if ActivatedIDF != 1:
-        ActivatedIDF = 1
-    return "activated"
 
 @app.route('/ACS_command-manager', methods=['POST'])
 def ACSTaskManager():
