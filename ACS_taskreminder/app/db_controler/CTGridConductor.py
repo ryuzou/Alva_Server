@@ -2,7 +2,7 @@ try:
     from ..db_controler import Init
     from ..db_controler import COMMNADGrid
     from ..db_controler import TASKGrid
-    from ..db_controler import UniqueIDGrid
+    from ..db_controler import CurrentCMDGrid
 except Exception:
     import Init
     import COMMNADGrid
@@ -17,7 +17,7 @@ class Commands():
     initd = 0
 
     def __init__(self):
-        self.UniqueID = UniqueIDGrid.UIDGrid.GETANDINSERTUID()
+        self.UniqueID = CurrentCMDGrid.UIDGrid.GETANDINSERTUID()
         self.Taskgrid = TASKGrid.TaskGrid()
         self.Taskgrid.InitGrid(self.UniqueID)
         # COMMNADGrid.InsertCOMMANDGrid_least(Uid=self.UniqueID, priority=self.priority)
