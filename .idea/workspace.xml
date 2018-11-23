@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update acs sysyem.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cdb5f519-011c-4350-ad67-a2c660d52146.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cdb5f519-011c-4350-ad67-a2c660d52146.xml" afterDir="false" />
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="&quot;ssllize&quot; with letsenscrypt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
@@ -255,8 +254,8 @@
           <entry key="py" value="8715" />
           <entry key="sh" value="58" />
           <entry key="sql" value="103" />
-          <entry key="txt" value="1101" />
-          <entry key="yml" value="390" />
+          <entry key="txt" value="1132" />
+          <entry key="yml" value="416" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -315,12 +314,12 @@
           <entry key="HTML" value="894" />
           <entry key="Ini" value="98" />
           <entry key="PHP" value="61" />
-          <entry key="PLAIN_TEXT" value="1189" />
+          <entry key="PLAIN_TEXT" value="1220" />
           <entry key="Python" value="8715" />
           <entry key="SQL" value="14" />
           <entry key="Scratch" value="29" />
           <entry key="SmartyConfig" value="182" />
-          <entry key="YAML" value="390" />
+          <entry key="YAML" value="416" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -432,8 +431,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docker-compose.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="166">
-                  <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
+                <state relative-caret-position="189">
+                  <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -876,7 +875,7 @@
       <workItem from="1542911649162" duration="3006000" />
       <workItem from="1542943852802" duration="3880000" />
       <workItem from="1542947938263" duration="6722000" />
-      <workItem from="1542957039124" duration="822000" />
+      <workItem from="1542957039124" duration="1345000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -1179,11 +1178,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542953502401</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="&quot;ssllize&quot; with letsenscrypt">
+      <created>1542958049730</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1542958049730</updated>
+    </task>
+    <task id="LOCAL-00045" summary="&quot;ssllize&quot; with letsenscrypt">
+      <created>1542958276898</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1542958276898</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="456879000" />
+    <option name="totallyTimeSpent" value="457402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1196,6 +1209,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.15935484" />
       <window_info id="Project Explorer" order="1" />
@@ -1292,7 +1306,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update Databases" />
     <MESSAGE value="updated databases;&#10;CREATED ACS(alva communication service) dir!! not in use!!" />
     <MESSAGE value="UPDATE ACS; ACS to use flask;&#10;NOT IN USE YET!!" />
     <MESSAGE value="UPDATE to redis(nosql server);&#10;NIUY!" />
@@ -1317,7 +1330,8 @@
     <MESSAGE value="update acs. ACS main is Done. CHANGELOGS: 1) &quot;classilize&quot; all Redis Grid composers 2) Made ACS-main(directory: ACS) to only conduct user-in-first-contact. 3) and so on" />
     <MESSAGE value="update acs. Had some cleanup patch" />
     <MESSAGE value="update acs sysyem." />
-    <option name="LAST_COMMIT_MESSAGE" value="update acs sysyem." />
+    <MESSAGE value="&quot;ssllize&quot; with letsenscrypt" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;ssllize&quot; with letsenscrypt" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1582,8 +1596,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
+        <state relative-caret-position="189">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>

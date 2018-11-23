@@ -12,8 +12,8 @@ services:
       MYSQL_DATABASE: 'Alva_Server'
   web:
     build: Web
-    #ports:
-    #- 80:80
+    ports:
+    - 80:80
     volumes:
     - ./html:/var/www/html
     depends_on:
@@ -69,12 +69,12 @@ services:
     ports:
     - 8179:6379
 
-  https-portal:
-    image: steveltn/https-portal:1.0.0
-    ports:
-    - 80:80
-    restart: always
-    environment:
-      DOMAINS: 'alva2018.com -> http://web:80'
-      # STAGE: 'production'
-      # FORCE_RENEW: 'true'
+  #https-portal:
+  #  image: steveltn/https-portal:1.0.0
+  #  ports:
+  #  - 80:80
+  #  restart: always
+  #  environment:
+  #    DOMAINS: 'alva2018.com -> http://web:80'
+  #    # STAGE: 'production'
+  #    # FORCE_RENEW: 'true'
