@@ -28,10 +28,15 @@ app.register_blueprint(BookShelf_CMD.app)
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 
-@app.route('/ACStaskrmd/ACSTaskreminder/', methods=['POST', 'GET'])
+@app.route('/ACStaskrmd/ACSTaskreminder/', methods=['POST'])
 def ACSTASK():
-    print(request.data)
-    return request.data
+    if request.headers['Content-Type'] != 'application/json':
+        print(request.headers['Content-Type'])
+        return jsonify(res='error'), 400
+    data = request.data.decode('utf-8')
+    data = json.loads(data)
+    print(data)
+    return data
 
 if __name__ == "__main__":
     app.run()
