@@ -68,13 +68,3 @@ services:
     command: redis-server
     ports:
     - 8179:6379
-
-  #https-portal:
-  #  image: steveltn/https-portal:1.0.0
-  #  ports:
-  #  - 80:80
-  #  restart: always
-  #  environment:
-  #    DOMAINS: 'alva2018.com -> http://web:80'
-  #    # STAGE: 'production'
-  #    # FORCE_RENEW: 'true'

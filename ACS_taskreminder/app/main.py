@@ -30,8 +30,8 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 @app.route('/ACStaskrmd/ACSTaskreminder/', methods=['POST', 'GET'])
 def ACSTASK():
-    print("/ACStaskrmd/came")
-    return "/ACStaskrmd/acstaskreminder"
+    print(request.data)
+    return request.data
 
 if __name__ == "__main__":
     app.run()

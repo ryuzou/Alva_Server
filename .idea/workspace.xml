@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="&quot;ssllize&quot; with letsenscrypt">
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="un &quot;ssllize&quot; with letsenscrypt. It didnt work!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS_taskreminder/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_taskreminder/app/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -206,7 +207,7 @@
     <session id="1628339918">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
@@ -236,8 +237,9 @@
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="54" />
+          <entry key="project.opened" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -251,11 +253,11 @@
           <entry key="html" value="894" />
           <entry key="ini" value="127" />
           <entry key="php" value="61" />
-          <entry key="py" value="8715" />
+          <entry key="py" value="8725" />
           <entry key="sh" value="58" />
           <entry key="sql" value="103" />
-          <entry key="txt" value="1132" />
-          <entry key="yml" value="416" />
+          <entry key="txt" value="1151" />
+          <entry key="yml" value="424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -270,7 +272,7 @@
           <entry key="ico" value="2" />
           <entry key="ini" value="6" />
           <entry key="js" value="1" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="php" value="10" />
           <entry key="png" value="3" />
           <entry key="py" value="61" />
@@ -278,7 +280,7 @@
           <entry key="sql" value="16" />
           <entry key="txt" value="7" />
           <entry key="yaml" value="8" />
-          <entry key="yml" value="13" />
+          <entry key="yml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.rename.constructor" />
@@ -296,13 +298,13 @@
           <entry key="Image" value="5" />
           <entry key="Ini" value="5" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PHP" value="10" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Python" value="61" />
           <entry key="Scratch" value="5" />
           <entry key="SmartyConfig" value="5" />
-          <entry key="YAML" value="21" />
+          <entry key="YAML" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -314,12 +316,12 @@
           <entry key="HTML" value="894" />
           <entry key="Ini" value="98" />
           <entry key="PHP" value="61" />
-          <entry key="PLAIN_TEXT" value="1220" />
-          <entry key="Python" value="8715" />
+          <entry key="PLAIN_TEXT" value="1239" />
+          <entry key="Python" value="8725" />
           <entry key="SQL" value="14" />
           <entry key="Scratch" value="29" />
           <entry key="SmartyConfig" value="182" />
-          <entry key="YAML" value="416" />
+          <entry key="YAML" value="424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -330,12 +332,16 @@
     <favorites_list name="Alva_Server" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5432258">
+    <splitter split-orientation="horizontal" split-proportion="0.5276923">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ACS_taskreminder/Dockerfile">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -353,6 +359,15 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/S2A/Dockerfile">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="46">
@@ -364,8 +379,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="828">
-                  <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+                <state relative-caret-position="207">
+                  <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -382,11 +397,23 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="363">
-                  <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="40" />
+                <state relative-caret-position="360">
+                  <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
                   <folding>
-                    <marker date="1542953491173" expanded="true" signature="677:835" ph="..." />
+                    <marker date="1543043068590" expanded="true" signature="677:812" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="138">
+                    <caret line="6" selection-start-line="6" selection-end-line="6" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -404,11 +431,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="575">
-                  <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+                <state relative-caret-position="231">
+                  <caret line="133" column="40" lean-forward="true" selection-start-line="131" selection-start-column="4" selection-end-line="133" selection-end-column="40" />
                   <folding>
                     <element signature="e#0#60#0" expanded="true" />
                   </folding>
@@ -428,11 +455,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/docker-compose.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+                <state relative-caret-position="199">
+                  <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -440,7 +467,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ACS_info/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="363">
+                <state relative-caret-position="529">
                   <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
                 </state>
               </provider>
@@ -578,8 +605,8 @@
         <option value="$PROJECT_DIR$/ACS_reverseproxy/proxy.go" />
         <option value="$PROJECT_DIR$/S2A/nginx.conf" />
         <option value="$PROJECT_DIR$/ACS_info/app/main.py" />
-        <option value="$PROJECT_DIR$/ACS_taskreminder/app/main.py" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/ACS_taskreminder/app/main.py" />
       </list>
     </option>
   </component>
@@ -630,8 +657,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -658,12 +683,6 @@
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="ACS_info" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="ACS_taskreminder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -671,11 +690,6 @@
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="ACS_taskreminder" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
@@ -687,6 +701,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -875,7 +891,8 @@
       <workItem from="1542911649162" duration="3006000" />
       <workItem from="1542943852802" duration="3880000" />
       <workItem from="1542947938263" duration="6722000" />
-      <workItem from="1542957039124" duration="1345000" />
+      <workItem from="1542957039124" duration="2683000" />
+      <workItem from="1543033046353" duration="6276000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -1192,11 +1209,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542958276898</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="un &quot;ssllize&quot; with letsenscrypt. It didnt work!">
+      <created>1542958399522</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1542958399522</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="457402000" />
+    <option name="totallyTimeSpent" value="465016000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1211,7 +1235,7 @@
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.15935484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.16129032" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="DB Browser" order="2" weight="0.32967743" />
       <window_info id="Job Explorer" order="3" />
@@ -1228,7 +1252,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.5548387" visible="true" weight="0.33151433" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.5548387" visible="true" weight="0.098226465" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.26739427" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3287858" />
@@ -1306,7 +1330,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated databases;&#10;CREATED ACS(alva communication service) dir!! not in use!!" />
     <MESSAGE value="UPDATE ACS; ACS to use flask;&#10;NOT IN USE YET!!" />
     <MESSAGE value="UPDATE to redis(nosql server);&#10;NIUY!" />
     <MESSAGE value="some Updates;&#10;NIUY!" />
@@ -1331,7 +1354,8 @@
     <MESSAGE value="update acs. Had some cleanup patch" />
     <MESSAGE value="update acs sysyem." />
     <MESSAGE value="&quot;ssllize&quot; with letsenscrypt" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;ssllize&quot; with letsenscrypt" />
+    <MESSAGE value="un &quot;ssllize&quot; with letsenscrypt. It didnt work!" />
+    <option name="LAST_COMMIT_MESSAGE" value="un &quot;ssllize&quot; with letsenscrypt. It didnt work!" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1345,16 +1369,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BRP/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/BRP/default.conf" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="23">
-            <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/images/favicons/mstile-310x150.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1488,7 +1502,11 @@
     <entry file="file://$PROJECT_DIR$/ACS_reverseproxy/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/ACS_reverseproxy/proxy.go" />
     <entry file="file://$PROJECT_DIR$/ACS_taskreminder/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS_taskreminder/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1507,20 +1525,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <marker date="1542953491173" expanded="true" signature="677:835" ph="..." />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="138">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1531,16 +1542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/COMMNADGrid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -1548,6 +1549,13 @@
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS_info/app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1587,17 +1595,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS_info/app/main.py">
+    <entry file="file://$PROJECT_DIR$/S2A/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="207">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="345">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="133" column="40" lean-forward="true" selection-start-line="131" selection-start-column="4" selection-end-line="133" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <marker date="1543043068590" expanded="true" signature="677:812" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
