@@ -36,7 +36,10 @@ def ACSTASK():
     data = request.data.decode('utf-8')
     data = json.loads(data)
     print(data)
-    return data
+    Lchannels = data["payload"]["channels"]
+    print(Lchannels)
+
+    return request.data
 
 if __name__ == "__main__":
     app.run()

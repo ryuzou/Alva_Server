@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/ACS/app/main.py" line="137" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="un &quot;ssllize&quot; with letsenscrypt. It didnt work!">
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="update acs for sync">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS_taskreminder/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_taskreminder/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -253,10 +257,10 @@
           <entry key="html" value="894" />
           <entry key="ini" value="127" />
           <entry key="php" value="61" />
-          <entry key="py" value="8725" />
+          <entry key="py" value="8726" />
           <entry key="sh" value="58" />
           <entry key="sql" value="103" />
-          <entry key="txt" value="1151" />
+          <entry key="txt" value="1170" />
           <entry key="yml" value="424" />
         </counts>
       </usages-collector>
@@ -316,8 +320,8 @@
           <entry key="HTML" value="894" />
           <entry key="Ini" value="98" />
           <entry key="PHP" value="61" />
-          <entry key="PLAIN_TEXT" value="1239" />
-          <entry key="Python" value="8725" />
+          <entry key="PLAIN_TEXT" value="1258" />
+          <entry key="Python" value="8726" />
           <entry key="SQL" value="14" />
           <entry key="Scratch" value="29" />
           <entry key="SmartyConfig" value="182" />
@@ -397,10 +401,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+                <state relative-caret-position="199">
+                  <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
                   <folding>
-                    <marker date="1543043068590" expanded="true" signature="677:812" ph="..." />
+                    <marker date="1543045377120" expanded="true" signature="677:1007" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -434,8 +438,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="133" column="40" lean-forward="true" selection-start-line="131" selection-start-column="4" selection-end-line="133" selection-end-column="40" />
+                <state relative-caret-position="185">
+                  <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="135" selection-end-column="27" />
                   <folding>
                     <element signature="e#0#60#0" expanded="true" />
                   </folding>
@@ -892,7 +896,7 @@
       <workItem from="1542943852802" duration="3880000" />
       <workItem from="1542947938263" duration="6722000" />
       <workItem from="1542957039124" duration="2683000" />
-      <workItem from="1543033046353" duration="6276000" />
+      <workItem from="1543033046353" duration="7497000" />
     </task>
     <task id="LOCAL-00001" summary="apply some small changes, but not ready to go">
       <created>1534786498769</created>
@@ -1216,11 +1220,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542958399522</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="update acs for sync">
+      <created>1543043458005</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1543043458005</updated>
+    </task>
+    <task id="LOCAL-00048" summary="update acs for sync">
+      <created>1543045409066</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1543045409066</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465016000" />
+    <option name="totallyTimeSpent" value="466237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1233,9 +1251,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.16129032" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.16129032" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="DB Browser" order="2" weight="0.32967743" />
       <window_info id="Job Explorer" order="3" />
@@ -1252,7 +1269,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.5548387" visible="true" weight="0.098226465" />
+      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.5548387" visible="true" weight="0.40927693" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.26739427" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3287858" />
@@ -1330,7 +1347,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="UPDATE ACS; ACS to use flask;&#10;NOT IN USE YET!!" />
     <MESSAGE value="UPDATE to redis(nosql server);&#10;NIUY!" />
     <MESSAGE value="some Updates;&#10;NIUY!" />
     <MESSAGE value="update to use uwsgi" />
@@ -1355,7 +1371,8 @@
     <MESSAGE value="update acs sysyem." />
     <MESSAGE value="&quot;ssllize&quot; with letsenscrypt" />
     <MESSAGE value="un &quot;ssllize&quot; with letsenscrypt. It didnt work!" />
-    <option name="LAST_COMMIT_MESSAGE" value="un &quot;ssllize&quot; with letsenscrypt. It didnt work!" />
+    <MESSAGE value="update acs for sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="update acs for sync" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1611,8 +1628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="133" column="40" lean-forward="true" selection-start-line="131" selection-start-column="4" selection-end-line="133" selection-end-column="40" />
+        <state relative-caret-position="185">
+          <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="135" selection-end-column="27" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
           </folding>
@@ -1621,10 +1638,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="199">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
           <folding>
-            <marker date="1543043068590" expanded="true" signature="677:812" ph="..." />
+            <marker date="1543045377120" expanded="true" signature="677:1007" ph="..." />
           </folding>
         </state>
       </provider>
