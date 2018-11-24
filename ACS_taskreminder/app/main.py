@@ -12,6 +12,7 @@ try:
     from ..app import BookShelf_CMD
     from .db_controler import XYTGrid
     from .db_controler import TASKGrid
+    from .db_controler import COMMNADGrid
 except Exception:
     sys.path.append("/app/db_controler")
     sys.path.append("/app")
@@ -19,6 +20,7 @@ except Exception:
     import BookShelf_CMD
     import XYTGrid
     import TASKGrid
+    import COMMNADGrid
 
 app = Flask(__name__)
 CORS(app)
@@ -38,7 +40,14 @@ def ACSTASK():
     print(data)
     Lchannels = data["payload"]["channels"]
     print(Lchannels)
-
+    if int(Lchannels[0]["channel"]) == 9 and int(Lchannels[0]["value"]) == 0:
+        Ncmd = int(COMMNADGrid.CMDGRID.PopCOMMANDGrid_least())
+        ThisTASKGrid = TASKGrid.TaskGrid(Ncmd)
+        while True:
+            Dtask = ThisTASKGrid.PopTASKGrid_least()
+            if Dtask == {}:
+                break
+            print(Dtask)
     return request.data
 
 if __name__ == "__main__":

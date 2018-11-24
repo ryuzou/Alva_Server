@@ -13,8 +13,12 @@ class TaskGrid():
     redis_db = None
     UniqueID = None
 
-    def __init__(self, REDIS=DBINIT.REDISDB):
+    def __init__(self, setedID=None, REDIS=DBINIT.REDISDB):
         self.redis_db = REDIS.redis_db
+        if setedID == None:
+            pass
+        else:
+            self.UniqueID = str(setedID)
 
     def InitGrid(self, UID):
         self.UniqueID = str(UID)
