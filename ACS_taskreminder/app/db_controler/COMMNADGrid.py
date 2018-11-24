@@ -21,8 +21,12 @@ class COMMANDGRID():
 
     def PopCOMMANDGrid_least(self):  # get unique id
         GridText = self.redis_db.rpop('COMMANDGRID')
-        if GridText == None or GridText == None:
+        if GridText == None:
             return "NULL"
+        if GridText == "":
+            GridText = self.redis_db.rpop('COMMANDGRID')
+            if GridText == None:
+                return "NULL"
         GridText = str(GridText.decode('utf-8'))
         return int(GridText.split("_")[1])
 
