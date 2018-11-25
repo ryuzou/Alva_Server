@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bd21d4f0-b41d-4aed-9e23-31b42bcd8f25" name="AlvaServer" url="http://140.227.206.21">
+        <fileTransfer host="140.227.206.21" port="22" privateKey="$USER_HOME$/Downloads/ssh-66p7nnt3.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

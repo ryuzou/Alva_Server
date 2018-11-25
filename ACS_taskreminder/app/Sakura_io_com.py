@@ -28,7 +28,7 @@ val = "id(len = 5)" + val
 
 #################################################
 
-@app.route('/Sakuraio', methods=['POST'])
+@app.route('/ACStaskrmd/Sakuraio', methods=['POST'])
 def SakuraioTaskManage():
     if request.headers['Content-Type'] != 'application/json':
         print(request.headers['Content-Type'])
@@ -53,11 +53,11 @@ def SakuraioTaskManage():
         ret[num] = data[name]
     ret_json = json.dumps(ret)
     print("send to sakura-iot-send this" + str(ret_json))
-    requests.post("http://nginx/api/sakura_iot_send", json=ret_json)
+    requests.post("http://nginx/ACStaskrmd/api/sakura_iot_send", json=ret_json)
     return "sakuraio finish"
 
 
-@app.route("/api/sakura_iot_send", methods=['POST'])
+@app.route("/ACStaskrmd/api/sakura_iot_send", methods=['POST'])
 def Sakuraio_send():
     if request.headers['Content-Type'] != 'application/json':
         print(request.headers['Content-Type'])
@@ -87,22 +87,3 @@ def Sakuraio_send():
     ws.send(sakura_send_json)
     print("send" + str(sakura_send_json))
     return "sakuraiotsend finish"
-
-
-class activate_sakura(threading.Thread):
-    def __init__(self):
-        super(activate_sakura, self).__init__()
-        self.stop_event = threading.Event()
-
-    def stop(self):
-        self.stop_event.set()
-
-    def run(self):
-        requests.post("http://nginx/api/sakura_iot_recieve", data="NEXT")
-
-
-@app.route("/api/sakura_iot_recieve", methods=['GET', 'POST'])  # Secret key is Alva63th
-def Sakuraio_recieve():
-    ws = websocket.create_connection("wss://api.sakura.io/ws/v1/82d979f0-309d-4683-ad70-195d7af53314")
-    while True:
-        resval = ws.recv()

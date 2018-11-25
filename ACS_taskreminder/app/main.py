@@ -40,14 +40,21 @@ def ACSTASK():
     print(data)
     Lchannels = data["payload"]["channels"]
     print(Lchannels)
-    if int(Lchannels[0]["channel"]) == 9 and int(Lchannels[0]["value"]) == 0:
-        Ncmd = int(COMMNADGrid.CMDGRID.PopCOMMANDGrid_least())
-        ThisTASKGrid = TASKGrid.TaskGrid(Ncmd)
-        while True:
-            Dtask = ThisTASKGrid.PopTASKGrid_least()
-            if Dtask == {}:
-                break
-            print(Dtask)
+
+    for cHannel in Lchannels:
+        if int(cHannel["channel"]) == 126 and int(cHannel["value"]) == 9:
+            Ncmd = int(COMMNADGrid.CMDGRID.PopCOMMANDGrid_least())
+            ThisTASKGrid = TASKGrid.TaskGrid(Ncmd)
+            while True:
+                Dtask = ThisTASKGrid.PopTASKGrid_least()
+                if Dtask == "NULL":
+                    break
+                print(Dtask)
+                ret_json = json.dumps(Dtask)
+                requests.post("http://nginx/ACStaskrmd/Sakuraio", json=ret_json)
+        elif int(cHannel["channel"]) == 126 and int(cHannel["value"]) == 9:
+            pass
+
     return request.data
 
 if __name__ == "__main__":

@@ -29,7 +29,7 @@ class TaskGrid():
 
     def PopTASKGrid_least(self):
         GridText = self.redis_db.rpop(self.UniqueID)
-        if GridText == None or GridText == None:
+        if GridText == None:
             return "NULL"
         GridText = str(GridText.decode('utf-8'))
         d = {}

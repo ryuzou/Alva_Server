@@ -23,11 +23,18 @@ class COMMANDGRID():
         GridText = self.redis_db.rpop('COMMANDGRID')
         if GridText == None:
             return "NULL"
-        if GridText == "":
-            GridText = self.redis_db.rpop('COMMANDGRID')
-            if GridText == None:
+        while True:
+            if GridText == "" or GridText == b'':
+                GridText = self.redis_db.rpop('COMMANDGRID')
+            elif GridText == None:
                 return "NULL"
+            else:
+                break
+        print(GridText)
+        print(type(GridText))
         GridText = str(GridText.decode('utf-8'))
+        print(GridText)
+        print(type(GridText))
         return int(GridText.split("_")[1])
 
     def InsertCOMMANDGrid_least(self, Uid, priority):

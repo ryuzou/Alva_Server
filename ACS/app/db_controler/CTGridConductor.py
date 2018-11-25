@@ -33,4 +33,4 @@ class Commands():
         if self.initd == 0:
             COMMNADGrid.CMDGRID.InsertCOMMANDGrid_least(Uid=self.UniqueID, priority=self.priority)
             self.initd = 1
-        self.Taskgrid.InsertTASKGrid_least(command, args)
+        self.Taskgrid.InsertTASKGrid_least(command, *args)
