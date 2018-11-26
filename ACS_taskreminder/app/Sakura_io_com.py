@@ -48,9 +48,12 @@ def SakuraioTaskManage():
     except KeyError as e:
         print("error about command matching during sakuraio-send phase" + str(data))  # todo
     del data["CMD"]
+    prioriry = int(data["priority"])
+    del data["priority"]
     for name in data:
         num = int(re.split("arg", name)[1])
         ret[num] = data[name]
+    ret["p"] = prioriry
     ret_json = json.dumps(ret)
     print("send to sakura-iot-send this" + str(ret_json))
     requests.post("http://nginx/ACStaskrmd/api/sakura_iot_send", json=ret_json)
@@ -70,8 +73,10 @@ def Sakuraio_send():
     }
     lchannels = []
     CHnum = {}
+    priority = int(data["p"])
+    del data["p"]
     for num in data:
-        val = float(str("{:.5f}".format(float("0." + str(os.getpid()).zfill(5)))) + data[num])
+        val = float(str("{:.5f}".format(float("0." + str(priority).zfill(5)))) + data[num])
         CHnum["channel"] = int(num)
         CHnum["value"] = val
         CHnum["type"] = "d"

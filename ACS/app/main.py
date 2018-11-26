@@ -3,7 +3,6 @@ from flask_cors import CORS
 import json
 import os
 import sys
-import requests_unixsocket
 import requests
 import time
 

@@ -3,7 +3,6 @@ from flask_cors import CORS
 import json
 import os
 import sys
-import requests_unixsocket
 import requests
 import time
 
@@ -40,6 +39,7 @@ def ACSTASK():
     print(data)
     Lchannels = data["payload"]["channels"]
     print(Lchannels)
+    priority = 0
 
     for cHannel in Lchannels:
         if int(cHannel["channel"]) == 126 and int(cHannel["value"]) == 9:
@@ -49,12 +49,25 @@ def ACSTASK():
                 Dtask = ThisTASKGrid.PopTASKGrid_least()
                 if Dtask == "NULL":
                     break
+                Dtask["priority"] = priority
+                priority = priority + 1
                 print(Dtask)
                 ret_json = json.dumps(Dtask)
                 requests.post("http://nginx/ACStaskrmd/Sakuraio", json=ret_json)
-        elif int(cHannel["channel"]) == 126 and int(cHannel["value"]) == 9:
-            pass
-
+        if int(cHannel["channel"]) == 126 and int(cHannel["value"]) == 0:
+            dict = {}
+            XYdone = 0
+            for XYch in Lchannels:
+                if int(XYch["channel"]) == 1:
+                    dict["X"] = int(cHannel["value"])
+                    XYdone = XYdone + 0.5
+                if int(XYch["channel"]) == 2:
+                    dict["Y"] = int(cHannel["value"])
+                    XYdone = XYdone + 0.5
+                if int(XYdone) == 1:
+                    break
+            ret_json = json.dumps(dict)
+            requests.post("http://nginx/ACSinfo/XYC", json=ret_json)
     return request.data
 
 if __name__ == "__main__":
