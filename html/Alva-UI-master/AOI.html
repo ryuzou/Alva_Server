@@ -21,10 +21,10 @@
 
 自然言語解析式命令ボックス：
 <br>
-<textarea cols="100" id="result_text" placeholder="例：[本の名前]を取り出して" rows="5"></textarea>
-<input type="button" value="送信"><br>
-<textarea cols="6" id="status" rows="1">待機中</textarea>
-<input onClick="recognition.start();" type="button" value="認識開始">
+<textarea cols="100" class="pure-form" id="result_text" placeholder="例：[本の名前]を取り出して" rows="5"></textarea>
+<input type="button" class="pure-button" value="送信"><br>
+<textarea cols="6" class="pure-form" id="status" rows="1">待機中</textarea>
+<input onClick="recognition.start();" type="button" class="pure-button" value="認識開始">
 
 <br><br>
 
@@ -32,7 +32,7 @@
 
     <p>
         Select Series:
-        <select name="series" onChange="DropDownMenu()">
+        <select name="series" class="pure-button" onChange="DropDownMenu()">
             <option value="garupan">ガールズアンドパンツァー</option>
             <option value="gansuri">ガンスリンガー・ガール</option>
             <option value="haru">ハルロック</option>
@@ -41,26 +41,27 @@
 
     <p>
         Select Numbers:
-        <select name="number">
+        <select name="number" class="pure-menu">
         </select>
     </p>
 
     <p>
-        <input onClick="postGo()" type="button" value="GO">
+        <input onClick="postGo()" class="pure-button" type="button" value="GO">
     </p>
 
-    <div style="padding: 5px; border: double; width: 50%;">
+    <div style="padding: 5px; border: double; width: 50%;" class="pure-table">
         Title:<br>
         Author:<br>
         Bookshelf Number:<br>
         State:<br>
     </div>
     <p>
-        <input onClick="postSubmit()" type="button" value="Submit">
+        <input onClick="postSubmit()" type="button" class="pure-button-primary" value="Submit">
     </p>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <small>CopyRight &copy; "Alva Team" All Rights Reserved.</small>
+</form>
 </body>
 
 </html>
