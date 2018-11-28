@@ -25,7 +25,7 @@ class BookstaticDB:
         BookAuthor = self.__cur.fetchall()
         self.__cur.execute("SELECT book_genre from D_Bookdata WHERE id = %s", BookFullID)
         BookGenre = self.__cur.fetchall()
-        return BookFullID, BookFullname, Barcode, BookIMG, BookAuthor, BookGenre
+        return BookFullID, BookFullname, Barcode, BookAuthor, BookGenre
 
     def GetBookIMG(self, BookFullID):
         self.__cur.execute("SELECT book_img from D_Bookdata WHERE id = %s", BookFullID)
@@ -40,3 +40,6 @@ class BookstaticDB:
 
     def GetBookIDFromBarcode(self, Barcode):
         pass
+
+
+BDB = BookstaticDB()

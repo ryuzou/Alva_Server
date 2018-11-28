@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<!-- ｺﾄﾉﾊｼﾏｲｶﾜｲｲﾔｯﾀｰ -->
+
+<head>
+    <meta charset="UTF-8">
+    <link href="AOI.css" rel="stylesheet">
+    <title>A.O.I.</title>
+    <link href="favicon.png" rel="icon" type="image/png">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <link href="../pure-css/pure.css" rel="stylesheet" type="text/css">
+    <link href="../pure-css/grids-responsive-min.css" rel="stylesheet" type="text/css">
+    <script src="voice/voice.js" type="text/javascript"></script>
+    <script src="AOI.js" type="text/javascript"></script>
+</head>
+
+<body onLoad="DropDownMenu()">
+<h1><a href="AOI.html" id="aoi">Alva Open Interface</a></h1>
+<img height="25%" src="logo.png" width="25%">
+<p>Welcome to A.O.I.</p>
+
+自然言語解析式命令ボックス：
+<br>
+<textarea cols="100" id="result_text" placeholder="例：[本の名前]を取り出して" rows="5"></textarea>
+<input type="button" value="送信"><br>
+<textarea cols="6" id="status" rows="1">待機中</textarea>
+<input onClick="recognition.start();" type="button" value="認識開始">
+
+<br><br>
+
+<form action="postGo()" method="post" name="formName">
+
+    <p>
+        Select Series:
+        <select name="series" onChange="DropDownMenu()">
+            <option value="garupan">ガールズアンドパンツァー</option>
+            <option value="gansuri">ガンスリンガー・ガール</option>
+            <option value="haru">ハルロック</option>
+        </select>
+    </p>
+
+    <p>
+        Select Numbers:
+        <select name="number">
+        </select>
+    </p>
+
+    <p>
+        <input onClick="postGo()" type="button" value="GO">
+    </p>
+
+    <div style="padding: 5px; border: double; width: 50%;">
+        Title:<br>
+        Author:<br>
+        Bookshelf Number:<br>
+        State:<br>
+    </div>
+    <p>
+        <input onClick="postSubmit()" type="button" value="Submit">
+    </p>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <small>CopyRight &copy; "Alva Team" All Rights Reserved.</small>
+</body>
+
+</html>

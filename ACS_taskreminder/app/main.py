@@ -43,7 +43,10 @@ def ACSTASK():
 
     for cHannel in Lchannels:
         if int(cHannel["channel"]) == 126 and int(cHannel["value"]) == 9:
-            Ncmd = int(COMMNADGrid.CMDGRID.PopCOMMANDGrid_least())
+            TNcmd = COMMNADGrid.CMDGRID.PopCOMMANDGrid_least()
+            if TNcmd == "NULL":
+                return "null"
+            Ncmd = int(TNcmd)
             ThisTASKGrid = TASKGrid.TaskGrid(Ncmd)
             while True:
                 Dtask = ThisTASKGrid.PopTASKGrid_least()

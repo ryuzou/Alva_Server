@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<!-- ｺﾄﾉﾊｼﾏｲｶﾜｲｲﾔｯﾀｰ -->
+
+<head>
+    <meta charset="UTF-8">
+    <link href="AOI.css" rel="stylesheet">
+    <title>A.O.I.</title>
+    <script src="voice/voice.js" type="text/javascript"></script>
+</head>
+
+<body>
+<h1><a href="AOI.html" id="aoi">Alva Open Interface</a></h1>
+<p>Welcome to A.O.I.</p>
+
+自然言語解析式命令ボックス：
+<br>
+<textarea cols="100" id="result_text" rows="5"></textarea>
+<input type="button" value="送信"><br>
+<textarea cols="4" id="status" rows="1">待機中</textarea>
+<input onClick="recognition.start();" type="button" value="音声認識">
+
+
+<ul id="menu">
+    <li id="title"><a href="title.html">タイトル</a></li>
+    <li id="author"><a href="author.html">作者</a></li>
+    <li id="genre"><a href="genre.html">ジャンル</a></li>
+</ul>
+<br><br>
+
+<p>
+<table>
+    <tr>
+        <th>タイトル</th>
+        <th>作者</th>
+        <th>ジャンル</th>
+        <th>貸出状況</th>
+    </tr>
+    <tr>
+        <td>000000001</td>
+        <td>aaaaaaaaa</td>
+        <td>xxxxxxx</td>
+        <td>O</td>
+    </tr>
+    <tr>
+        <td>000000002</td>
+        <td>bbbbbbbbb</td>
+        <td>yxxxxyy</td>
+        <td>X</td>
+    </tr>
+</table>
+</p>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<small>CopyRight &copy; "Alva Team" All Rights Reserved.</small>
+</body>
+
+</html>
