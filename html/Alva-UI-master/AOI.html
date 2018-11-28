@@ -15,53 +15,92 @@
 </head>
 
 <body onLoad="DropDownMenu()">
-<h1><a href="AOI.html" id="aoi">Alva Open Interface</a></h1>
-<img height="25%" src="logo.png" width="25%">
-<p>Welcome to A.O.I.</p>
-
-自然言語解析式命令ボックス：
-<br>
-<textarea cols="100" class="pure-form" id="result_text" placeholder="例：[本の名前]を取り出して" rows="5"></textarea>
-<input type="button" class="pure-button" value="送信"><br>
-<textarea cols="6" class="pure-form" id="status" rows="1">待機中</textarea>
-<input onClick="recognition.start();" type="button" class="pure-button" value="認識開始">
-
-<br><br>
-
-<form action="postGo()" method="post" name="formName">
-
-    <p>
-        Select Series:
-        <select name="series" class="pure-button" onChange="DropDownMenu()">
-            <option value="garupan">ガールズアンドパンツァー</option>
-            <option value="gansuri">ガンスリンガー・ガール</option>
-            <option value="haru">ハルロック</option>
-        </select>
+<div class="pure-g">
+    <p style="margin: 0 auto">
+        <img src="logo.png">
     </p>
+</div>
 
-    <p>
-        Select Numbers:
-        <select name="number" class="pure-menu">
-        </select>
-    </p>
 
-    <p>
-        <input onClick="postGo()" class="pure-button" type="button" value="GO">
-    </p>
+<h3><p href="AOI.html" id="aoi" style="text-align: right">Alva Open Interface</p></h3>
+<div class="pure-g">
 
-    <div style="padding: 5px; border: double; width: 50%;" class="pure-table">
-        Title:<br>
-        Author:<br>
-        Bookshelf Number:<br>
-        State:<br>
+    <div class="pure-u-1-12"></div>
+    <div class="pure-u-5-12">
+
+        <form action="postGo()" method="post" name="formName">
+
+            <p>
+                Select Series:
+                <br>
+                <select name="series" class="pure-button" onChange="DropDownMenu()">
+                    <option value="garupan">ガールズアンドパンツァー</option>
+                    <option value="gansuri">ガンスリンガー・ガール</option>
+                    <option value="haru">ハルロック</option>
+                </select>
+            </p>
+
+            <p>
+                Select Numbers:
+                <br>
+                <select name="number" class="pure-button">
+                </select>
+            </p>
+
+            <div class="pure-g">
+                <div class="pure-u-2-5"></div>
+                <div class="pure-u-1-5">
+                    <input onClick="postGo()" class="pure-button" type="button" value="GO">
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="pure-g">
+
+                <div class="pure-u-4-5">
+                    <div class="pure-table">
+                        Title:<br>
+                        Author:<br>
+                        Bookshelf Number:<br>
+                        State:<br>
+                    </div>
+                </div>
+                <div class="pure-u-1-5"></div>
+            </div>
+            <div class="pure-g">
+                <input onClick="postSubmit()" type="button" class="pure-button" value="Submit">
+            </div>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </form>
     </div>
-    <p>
-        <input onClick="postSubmit()" type="button" class="pure-button-primary" value="Submit">
-    </p>
+    <div class="pure-u-5-12">
+        <h1>NO IMAGE</h1>
+    </div>
+    <div class="pure-u-1-12"></div>
+</div>
+<div class="pure-g">
+    <div class="pure-u-1-12"></div>
+    <div class="pure-u-5-12">
+        <h4>Logs</h4>
+    </div>
+    <div class="pure-u-1-12"></div>
+</div>
+<div class="pure-g-r">
+    <div class="pure-u-1-2">
+        自然言語解析式命令ボックス：
+        <br>
+        <textarea cols="100" class="pure-form" id="result_text" placeholder="例：[本の名前]を取り出して" rows="5"></textarea>
+    </div>
+    <div class="pure-u-1-2">
+        <input type="button" class="pure-button" value="送信"><br>
+        <textarea cols="6" class="pure-form" id="status" rows="1">待機中</textarea>
+        <input onClick="recognition.start();" type="button" class="pure-button" value="認識開始">
+    </div>
+</div>
+<small>CopyRight &copy; "Alva Team" All Rights Reserved.</small>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <small>CopyRight &copy; "Alva Team" All Rights Reserved.</small>
-</form>
 </body>
 
 </html>
