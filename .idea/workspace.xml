@@ -4,11 +4,22 @@
     <bookmark url="file://$PROJECT_DIR$/ACS/app/main.py" line="136" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="had some small changes">
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="had some changes at aio.html and those components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/AOI.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva-UI-master/AOI.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/AOI.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva-UI-master/AOI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/AOI.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva-UI-master/AOI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/ALva仮.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/ALva仮.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/AOI.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/AOI.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/AOI.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/AOI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/AOI.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/AOI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/author.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/genre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/mori.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/mori.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/mori.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/mori.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/name.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/name.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/title.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/title.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/voice/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/voice/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/voice/voice.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/voice/voice.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -93,18 +104,9 @@
     <favorites_list name="Alva_Server" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7786008">
+    <splitter split-orientation="horizontal" split-proportion="0.4888889">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/Sakura_io_com.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="575">
-                  <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/docker-compose.yml">
               <provider selected="true" editor-type-id="text-editor">
@@ -114,11 +116,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/AOI.html">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/Alva/AOI.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+                <state relative-caret-position="483">
+                  <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -134,17 +136,31 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/mori.jpg">
+            <entry file="file://$PROJECT_DIR$/Web/php.ini">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/Alva/mori.jpg">
               <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/logo.png">
+            <entry file="file://$PROJECT_DIR$/html/Alva/logo.png">
               <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/AOI.css">
+            <entry file="file://$PROJECT_DIR$/html/Alva/AOI.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="92">
                   <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
@@ -153,7 +169,7 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/AOI.js">
+            <entry file="file://$PROJECT_DIR$/html/Alva/AOI.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="307">
                   <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
@@ -179,33 +195,33 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/Sakura_io_com.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="598">
-                  <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="161">
                   <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/html/Alva/AOI.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="368">
+                  <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#select#0;n#p#1;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -240,11 +256,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1035">
-                  <caret line="84" column="23" lean-forward="true" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
+                <state relative-caret-position="368">
+                  <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -506,12 +522,17 @@
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="Alva-UI-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Alva" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="S2A" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -528,7 +549,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543479549797" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543480100303" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
@@ -725,14 +746,7 @@
       <workItem from="1543340052514" duration="3028000" />
       <workItem from="1543388320493" duration="4638000" />
       <workItem from="1543382983813" duration="7950000" />
-      <workItem from="1543471230979" duration="5688000" />
-    </task>
-    <task id="LOCAL-00006" summary="update, fixed mysql errors by deleating foreign keys.">
-      <created>1536692567438</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1536692567438</updated>
+      <workItem from="1543471230979" duration="6579000" />
     </task>
     <task id="LOCAL-00007" summary="UPDATE&#10;big update, re-created html directory for 2018RCF&#10;has an error which cant access to server outside of contena but can inside it.&#10;NOT IN USE,ONLY FOR TEST&#10;fixed some errors of &quot;debug-loop&quot;">
       <created>1536694537419</created>
@@ -1070,11 +1084,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543469049452</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="had some changes at aio.html and those components">
+      <created>1543479581616</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1543479581617</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="525658000" />
+    <option name="totallyTimeSpent" value="526549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1087,7 +1108,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.21612903" />
       <window_info id="Project Explorer" order="1" />
@@ -1142,7 +1162,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.html" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update to use uwsgi" />
     <MESSAGE value="update ACS&#10;NIUY!" />
     <MESSAGE value="update readme and some files" />
     <MESSAGE value="update readme" />
@@ -1167,7 +1186,8 @@
     <MESSAGE value="update acs" />
     <MESSAGE value="update acs about database" />
     <MESSAGE value="had some small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="had some small changes" />
+    <MESSAGE value="had some changes at aio.html and those components" />
+    <option name="LAST_COMMIT_MESSAGE" value="had some changes at aio.html and those components" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1176,14 +1196,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ACS/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/acs_taskreminder.py" />
     <entry file="file://$PROJECT_DIR$/ACS/app/BookShelf_CMD.py" />
     <entry file="file://$PROJECT_DIR$/Redis/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -1334,7 +1346,7 @@
     <entry file="file://$PROJECT_DIR$/html/images/favicons/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/favicon.png">
+    <entry file="file://$PROJECT_DIR$/html/Alva/favicon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/test.html" />
@@ -1382,8 +1394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+        <state relative-caret-position="138">
+          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -1425,21 +1437,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="84" column="23" lean-forward="true" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/AOI.js">
+    <entry file="file://$PROJECT_DIR$/html/Alva/AOI.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/mori.png">
+    <entry file="file://$PROJECT_DIR$/html/Alva/mori.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
@@ -1449,23 +1454,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/logo.png">
+    <entry file="file://$PROJECT_DIR$/html/Alva/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/mori.jpg">
+    <entry file="file://$PROJECT_DIR$/html/Alva/mori.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/AOI.css">
+    <entry file="file://$PROJECT_DIR$/html/Alva/AOI.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/AOI.html">
+    <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state relative-caret-position="368">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Alva/AOI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1478,6 +1490,16 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
