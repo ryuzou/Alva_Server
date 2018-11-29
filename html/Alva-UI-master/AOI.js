@@ -1,7 +1,7 @@
 function postGo(bookid) {
     $.ajax({
         type: 'POST',
-        url: 'http://nginx/ACSinfo',
+        url: document.location.protocol + "//" + document.location.hostname + ":8182",
         data: {
             "bookid": bookid
         },
@@ -18,7 +18,7 @@ function postGo(bookid) {
 function postSubmit(bookid) {
     $.ajax({
         type: 'POST',
-        url: 'http://nginx/ACS_command-manager',
+        url: document.location.protocol + "//" + document.location.hostname + ":8182",
         data: {
             "bookid": bookid
         },
@@ -35,7 +35,7 @@ function postSubmit(bookid) {
 function postSearch(keyword) {
     $.ajax({
         type: 'POST',
-        url: 'http://alva2018.com',
+        url: document.location.protocol + "//" + document.location.hostname + ":8182",
         data: {
             "keyword": keyword
         },
