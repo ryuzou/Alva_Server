@@ -28,7 +28,7 @@ def ACSTASK():
     if request.headers['Content-Type'] != 'application/json':
         print(request.headers['Content-Type'])
         return jsonify(res='error'), 400
-    print("ACSinfo/came")
+    print(request.data)
     return "/ACSinfo/acsinfo"
 
 

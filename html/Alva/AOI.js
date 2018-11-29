@@ -1,15 +1,22 @@
-function postGo(bookid) {
+function postGo() {
+    bookid = document.formName.number.value
     $.ajax({
         type: 'POST',
-        url: document.location.protocol + "//" + document.location.hostname + ":8182",
-        data: {
-            "bookid": bookid
+        url: document.location.protocol + "//" + document.location.hostname + ":8182" + "/ACSinfo/",
+        data: {"bookid": bookid},
+        contentType: 'application/json',
+        dataType: "json",
+        success: function (json_data) {
+            if (!json_data[0]) {
+                //dosomething when nothing had been returned
+                return;
+            } else {
+                alert(json_data)
+            }
         },
-        headers: {
-            'API-Token': 'AAAAAAAAAAAAAAA',
-            'Authorization': 'BBBBBBBBBBBBBB',
-            'Content-Type': 'application/json',
-        },
+        error: function () {
+            alert("Server Error. Pleasy try again later.");
+        }
     }).then(function (response) {
         console.log(response)
     })
@@ -23,8 +30,6 @@ function postSubmit(bookid) {
             "bookid": bookid
         },
         headers: {
-            'API-Token': 'AAAAAAAAAAAAAAA',
-            'Authorization': 'BBBBBBBBBBBBBB',
             'Content-Type': 'application/json',
         },
     }).then(function (response) {

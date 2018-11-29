@@ -4,22 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/ACS/app/main.py" line="136" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="had some changes at aio.html and those components">
+    <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="had some changes">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/ALva仮.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/ALva仮.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/AOI.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/AOI.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/AOI.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/AOI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/AOI.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/AOI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/author.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/genre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/mori.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/mori.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/mori.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/mori.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/name.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/name.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/title.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/title.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/voice/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/voice/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva-UI-master/voice/voice.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/voice/voice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva/AOI.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/AOI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva/AOI.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/AOI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,17 +42,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ALVA_SERVER" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ALVA_SERVER" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DockerExecCommand">
@@ -104,7 +87,7 @@
     <favorites_list name="Alva_Server" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4888889">
+    <splitter split-orientation="horizontal" split-proportion="0.53801656">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -119,13 +102,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/Alva/AOI.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+                <state relative-caret-position="529">
+                  <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#select#0;n#p#0;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#select#0;n#p#1;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -136,22 +119,26 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Web/php.ini">
+            <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="184">
+                  <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/Alva/mori.jpg">
               <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/html/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -171,8 +158,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/Alva/AOI.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+                <state>
+                  <caret column="14" selection-start-column="14" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -208,24 +195,6 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/Alva/AOI.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#p#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#select#0;n#p#1;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Database/Dockerfile">
               <provider selected="true" editor-type-id="text-editor">
@@ -247,20 +216,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ACS_info/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="575">
-                  <caret line="32" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="21" />
+                <state relative-caret-position="299">
+                  <caret line="20" column="21" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="21" />
                   <folding>
                     <element signature="e#0#60#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -279,6 +239,15 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="161">
                   <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/html/Alva/AOI.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -341,8 +310,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/playground.html" />
-        <option value="$PROJECT_DIR$/Web/Dockerfile" />
         <option value="$PROJECT_DIR$/html/index_css.css" />
         <option value="$PROJECT_DIR$/BRP/Dockerfile" />
         <option value="$PROJECT_DIR$/BRP/default.conf" />
@@ -351,7 +318,6 @@
         <option value="$PROJECT_DIR$/html/sidemenu.html" />
         <option value="$PROJECT_DIR$/ACS/app/showinfo.py" />
         <option value="$PROJECT_DIR$/ACS/app/redis_controler/TASKGrid.py" />
-        <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/ACS/app/BookShelf_CMD.py" />
         <option value="$PROJECT_DIR$/ACS/app/db_controler/__init__.py" />
         <option value="$PROJECT_DIR$/ACS/app/db_controler/COMMANDGrid.py" />
@@ -392,6 +358,9 @@
         <option value="$PROJECT_DIR$/html/Alva-UI-master/AOI.js" />
         <option value="$PROJECT_DIR$/html/Alva-UI-master/AOI.css" />
         <option value="$PROJECT_DIR$/html/Alva-UI-master/AOI.html" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/Alva/AOI.html" />
+        <option value="$PROJECT_DIR$/html/Alva/AOI.js" />
       </list>
     </option>
   </component>
@@ -435,6 +404,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -538,7 +508,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -549,7 +518,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543480100303" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543481544638" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
@@ -746,14 +715,8 @@
       <workItem from="1543340052514" duration="3028000" />
       <workItem from="1543388320493" duration="4638000" />
       <workItem from="1543382983813" duration="7950000" />
-      <workItem from="1543471230979" duration="6579000" />
-    </task>
-    <task id="LOCAL-00007" summary="UPDATE&#10;big update, re-created html directory for 2018RCF&#10;has an error which cant access to server outside of contena but can inside it.&#10;NOT IN USE,ONLY FOR TEST&#10;fixed some errors of &quot;debug-loop&quot;">
-      <created>1536694537419</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1536694537419</updated>
+      <workItem from="1543471230979" duration="7812000" />
+      <workItem from="1543509592868" duration="3653000" />
     </task>
     <task id="LOCAL-00008" summary="little changes">
       <created>1536869261288</created>
@@ -1091,11 +1054,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543479581617</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="had some changes">
+      <created>1543480327656</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1543480327656</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="526549000" />
+    <option name="totallyTimeSpent" value="531435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1108,8 +1078,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.21612903" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.21935484" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="DB Browser" order="2" weight="0.32967743" />
       <window_info id="Job Explorer" order="3" />
@@ -1126,13 +1097,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.5548387" weight="0.0" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.5548387" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3287483" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18421052" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3281471" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.44516128" side_tool="true" weight="0.41473398" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3253012" />
-      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32742155" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" weight="0.32742155" />
       <window_info anchor="bottom" id="Inspection Results" order="15" visible="true" weight="0.180593" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="16" />
       <window_info anchor="bottom" id="File Transfer" order="17" weight="0.19660537" />
@@ -1145,7 +1116,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.49478078" weight="0.24322581" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.49478078" visible="true" weight="0.0" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32994652" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1162,7 +1133,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.html" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update ACS&#10;NIUY!" />
     <MESSAGE value="update readme and some files" />
     <MESSAGE value="update readme" />
     <MESSAGE value="update website codes&#10;NIUY..." />
@@ -1187,7 +1157,8 @@
     <MESSAGE value="update acs about database" />
     <MESSAGE value="had some small changes" />
     <MESSAGE value="had some changes at aio.html and those components" />
-    <option name="LAST_COMMIT_MESSAGE" value="had some changes at aio.html and those components" />
+    <MESSAGE value="had some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="had some changes" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1385,10 +1356,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
+    <entry file="file://$PROJECT_DIR$/html/Alva/mori.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/php.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Alva/mori.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Alva/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Alva/AOI.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1399,13 +1386,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS_info/app/main.py">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="32" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1437,52 +1421,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva/AOI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva/mori.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva/mori.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva/AOI.css">
+    <entry file="file://$PROJECT_DIR$/Database/config/BookShelf_scheme.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="161">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
+    <entry file="file://$PROJECT_DIR$/ACS_info/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        <state relative-caret-position="299">
+          <caret line="20" column="21" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Alva/AOI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        <state relative-caret-position="529">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#select#0;n#p#0;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#select#0;n#p#1;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1491,15 +1462,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/php.ini">
+    <entry file="file://$PROJECT_DIR$/html/Alva/AOI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
