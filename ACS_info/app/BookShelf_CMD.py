@@ -25,12 +25,30 @@ class BookstaticDB:
         BookAuthor = self.__cur.fetchall()
         self.__cur.execute("SELECT book_genre from D_Bookdata WHERE id = %s", BookFullID)
         BookGenre = self.__cur.fetchall()
-        return BookFullID, BookFullname, Barcode, BookAuthor, BookGenre
+        RteDict = {
+            "bookid": BookFullID,
+            "bookname": BookFullname,
+            "barcode": Barcode,
+            "author": BookAuthor,
+            "genre": BookGenre
+        }
+        return RteDict
 
     def GetBookIMG(self, BookFullID):
         self.__cur.execute("SELECT book_img from D_Bookdata WHERE id = %s", BookFullID)
         BookIMG = self.__cur.fetchall()  # todo
         pass
+
+    def GetBookIdealCOD(self, BookFullID):
+        self.__cur.execute("SELECT XGrid_Place from D_BookShelf WHERE id = %s", BookFullID)
+        BookCod_X = self.__cur.fetchall()
+        self.__cur.execute("SELECT YGrid_Place from D_BookShelf WHERE id = %s", BookFullID)
+        BookCod_Y = self.__cur.fetchall()
+        RetDict = {
+            "X": BookCod_X,
+            "Y": BookCod_Y
+        }
+        return RetDict
 
     def GetBookIDFromName(self, BookFullName):
         pass

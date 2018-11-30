@@ -47,8 +47,19 @@ def ACSTaskManager():
         if Lsufix == "NOWcoordinate":
             ret = str(NowC["X"]) + str(NowC["Y"])
             return ret
-        elif Lsufix == "BOOKIDcoordinate":
-            val = requests.post("http://nginx/ACSinfo/", args[0])  # todo
+        elif Lsufix == "BOOKIDinfo":
+            d = {
+                "Idf": "bookid",
+                "name": int(args[0])
+            }
+            val = json.loads(requests.post("http://nginx/ACSinfo/", json.dumps(d)))  # todo
+            return val
+        elif Lsufix == "BOOKNAMEinfo":
+            d = {
+                "Idf": "bookname",
+                "name": int(args[0])
+            }
+            val = json.loads(requests.post("http://nginx/ACSinfo/", json.dumps(d)))  # todo
             return val
         return -1
 
@@ -72,12 +83,14 @@ def ACSTaskManager():
 
         def Fbookname(val, Idf_Insert_Eject, ICMD):
             CMD = ICMD
-            Coordinate = getData("BOOKNAMEcoordinate", val)
+            data = getData("BOOKNAMEinfo", val)
+            Coordinate = int(str(data["X"]) + "0" + str(data["Y"]))
             return Fbookshelf(Coordinate, Idf_Insert_Eject, CMD)
 
         def Fbookid(val, Idf_Insert_Eject, ICMD):
             CMD = ICMD
-            Coordinate = getData("BOOKIDcoordinate", val)
+            data = getData("BOOKIDinfo", val)
+            Coordinate = int(str(data["X"]) + "0" + str(data["Y"]))
             return Fbookshelf(Coordinate, Idf_Insert_Eject, CMD)
 
         prefix1_map = {
