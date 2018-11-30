@@ -47,7 +47,9 @@ def ACSTaskManager():
         if Lsufix == "NOWcoordinate":
             ret = str(NowC["X"]) + str(NowC["Y"])
             return ret
-        print(Lsufix)
+        elif Lsufix == "BOOKIDcoordinate":
+            val = requests.post("http://nginx/ACSinfo/", args[0])  # todo
+            return val
         return -1
 
     def mov(Lsufix):
@@ -70,7 +72,7 @@ def ACSTaskManager():
 
         def Fbookname(val, Idf_Insert_Eject, ICMD):
             CMD = ICMD
-            Coordinate = getData("BOOKSHELFcoordinate", val)
+            Coordinate = getData("BOOKNAMEcoordinate", val)
             return Fbookshelf(Coordinate, Idf_Insert_Eject, CMD)
 
         def Fbookid(val, Idf_Insert_Eject, ICMD):

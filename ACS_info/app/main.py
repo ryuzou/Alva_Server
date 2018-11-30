@@ -25,9 +25,6 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 @app.route('/ACSinfo/', methods=['POST', 'GET'])
 def ACSTASK():
-    if request.headers['Content-Type'] != 'application/json':
-        print(request.headers['Content-Type'])
-        return jsonify(res='error'), 400
     print(request.data)
     return "/ACSinfo/acsinfo"
 
