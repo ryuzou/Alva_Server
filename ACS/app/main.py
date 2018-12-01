@@ -52,14 +52,20 @@ def ACSTaskManager():
                 "Idf": "bookid",
                 "name": int(args[0])
             }
-            val = json.loads(requests.post("http://nginx/ACSinfo/", json.dumps(d)))  # todo
+            rqj = json.dumps(d)
+            ret_json = requests.post("http://nginx/ACSinfo/", json=rqj).json()
+            print(ret_json)
+            val = ret_json
             return val
         elif Lsufix == "BOOKNAMEinfo":
             d = {
                 "Idf": "bookname",
                 "name": int(args[0])
             }
-            val = json.loads(requests.post("http://nginx/ACSinfo/", json.dumps(d)))  # todo
+            rqj = json.dumps(d)
+            ret_json = requests.post("http://nginx/ACSinfo/", json=rqj).json()
+            print(ret_json)
+            val = ret_json
             return val
         return -1
 
@@ -84,13 +90,13 @@ def ACSTaskManager():
         def Fbookname(val, Idf_Insert_Eject, ICMD):
             CMD = ICMD
             data = getData("BOOKNAMEinfo", val)
-            Coordinate = int(str(data["X"]) + "0" + str(data["Y"]))
+            Coordinate = int(str(data["X"][0][0]) + "0" + str(data["Y"][0][0]))
             return Fbookshelf(Coordinate, Idf_Insert_Eject, CMD)
 
         def Fbookid(val, Idf_Insert_Eject, ICMD):
             CMD = ICMD
             data = getData("BOOKIDinfo", val)
-            Coordinate = int(str(data["X"]) + "0" + str(data["Y"]))
+            Coordinate = int(str(data["X"][0][0]) + "0" + str(data["Y"][0][0]))
             return Fbookshelf(Coordinate, Idf_Insert_Eject, CMD)
 
         prefix1_map = {

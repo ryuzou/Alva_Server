@@ -14,16 +14,21 @@ class BookstaticDB:
 
     def GetBookInfo(self, BookFullname=None, BookFullID=None):
         if not BookFullname == None:
-            self.__cur.execute("SELECT id from D_Bookdata WHERE book_title = %s", BookFullname)
+            sql = "SELECT id from D_Bookdata WHERE book_title = %s" % (BookFullname,)
+            self.__cur.execute(sql)
             BookFullID = self.__cur.fetchall()
         else:
-            self.__cur.execute("SELECT book_title from D_Bookdata WHERE id = %s", BookFullID)
+            sql = "SELECT book_title from D_Bookdata WHERE id = %s" % (BookFullID,)
+            self.__cur.execute(sql)
             BookFullname = self.__cur.fetchall()
-        self.__cur.execute("SELECT Barcode from D_Bookdata WHERE id = %s", BookFullID)
+        sql = "SELECT Barcode from D_Bookdata WHERE id = %s" % (BookFullID,)
+        self.__cur.execute(sql)
         Barcode = self.__cur.fetchall()
-        self.__cur.execute("SELECT book_author from D_Bookdata WHERE id = %s", BookFullID)
+        sql = "SELECT book_author from D_Bookdata WHERE id = %s" % (BookFullID,)
+        self.__cur.execute(sql)
         BookAuthor = self.__cur.fetchall()
-        self.__cur.execute("SELECT book_genre from D_Bookdata WHERE id = %s", BookFullID)
+        sql = "SELECT book_genre from D_Bookdata WHERE id = %s" % (BookFullID,)
+        self.__cur.execute(sql)
         BookGenre = self.__cur.fetchall()
         RteDict = {
             "bookid": BookFullID,
@@ -35,14 +40,18 @@ class BookstaticDB:
         return RteDict
 
     def GetBookIMG(self, BookFullID):
-        self.__cur.execute("SELECT book_img from D_Bookdata WHERE id = %s", BookFullID)
+        sql = "SELECT book_img from D_Bookdata WHERE id = %s" % (BookFullID,)
+        self.__cur.execute(sql)
         BookIMG = self.__cur.fetchall()  # todo
         pass
 
     def GetBookIdealCOD(self, BookFullID):
-        self.__cur.execute("SELECT XGrid_Place from D_BookShelf WHERE id = %s", BookFullID)
+        sql = "SELECT XGrid_Place from D_BookShelf WHERE id = %s" % (BookFullID,)
+        self.__cur.execute(sql)
         BookCod_X = self.__cur.fetchall()
-        self.__cur.execute("SELECT YGrid_Place from D_BookShelf WHERE id = %s", BookFullID)
+        sql = "SELECT YGrid_Place from D_BookShelf WHERE id = %s" % (BookFullID,)
+        print(sql)
+        self.__cur.execute(sql)
         BookCod_Y = self.__cur.fetchall()
         RetDict = {
             "X": BookCod_X,

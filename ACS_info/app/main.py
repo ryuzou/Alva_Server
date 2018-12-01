@@ -28,8 +28,7 @@ def ACSTASK():
     if request.headers['Content-Type'] != 'application/json':
         print(request.headers['Content-Type'])
         return jsonify(res='error'), 400
-    Rdict = json.loads(request.data)
-    print(Rdict)
+    Rdict = json.loads(request.json)
     BOOKINFO = None
     if Rdict["Idf"] == "bookid":
         BOOKINFO = BookShelf_CMD.BDB.GetBookInfo(BookFullID=Rdict["name"])
