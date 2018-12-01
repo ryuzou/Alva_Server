@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link href="AOI.css" rel="stylesheet">
-    <title>A.O.I.</title>
-    <link href="favicon.png" rel="icon" type="image/png">
+    <title>ALva</title>
+    <link href="images/favicons/favicon.ico" rel="icon">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
     <link href="pure-css/pure.css" rel="stylesheet" type="text/css">
     <link href="pure-css/grids-responsive-min.css" rel="stylesheet" type="text/css">
@@ -12,8 +12,8 @@
     <script src="AOI.js" type="text/javascript"></script>
 </head>
 <body onLoad="DropDownMenu()">
-<div class="pure-g" style="background-image: url(mori.jpg)">
-    <img src="logo.png" style="margin: 0 auto; object-fit: cover">
+<div class="pure-g" style="background-image: url(images/mori.jpg)">
+    <img src="images/logo.png" style="margin: 0 auto; object-fit: cover">
 </div>
 <h3><p href="AOI.html" id="aoi" style="text-align: right">Alva Open Interface</p></h3>
 <div class="pure-g" style="background: #FFF8E7">
@@ -24,7 +24,7 @@
                 Select Series:
                 <br>
                 <select class="pure-menu-link" name="series" onChange="DropDownMenu()"
-                        style="background: #FFF8E7; border-radius: 1px">
+                        style="background: #FFF8E7; border-radius: 1px; font-size: 1.3em">
                     <option value="garupan">ガールズアンドパンツァー</option>
                     <option value="gansuri">ガンスリンガー・ガール</option>
                     <option value="haru">ハルロック</option>
@@ -33,41 +33,42 @@
             <p>
                 Select Numbers:
                 <br>
-                <select class="pure-menu-link" name="number" style="background: #FFF8E7; border-radius: 1px">
+                <select class="pure-menu-link" name="number"
+                        style="background: #FFF8E7; border-radius: 1px; font-size: 1.3em">
                 </select>
             </p>
-            <div class="pure-g">
-                <input class="pure-button" onClick="postGo(this)"
-                       style="background: #7E7E7E; border-radius: 20px; color: white; margin: 0 auto; font-size: 1.5em"
+            <div class="pure-g" id="searchbotton">
+                <input class="pure-button" onClick="postSubmit()"
+                       style="background: #7E7E7E; border-radius: 20px; color: white; margin: 0 auto; font-size: 2em"
                        type="button"
-                       value="取り出す">
+                       value="検索">
             </div>
             <br><br>
             <div class="pure-g">
-                <div class="pure-u-1">
-                    <div class="pure-table">
-                        Title:<br>
-                        Author:<br>
-                        Bookshelf Number:<br>
-                        State:<br>
-                    </div>
+                <div class="pure-u-1" id="datatable">
+                    <h2>現在表示できる情報はありません</h2>
                 </div>
             </div>
             <br>
-            <div class="pure-g">
-                <input class="pure-button-disabled" onClick="postSubmit()"
-                       style="background: #7E7E7E; border-radius: 20px; color: white; margin: 0 auto; font-size: 1.5em"
+            <div class="pure-g" id="sendbotton">
+                <input class="pure-button-disabled" disabled
+                       onClick="postGo(this)"
                        type="button"
-                       value="検索（未実装）">
+                       style="background: #7E7E7E; border-radius: 20px; color: white; margin: 0 auto; font-size: 2em"
+                       value="取り出す">
             </div>
             <br><br>
         </form>
     </div>
     <div class="pure-u-5-12" style="margin: 0 auto; text-align: center">
-        <h1>NO IMAGE</h1>
-        <h1>NO IMAGE</h1>
-        <h1>NO IMAGE</h1>
-        <h1>NO IMAGE</h1>
+        <div class="pure-g">
+            <div class="pure-u-1-5"></div>
+            <div class="pure-u-3-5">
+                <br><br><br>
+                <img src="images/no-image.png" style="border-radius: 40px" width="100%">
+            </div>
+            <div class="pure-u-1-5"></div>
+        </div>
     </div>
     <div class="pure-u-1-12"></div>
 </div>
@@ -87,7 +88,9 @@
         <textarea class="pure-form" cols="6" id="status" rows="1">待機中</textarea>
         <input class="pure-button" onClick="recognition.start();" type="button" value="認識開始">
     </div>
+    <a href="admin/index.html" style="text-align: center">管理者ページに移動</a>
 </div>
+<br>
 <small>CopyRight &copy; "Alva Team" All Rights Reserved.</small>
 </body>
 </html>

@@ -26,19 +26,20 @@ function postGo() {
     })
 }
 
-function postSubmit(bookid) {
-    $.ajax({
-        type: 'POST',
-        url: document.location.protocol + "//" + document.location.hostname + ":8182",
-        data: {
-            "bookid": bookid
-        },
-        headers: {
-            'Content-Type': 'application/json',
-        },
-    }).then(function (response) {
-        console.log(response)
-    })
+function postSubmit() {
+    var sb = document.getElementById("sendbotton")
+    sb.innerHTML = "<input class=\"pure-button\" onClick=\"postGo(this)\"\n" +
+        "                       style=\"background: #7E7E7E; border-radius: 20px; color: white; margin: 0 auto; font-size: 2em\"\n" +
+        "                       type=\"button\"\n" +
+        "                       value=\"取り出す\" >"
+    var dt = document.getElementById("datatable")
+    var test = "TEST"
+    dt.innerHTML = "<div class=\"pure-table\">\n" +
+        "                        <h3>Title:</h3>\n" +
+        "                        <h3>Author:</h3>\n" +
+        "                        <h3>Bookshelf Number:</h3>\n" +
+        "                        <h3>State:</h3>\n" +
+        "                    </div>"
 }
 
 function postSearch(keyword) {
@@ -58,36 +59,37 @@ function postSearch(keyword) {
     })
 }
 
-function DropDownMenu() {
+function DropDownMenu() {   //todo
     var select1 = document.forms.formName.series; //変数select1を宣言
     var select2 = document.forms.formName.number; //変数select2を宣言
 
     select2.options.length = 0; // 選択肢の数がそれぞれに異なる場合、これが重要
 
     if (select1.options[select1.selectedIndex].value == "garupan") {
+        select2.options[0] = new Option("1", "16");
+        select2.options[1] = new Option("2", "17");
+        select2.options[2] = new Option("3", "18");
+        select2.options[3] = new Option("4", "19");
+    } else if (select1.options[select1.selectedIndex].value == "gansuri") {
         select2.options[0] = new Option("1", "1");
         select2.options[1] = new Option("2", "2");
         select2.options[2] = new Option("3", "3");
         select2.options[3] = new Option("4", "4");
-    } else if (select1.options[select1.selectedIndex].value == "gansuri") {
-        select2.options[0] = new Option("1", "5");
-        select2.options[1] = new Option("2", "6");
-        select2.options[2] = new Option("3", "7");
-        select2.options[3] = new Option("4", "8");
-        select2.options[4] = new Option("5", "9");
-        select2.options[5] = new Option("6", "10");
-        select2.options[6] = new Option("7", "11");
-        select2.options[7] = new Option("8", "12");
-        select2.options[8] = new Option("9", "13");
-        select2.options[9] = new Option("10", "14");
-        select2.options[10] = new Option("11", "15");
-        select2.options[11] = new Option("12", "16");
-        select2.options[12] = new Option("13", "17");
-        select2.options[13] = new Option("14", "18");
+        select2.options[4] = new Option("5", "5");
+        select2.options[5] = new Option("6", "6");
+        select2.options[6] = new Option("7", "7");
+        select2.options[7] = new Option("8", "8");
+        select2.options[8] = new Option("9", "9");
+        select2.options[9] = new Option("10", "110");
+        select2.options[10] = new Option("11", "11");
+        select2.options[11] = new Option("12", "12");
+        select2.options[12] = new Option("13", "13");
+        select2.options[13] = new Option("14", "14");
+        select1.options[14] = new Option("15", "15")
     } else if (select1.options[select1.selectedIndex].value == "haru") {
-        select2.options[0] = new Option("1", "19");
-        select2.options[1] = new Option("2", "20");
-        select2.options[2] = new Option("3", "21");
-        select2.options[3] = new Option("4", "22");
+        select2.options[0] = new Option("1", "20");
+        select2.options[1] = new Option("2", "21");
+        select2.options[2] = new Option("3", "22");
+        select2.options[3] = new Option("4", "23");
     }
 }
