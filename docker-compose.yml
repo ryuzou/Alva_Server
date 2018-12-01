@@ -26,6 +26,7 @@ services:
     - 8131:3031
     depends_on:
     - rdb
+    - redis
     - acstaskreminder
     environment:
       TZ: "Asia/Tokyo"

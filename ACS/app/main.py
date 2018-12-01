@@ -148,6 +148,7 @@ def TaskManage():
         return jsonify(res='error'), 400
     data = request.data.decode('utf-8')
     data = json.loads(data)
+    print(data)
     cmd = data['cmd']
     ret = requests.post("http://nginx/ACS_command-manager", cmd)
     return ret.text

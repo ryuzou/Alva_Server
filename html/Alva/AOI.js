@@ -1,10 +1,13 @@
 function postGo() {
-    bookid = document.formName.number.value
-    cmd = "MOV " + "bookid " + bookid + "TO" + "bookshelf " + "0000"
+    var bookid = document.formName.number.value
+    var CMD = "MOV " + "bookid " + bookid + " TO " + "bookshelf " + "0000"
+    var Data = {
+        cmd: CMD
+    } 
     $.ajax({
         type: 'POST',
         url: document.location.protocol + "//" + document.location.hostname + ":8182",
-        data: JSON.stringify(cmd),
+        data: JSON.stringify(Data),
         contentType: 'application/json',
         dataType: "json",
         success: function (json_data) {
