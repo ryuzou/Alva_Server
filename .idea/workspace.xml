@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="Release(Beta), update acs and html to able selecting books with names and numbers.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d4e63a1b-1928-4f32-95ce-66dc881fd8e6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d4e63a1b-1928-4f32-95ce-66dc881fd8e6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS_info/app/BookShelf_CMD.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_info/app/BookShelf_CMD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS_info/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_info/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_BookShelf.frm" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_BookShelf.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_RealBookShelf.frm" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/Alva_Server/D_RealBookShelf.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva/AOI.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/author.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva/genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/genre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alva/title.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/title.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -270,7 +256,7 @@
             <entry file="file://$PROJECT_DIR$/html/Alva/AOI.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="2070">
-                  <caret line="90" column="45" lean-forward="true" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
+                  <caret line="90" column="45" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
                 </state>
               </provider>
             </entry>
@@ -530,6 +516,17 @@
             <path>
               <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="Alva" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="S2A" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -552,7 +549,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543642282101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543642543169" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
@@ -753,14 +750,7 @@
       <workItem from="1543509592868" duration="4426000" />
       <workItem from="1543561188181" duration="9783000" />
       <workItem from="1543603244789" duration="2357000" />
-      <workItem from="1543635427138" duration="6555000" />
-    </task>
-    <task id="LOCAL-00012" summary="UPDATE ACS; ACS to use flask;&#10;NOT IN USE YET!!">
-      <created>1537345060684</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1537345060684</updated>
+      <workItem from="1543635427138" duration="6928000" />
     </task>
     <task id="LOCAL-00013" summary="UPDATE to redis(nosql server);&#10;NIUY!">
       <created>1537552862230</created>
@@ -1098,11 +1088,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543635720107</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Release(Beta), update acs and html to able selecting books with names and numbers.">
+      <created>1543642304528</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1543642304528</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="550903000" />
+    <option name="totallyTimeSpent" value="551276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1133,9 +1130,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.55419356" visible="true" weight="0.32132965" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55419356" weight="0.3130194" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.52838707" weight="0.32963988" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.52838707" visible="true" weight="0.32963988" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3281471" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.44580644" side_tool="true" weight="0.5069252" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3253012" />
@@ -1169,7 +1166,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.html" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update website codes&#10;NIUY..." />
     <MESSAGE value="update ACS to use unix socket; update acs to use nginx to connect to sakura" />
     <MESSAGE value="update webpages" />
     <MESSAGE value="update infracture" />
@@ -1194,7 +1190,8 @@
     <MESSAGE value="had some changes" />
     <MESSAGE value="push for sync" />
     <MESSAGE value="update acs, push for sync" />
-    <option name="LAST_COMMIT_MESSAGE" value="update acs, push for sync" />
+    <MESSAGE value="Release(Beta), update acs and html to able selecting books with names and numbers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Release(Beta), update acs and html to able selecting books with names and numbers." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
