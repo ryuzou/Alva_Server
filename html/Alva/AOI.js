@@ -27,19 +27,38 @@ function postGo() {
 }
 
 function postSubmit() {
-    var sb = document.getElementById("sendbotton")
-    sb.innerHTML = "<input class=\"pure-button\" onClick=\"postGo(this)\"\n" +
-        "                       style=\"background: #7E7E7E; border-radius: 20px; color: white; margin: 0 auto; font-size: 2em\"\n" +
-        "                       type=\"button\"\n" +
-        "                       value=\"取り出す\" >"
-    var dt = document.getElementById("datatable")
-    var test = "TEST"
-    dt.innerHTML = "<div class=\"pure-table\">\n" +
-        "                        <h3>Title:</h3>\n" +
-        "                        <h3>Author:</h3>\n" +
-        "                        <h3>Bookshelf Number:</h3>\n" +
-        "                        <h3>State:</h3>\n" +
-        "                    </div>"
+    var json = {
+        Idf: "bookid",
+        name: document.formName.number.value,
+        img: "YES"
+    }
+    $.ajax({
+        type: 'POST',
+        url: document.location.protocol + "//" + document.location.hostname + ":8182" + "/ACSinfo/",
+        data: JSON.stringify(json),
+        contentType: 'application/json',
+        dataType: "json",
+        success: function (json_data) {
+            var sb = document.getElementById("sendbotton")
+            sb.innerHTML = "<input class=\"pure-button\" onClick=\"postGo(this)\"\n" +
+                "                       style=\"background: #7E7E7E; border-radius: 20px; color: white; margin: 0 auto; font-size: 2em\"\n" +
+                "                       type=\"button\"\n" +
+                "                       value=\"取り出す\" >"
+            var dt = document.getElementById("datatable")
+            dt.innerHTML = "<div class=\"pure-table\">\n" +
+                "                        <h3>Title:</h3>\n" + json_data["bookname"] +
+                "                        <h3>Author:</h3>\n" + json_data["author"] +
+                "                        <h3>Bookshelf Number:</h3>\n" + "X:" + json_data["X"] + "Y:" + json_data["Y"] +
+                "                        <h3>State:</h3>\n" +
+                "                    </div>"
+            document.getElementById("img1").src = json_data["img"]
+        },
+        error: function () {
+            alert("Server Error. Pleasy try again later.");
+        }
+    }).then(function (response) {
+        console.log(response)
+    })
 }
 
 function postSearch(keyword) {
