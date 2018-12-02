@@ -43,7 +43,7 @@ class BookstaticDB:
         sql = "SELECT book_img from D_Bookdata WHERE id = %s" % (BookFullID,)
         self.__cur.execute(sql)
         BookIMG = self.__cur.fetchall()  # todo
-        pass
+        return BookIMG
 
     def GetBookIdealCOD(self, BookFullID):
         sql = "SELECT XGrid_Place from D_BookShelf WHERE id = %s" % (BookFullID,)
