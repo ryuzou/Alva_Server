@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="268511a4-97f0-4d3e-b5a7-b8256395218a" name="Default" comment="fixed bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACS_info/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_info/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACS_taskreminder/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACS_taskreminder/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/mysql_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/Database/mysql_data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alva/AOI.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alva/AOI.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -122,14 +125,14 @@
     <favorites_list name="Alva_Server" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44901314">
+    <splitter split-orientation="horizontal" split-proportion="0.48766446">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ACS_info/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+                <state relative-caret-position="184">
+                  <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#60#0" expanded="true" />
                   </folding>
@@ -140,8 +143,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/Alva/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+                <state relative-caret-position="78">
+                  <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="44" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -171,8 +174,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+                <state relative-caret-position="230">
+                  <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
                   <folding>
                     <element signature="e#0#60#0" expanded="true" />
                   </folding>
@@ -183,21 +186,12 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="920">
-                  <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+                <state relative-caret-position="238">
+                  <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
                   <folding>
                     <element signature="e#0#60#0" expanded="true" />
-                    <marker date="1543392110862" expanded="true" signature="715:2439" ph="..." />
+                    <marker date="1543723923469" expanded="true" signature="673:2426" ph="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="das://d4e63a1b-1928-4f32-95ce-66dc881fd8e6/schema/Alva_Server/table/D_BookShelf">
-              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                <state>
-                  <filtering enabled="true" />
                 </state>
               </provider>
             </entry>
@@ -206,7 +200,7 @@
             <entry file="file://$PROJECT_DIR$/html/Alva/AOI.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="2024">
-                  <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+                  <caret line="96" column="40" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
@@ -229,6 +223,15 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="das://d4e63a1b-1928-4f32-95ce-66dc881fd8e6/schema/Alva_Server/table/D_BookShelf">
+              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+                <state>
+                  <filtering enabled="true" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -236,7 +239,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ACS_info/app/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="851">
+                <state relative-caret-position="599">
                   <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#60#0" expanded="true" />
@@ -257,9 +260,10 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/Alva/AOI.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="79">
-                  <caret line="101" column="48" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
+                <state relative-caret-position="78">
+                  <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
                   <folding>
+                    <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
@@ -285,7 +289,7 @@
                   <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
                   <folding>
                     <element signature="e#0#60#0" expanded="true" />
-                    <marker date="1543392110862" expanded="true" signature="715:2439" ph="..." />
+                    <marker date="1543723923469" expanded="true" signature="673:2426" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -294,8 +298,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="138">
-                  <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+                <state relative-caret-position="184">
+                  <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/BookShelf_CMD.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/Sakura_io_com.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="310">
+                  <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -381,7 +403,6 @@
         <option value="$PROJECT_DIR$/ACS_taskreminder/app/Sakura_io_com.py" />
         <option value="$PROJECT_DIR$/Database/config/BookShelf_Real_scheme.sql" />
         <option value="$PROJECT_DIR$/Database/config/BookShelf_scheme.sql" />
-        <option value="$PROJECT_DIR$/ACS_taskreminder/app/main.py" />
         <option value="$PROJECT_DIR$/html/Alva-UI-master/test.html" />
         <option value="$PROJECT_DIR$/html/Alva-UI-master/AOI.js" />
         <option value="$PROJECT_DIR$/html/Alva-UI-master/AOI.css" />
@@ -397,8 +418,9 @@
         <option value="$PROJECT_DIR$/ACS_info/app/BookShelf_CMD.py" />
         <option value="$PROJECT_DIR$/html/Alva/index.html" />
         <option value="$PROJECT_DIR$/ACS/app/main.py" />
-        <option value="$PROJECT_DIR$/html/Alva/AOI.js" />
         <option value="$PROJECT_DIR$/ACS_info/app/main.py" />
+        <option value="$PROJECT_DIR$/ACS_taskreminder/app/main.py" />
+        <option value="$PROJECT_DIR$/html/Alva/AOI.js" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
       </list>
     </option>
@@ -537,13 +559,6 @@
               <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="Alva" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alva_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alva_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="Alva" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -580,7 +595,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543723146504" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543725264157" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
@@ -783,14 +798,7 @@
       <workItem from="1543603244789" duration="2357000" />
       <workItem from="1543635427138" duration="19492000" />
       <workItem from="1543688056046" duration="4668000" />
-      <workItem from="1543715850450" duration="4358000" />
-    </task>
-    <task id="LOCAL-00018" summary="update readme">
-      <created>1537772238727</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1537772238727</updated>
+      <workItem from="1543715850450" duration="6871000" />
     </task>
     <task id="LOCAL-00019" summary="update ACS to use unix socket; update acs to use nginx to connect to sakura">
       <created>1537951314104</created>
@@ -1128,11 +1136,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543716971346</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="fixed bugs">
+      <created>1543723352394</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1543723352394</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="572866000" />
+    <option name="totallyTimeSpent" value="575379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1145,7 +1160,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53435117" visible="true" weight="0.21548387" />
       <window_info id="Project Explorer" order="1" />
@@ -1164,10 +1178,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.55419356" visible="true" weight="0.31855956" />
+      <window_info active="true" anchor="bottom" id="Docker" order="8" sideWeight="0.55419356" visible="true" weight="0.32963988" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.52838707" weight="0.3434903" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3281471" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32686982" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.44580644" side_tool="true" weight="0.5069252" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3253012" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" weight="0.32742155" />
@@ -1183,10 +1197,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.49478078" weight="0.32967743" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32994652" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32994652" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Database" order="9" sideWeight="0.49478078" visible="true" weight="0.0" />
       <window_info anchor="right" id="SciView" order="10" weight="0.32941177" />
       <window_info anchor="right" id="Structure" order="11" sideWeight="0.5052192" side_tool="true" weight="0.0070967744" />
       <window_info anchor="right" id="Redis Servers" order="12" />
@@ -1347,20 +1361,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Alva-UI-master/test.html" />
-    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/BookShelf_CMD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/Sakura_io_com.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/Alva/images/mori.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1477,24 +1477,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py">
+    <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="230">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Alva/AOI.js">
+    <entry file="file://$PROJECT_DIR$/ACS_info/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+        <state relative-caret-position="184">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS/app/db_controler/TASKGrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/BookShelf_CMD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+            <marker date="1543723923469" expanded="true" signature="673:2426" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/Sakura_io_com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Alva/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="78">
+          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1511,34 +1549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACS/app/main.py">
+    <entry file="file://$PROJECT_DIR$/html/Alva/AOI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS_info/app/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACS_taskreminder/app/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-            <marker date="1543392110862" expanded="true" signature="715:2439" ph="..." />
-          </folding>
+        <state relative-caret-position="2024">
+          <caret line="96" column="40" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
         </state>
       </provider>
     </entry>

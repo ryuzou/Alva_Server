@@ -25,12 +25,12 @@ app = Flask(__name__)
 CORS(app)
 
 app.register_blueprint(Sakura_io_com.app)
-app.register_blueprint(BookShelf_CMD.app)
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 
 @app.route('/ACStaskrmd/ACSTaskreminder/', methods=['POST'])
 def ACSTASK():
+    print("this is acstask")
     if request.headers['Content-Type'] != 'application/json':
         print(request.headers['Content-Type'])
         return jsonify(res='error'), 400

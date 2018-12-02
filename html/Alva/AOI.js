@@ -23,6 +23,14 @@ function postGo() {
         }
     }).then(function (response) {
         console.log(response)
+        var sb = document.getElementById("sendbotton")
+        sb.innerHTML = "<input class=\"pure-button-disabled\" disabled\n" +
+            "                       onClick=\"postGo(this)\"\n" +
+            "                       type=\"button\"\n" +
+            "                       style=\"background: #7E7E7E; border-radius: 20px; color: white; margin: 0 auto; font-size: 2em\"\n" +
+            "                       value=\"取り出す\">"
+        var dt = document.getElementById("datatable")
+        dt.innerHTML = "<h2>現在表示できる情報はありません</h2>"
     })
 }
 
