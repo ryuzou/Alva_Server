@@ -99,12 +99,12 @@ function DropDownMenu() {   //todo
         select2.options[6] = new Option("7", "7");
         select2.options[7] = new Option("8", "8");
         select2.options[8] = new Option("9", "9");
-        select2.options[9] = new Option("10", "110");
+        select2.options[9] = new Option("10", "10");
         select2.options[10] = new Option("11", "11");
         select2.options[11] = new Option("12", "12");
         select2.options[12] = new Option("13", "13");
         select2.options[13] = new Option("14", "14");
-        select1.options[14] = new Option("15", "15")
+        select2.options[14] = new Option("15", "15");
     } else if (select1.options[select1.selectedIndex].value == "haru") {
         select2.options[0] = new Option("1", "20");
         select2.options[1] = new Option("2", "21");

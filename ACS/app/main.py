@@ -50,7 +50,8 @@ def ACSTaskManager():
         elif Lsufix == "BOOKIDinfo":
             d = {
                 "Idf": "bookid",
-                "name": int(args[0])
+                "name": int(args[0]),
+                "img": "NO"
             }
             rqj = json.dumps(d)
             ret_json = requests.post("http://nginx/ACSinfo/", json=rqj).json()
@@ -60,7 +61,8 @@ def ACSTaskManager():
         elif Lsufix == "BOOKNAMEinfo":
             d = {
                 "Idf": "bookname",
-                "name": int(args[0])
+                "name": int(args[0]),
+                "img": "NO"
             }
             rqj = json.dumps(d)
             ret_json = requests.post("http://nginx/ACSinfo/", json=rqj).json()
