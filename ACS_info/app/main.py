@@ -30,6 +30,8 @@ def ACSTASK():
         return jsonify(res='error'), 400
     Rdict = request.json
     print(Rdict)
+    if type(Rdict) == str:
+        Rdict = json.loads(Rdict)
     BOOKINFO = None
     if Rdict["Idf"] == "bookid":
         BOOKINFO = BookShelf_CMD.BDB.GetBookInfo(BookFullID=Rdict["name"])
@@ -37,9 +39,9 @@ def ACSTASK():
         BOOKINFO = BookShelf_CMD.BDB.GetBookInfo(BookFullID=Rdict["name"])
     if Rdict["img"] == "YES":
         BOOKIMG = BookShelf_CMD.BDB.GetBookIMG(BOOKINFO["bookid"])
+        BOOKINFO["img"] = BOOKIMG
     BOOKCOD = BookShelf_CMD.BDB.GetBookIdealCOD(BOOKINFO["bookid"])
     BOOKINFO.update(BOOKCOD)
-    BOOKINFO["img"] = BOOKIMG
     RetJson = json.dumps(BOOKINFO)
     print(RetJson)
     return RetJson
