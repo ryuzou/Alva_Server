@@ -84,10 +84,17 @@ function DropDownMenu() {
         select2.options[11] = new Option("12", "16");
         select2.options[12] = new Option("13", "17");
         select2.options[13] = new Option("14", "18");
+        select2.options[13] = new Option("15", "19");
     } else if (select1.options[select1.selectedIndex].value == "haru") {
-        select2.options[0] = new Option("1", "19");
-        select2.options[1] = new Option("2", "20");
-        select2.options[2] = new Option("3", "21");
-        select2.options[3] = new Option("4", "22");
+        select2.options[0] = new Option("1", "20");
+        select2.options[1] = new Option("2", "21");
+        select2.options[2] = new Option("3", "22");
+        select2.options[3] = new Option("4", "23");
+    } else if (select1.options[select1.selectedIndex].value == "humetsu") {
+        select2.options[0] = new Option("1", "24");
+        select2.options[1] = new Option("2", "25");
+        select2.options[2] = new Option("3", "26");
+        select2.options[3] = new Option("4", "27");
+        select2.options[4] = new Option("5", "28");
     }
 }
