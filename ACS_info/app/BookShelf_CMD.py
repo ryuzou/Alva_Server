@@ -2,13 +2,29 @@ import flask
 from flask import Flask, jsonify, request
 import json
 import MySQLdb
+import time
 
 
 class BookstaticDB:
     __conn = None
     __cur = None
 
+    def __testSQLconnection(self, nestnum=0):
+        Pnestnum = nestnum + 1
+        try:
+            MySQLdb.connect(host='rdb', user='root', passwd='password', db='Alva_Server', charset='utf8')
+            return 0
+        except MySQLdb.Error as e:
+            if nestnum >= 10:
+                if nestnum >= 10:
+                    return -1
+                time.sleep(0.2)
+            print("mysql connection error :", e)
+            self.__testSQLconnection(Pnestnum)
+
     def __init__(self):
+        if self.__testSQLconnection() != 0:
+            print("sql error")
         self.__conn = MySQLdb.connect(host='rdb', user='root', passwd='password', db='Alva_Server', charset='utf8')
         self.__cur = self.__conn.cursor()
 
