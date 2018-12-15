@@ -6,7 +6,7 @@ function postGo() {
     } 
     $.ajax({
         type: 'POST',
-        url: document.location.protocol + "//" + document.location.hostname + ":8182",
+        url: "https://api.alva2018.com",
         data: JSON.stringify(Data),
         contentType: 'application/json',
         dataType: "json",
@@ -42,7 +42,7 @@ function postSubmit() {
     }
     $.ajax({
         type: 'POST',
-        url: document.location.protocol + "//" + document.location.hostname + ":8182" + "/ACSinfo/",
+        url: "https://api.alva2018.com" + "/ACSinfo/",
         data: JSON.stringify(json),
         contentType: 'application/json',
         dataType: "json",
@@ -72,7 +72,7 @@ function postSubmit() {
 function postSearch(keyword) {
     $.ajax({
         type: 'POST',
-        url: document.location.protocol + "//" + document.location.hostname + ":8182",
+        url: "https://api.alva2018.com",
         data: {
             "keyword": keyword
         },

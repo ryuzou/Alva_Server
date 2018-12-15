@@ -13,7 +13,7 @@ services:
   web:
     build: Web
     ports:
-      - 80:80
+      - 8000:80
     #  - 8000:80
     volumes:
     - ./html:/var/www/html
@@ -65,21 +65,23 @@ services:
     - redis
     environment:
       TZ: "Asia/Tokyo"
-  #ssl-portal:
-  #  image: steveltn/https-portal:1
-  #  container_name: ssl-reverse
-  #  ports:
-  #    - 80:80
-  #    - 443:443
-  #  restart: always
-  #  environment:
-  #    STAGE: 'production'
-  #    #STAGE: 'local'
-  #    DOMAINS: >-
-  #      alva2018.com -> http://web/
-  #  volumes:
-  #    - ./LetsEncrypt:/var/lib/https-portal
-  #    - ./LetsEncrypt:/var/www/vhosts
+  ssl-portal:
+    image: steveltn/https-portal:1
+    container_name: ssl-reverse
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+    environment:
+      STAGE: 'production'
+      #STAGE: 'local'
+      DOMAINS: >-
+        alva2018.com -> http://web/,
+        www.alva2018.com -> http://web/,
+        api.alva2018.com -> http://nginx/
+    volumes:
+      - ./LetsEncrypt:/var/lib/https-portal
+      - ./LetsEncrypt:/var/www/vhosts
   redis:
     build: Redis
     command: redis-server

@@ -27,7 +27,7 @@ def error():
     return 0
 
 
-@app.route('/ACSmain/ACS_command-manager', methods=['POST'])
+@app.route('/ACS_command-manager', methods=['POST'])
 def ACSTaskManager():
     data = request.data.decode('utf-8')
     tasks = data.split(" ")
@@ -150,7 +150,7 @@ def ACSTaskManager():
     return retval
 
 
-@app.route('/ACSmain/', methods=['POST'])
+@app.route('/', methods=['POST'])
 def TaskManage():
     if request.headers['Content-Type'] != 'application/json':
         print(request.headers['Content-Type'])
