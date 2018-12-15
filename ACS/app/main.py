@@ -106,9 +106,7 @@ def ACSTaskManager():
             "bookshelf": Fbookshelf,
             "bookid": Fbookid
         }
-        prefix2_map = {
-            "bookshelf": Fbookshelf
-        }
+
         ret = None
         while True:
             print(Lsufix)
@@ -127,7 +125,7 @@ def ACSTaskManager():
                     return "syntacs error2"
             elif count == 3:  # in this case "prefix2"
                 try:
-                    ret = prefix2_map[Lsufix[0]](Lsufix[1], "INSERT", CMD)
+                    ret = prefix1_map[Lsufix[0]](Lsufix[1], "INSERT", CMD)
                     Lsufix.pop(0)
                 except KeyError as e:
                     return "syntacs error3"

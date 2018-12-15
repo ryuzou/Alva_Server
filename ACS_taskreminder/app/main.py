@@ -42,7 +42,7 @@ def ACSTASK():
     priority = 0
 
     for cHannel in Lchannels:
-        if int(cHannel["channel"]) == 126 and int(cHannel["value"]) == 9:
+        if int(cHannel["channel"]) == 126 and int(cHannel["value"]) == 9:  # give next task
             TNcmd = COMMNADGrid.CMDGRID.PopCOMMANDGrid_least()
             if TNcmd == "NULL":
                 return "null"
@@ -57,7 +57,7 @@ def ACSTASK():
                 print(Dtask)
                 ret_json = json.dumps(Dtask)
                 requests.post("http://nginx/ACStaskrmd/Sakuraio", json=ret_json)
-        if int(cHannel["channel"]) == 126 and int(cHannel["value"]) == 0:
+        if int(cHannel["channel"]) == 126 and int(cHannel["value"]) == 0:  # get the cood from hardware
             dict = {}
             XYdone = 0
             for XYch in Lchannels:
@@ -71,6 +71,15 @@ def ACSTASK():
                     break
             ret_json = json.dumps(dict)
             requests.post("http://nginx/ACSinfo/XYC", json=ret_json)
+        if int(cHannel["channel"]) == 125:  # Get the barcode num  of the book which is in home.
+            barcode = int(cHannel["value"])
+            id = barcode  # TODO #TODO #TODO THIS IS JUST FOR THE TEPIA. FUCK CODE
+            retcmd = "MOV " + "bookshelf 0000 TO bookid " + str(id)
+            retdic = {
+                "cmd": retcmd
+            }
+            retjson = json.dumps(retdic)
+            requests.post("http://nginx/", json=retjson)
     return request.data
 
 if __name__ == "__main__":
